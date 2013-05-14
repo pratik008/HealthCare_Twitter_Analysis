@@ -56,8 +56,8 @@ if __name__ == '__main__':
     auth.set_access_token(access_token, access_token_secret)
 
     stream = Stream(auth, listener)
-    stream.filter(track=['Medical', 'Hospital', 'Doctor'])
-
+    stream.filter(track=['Medical', 'Hospital', 'Doctor', 'Nurse', "dentist", "cancer", "heart attack", "dehydration"])
+    
 
 '''
     for attr, value in status.__dict__.iteritems():
