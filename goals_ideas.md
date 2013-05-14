@@ -1,6 +1,18 @@
 High Level Project Goals
 --------------------------
 
+Improve the medical care by applying Data Science techniques
+- gain insights into the US Medical Care System using Social Media such as Twitter
+- - costs
+- - - magnitude
+- - - transparency
+- - quality of care
+- - - hospital readmissions
+- - - preventable ER and hospital visits
+- - patient satisfaction
+- - lack of medical insurance
+
+
 Part 1) Identify a Tweet as Medical or Non-Medical
 
 To be continued…
