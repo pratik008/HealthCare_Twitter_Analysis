@@ -6,7 +6,7 @@ from tweepy import Stream
 import json
 import tweepy
 
-config_json = open('config.json', 'r') 
+config_json = open('config.json', 'r')
 config = json.load(config_json)
 
 print 
