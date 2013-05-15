@@ -2,7 +2,7 @@
 http://pythoncentral.org/introduction-to-tweepy-twitter-for-python/
 
 Todos:
-  * Options for both stdout anf file streaming.
+  * Options for both stdout and file streaming.
 """
 
 from collections import namedtuple
@@ -17,7 +17,7 @@ TWITTER_CONFIGS = 'config.json'
 MEDICAL_HASHTAGS = 'medical_hashtags.json'
 
 
-def get_twitte_configs():
+def get_twitter_configs():
     config = json.load(open(TWITTER_CONFIGS, 'r'))
     twitter_configs = namedtuple(
         'TwitterConfigs',
@@ -72,7 +72,7 @@ class StdOutListener(StreamListener):
 
 if __name__ == '__main__':
     listener = StdOutListener()
-    twitter_configs = get_twitte_configs()
+    twitter_configs = get_twitter_configs()
     auth = tweepy.OAuthHandler(twitter_configs.consumer_key,
                                twitter_configs.consumer_secret)
     auth.set_access_token(twitter_configs.access_token,
