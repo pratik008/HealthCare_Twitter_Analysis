@@ -1,4 +1,6 @@
-#Read About tweepy at http://pythoncentral.org/introduction-to-tweepy-twitter-for-python/
+"""Read About tweepy at
+http://pythoncentral.org/introduction-to-tweepy-twitter-for-python/
+"""
 
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
@@ -12,12 +14,12 @@ config = json.load(config_json)
 print 
 
 # Go to http://dev.twitter.com and create an app.
-# The consumer key and secret will be generated for you after
-consumer_key    = config["consumer_key"]
+# The consumer key and secret will be generated for you.
+consumer_key = config["consumer_key"]
 consumer_secret = config["consumer_secret"]
 
 # After the step above, you will be redirected to your app's page.
-# Create an access token under the the "Your access token" section
+# Create an access token under the the "Your access token" section.
 access_token = config["access_token"]
 access_token_secret = config["access_token_secret"]
 
@@ -29,7 +31,8 @@ class StdOutListener(StreamListener):
         # Prints the text of the tweet
 
         print('Tweet text: ' + status.text.encode('utf-8'))
-        directAttrs = 'place,coordinates,lang,created_at,retweeted_status,source source_url'.split(',')
+        directAttrs = ('place,coordinates,lang,created_at,'
+                       'retweeted_status,source source_url').split(',')
         for k in directAttrs:
             value = getattr(status, k, None)
             if value is not None:
@@ -56,10 +59,5 @@ if __name__ == '__main__':
     auth.set_access_token(access_token, access_token_secret)
 
     stream = Stream(auth, listener)
-    stream.filter(track=['Medical', 'Hospital', 'Doctor', 'Nurse', "dentist", "cancer", "heart attack", "dehydration"])
-    
-
-'''
-    for attr, value in status.__dict__.iteritems():
-        print attr, ": ", value
-'''
+    stream.filter(track=['Medical', 'Hospital', 'Doctor', 'Nurse',
+                         'dentist', 'cancer', 'heart attack', 'dehydration'])
