@@ -16,6 +16,7 @@ path2 = 'OUTPUT FOLDER PATH'
 ##   7. Removing all meaningless numbers
 ##   Only keeping meaningful words and hashtags 
 #################################################################################################
+
 cleandata = function(data){
 	setwd(path)
 	removetweepy <- read.csv("removetweepy.csv",header=F)
@@ -39,6 +40,10 @@ cleandata = function(data){
 		datata <- rbind(datata,trim(tweet))				  
 	}
 	dat <- datata	
+	dat <- gsub("â€™","'",dat)
+	dat <- gsub('â€œ','"',dat)
+	dat <- gsub("â€","-",dat)
+	dat <- gsub('â€','"',dat)
 	dat <- gsub("n't"," not",dat)
 	dat <- gsub("'re"," are",dat)
 	dat <- gsub("'m"," am",dat)
@@ -47,6 +52,7 @@ cleandata = function(data){
 	dat <- gsub('”',"",dat)
 	dat <- gsub("@","iiidddiiiddd",dat)
 	dat <- gsub("#","hashtag",dat)	
+	dat <- gsub("˜","",dat)
 	dat <- gsub("[[:punct:]]","",dat)
 	dat <- gsub("hashtag","#",dat)
 	dat <- Corpus(VectorSource(dat))
@@ -64,7 +70,7 @@ cleandata = function(data){
 					nu <- substring(dat.split[j],1,12)
 				}
 			}
-			if( (!(dat.split[j]=="")) & (nchar(dat.split[j]) > 3) ){
+			if(!(dat.split[j]=="")){
 				f <- substring(dat.split[j],1,1)
 				if(f=='0'|f=='1'|f=='2'|f=='3'|f=='4'|f=='5'|f=='6'|f=='7'|f=='8'|f=='9'){
 					num = "numnumnumnum"
@@ -82,7 +88,6 @@ cleandata = function(data){
 	write.table(text, file = "cleandata.csv", row.names=F)
 	setwd(path)
 }
-
 
 ###################################################################################################
 ##### Running the function
