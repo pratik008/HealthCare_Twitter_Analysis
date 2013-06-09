@@ -1,0 +1,58 @@
+DocType	DocTypeDesc
+B	Biopharmaceutics
+M	Presubmission
+N	Approval
+P	Periodic Safety Report
+S	Supplement
+SB	SBA
+SC	Chemistry
+SCA	Packaging Addition
+SCB	Facility Addition
+SCC	Supplier Addition
+SCD	Packager Addition
+SCE	Expiration Date Change
+SCF	Formulation Revision
+SCG	Chemistry Generic
+SCI	Chemistry in Effect
+SCM	Manufacturing Change or Addition
+SCP	Package Change
+SCQ	Chemistry New Strength
+SCR	Manufacturing Revision
+SCS	Control Supplement
+SCX	Chemistry Expedite
+SDC	
+SDS	Distributor
+SE1	New or Modified Indication
+SE2	New Dosage Regimen
+SE3	New Route of Administration
+SE4	Comparative Efficacy Claim
+SE5	Patient Population Altered
+SE6	OTC Labeling
+SE7	Accelerated Approval
+SE8	Efficacy Supplement with Clinical Data to Support 
+SED	Efficacy (MarkIV)
+SEF	
+SES	General Efficacy (MarkIV)
+SF	Final Printed Labeling (MarkIV)
+SFP	Final Printed Labeling - MarkIV
+SL	Labeling
+SLA	Labeling (MarkIV)
+SLI	Labeling in Effect
+SLM	Labeling (MarkIV)
+SLR	Labeling Revision
+SLS	Labeling (MarkIV)
+SLX	Labeling Expedite
+SO	Other
+SOA	Other Amendment
+SPD	Practioner Draft Labeling
+SPF	Practioner Draft Labeling
+SRC	Resubmission - Chemistry (MarkIV)
+SRE	Resubmission - Efficacy (MarkIV)
+SRO	Resubmission - Other (MarkIV)
+SS	Microbiology
+SSA	Supplement Amendment (MarkIV)
+SSP	Supplement Pediatric (MarkIV)
+SSR	Supplement Resubmission (MarkIV)
+SSW	Supplement Withdrawal (MarkIV)
+TA	Tentative Approval
+Y	Annual Report

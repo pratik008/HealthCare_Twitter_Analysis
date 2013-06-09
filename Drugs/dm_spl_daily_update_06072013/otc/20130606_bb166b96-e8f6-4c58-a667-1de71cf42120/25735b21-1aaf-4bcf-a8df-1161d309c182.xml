@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="25735b21-1aaf-4bcf-a8df-1161d309c182"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>NATURAL HONEY HERB COUGH SUPPRESSANT THROAT DROPS</title>
+   <effectiveTime value="20130606"/>
+   <setId root="bb166b96-e8f6-4c58-a667-1de71cf42120"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="177265261" root="1.3.6.1.4.1.519.1"/>
+            <name>Ricola USA Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="485393768" root="1.3.6.1.4.1.519.1"/>
+                        <name>Ricola Ag</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63667-954" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1481964b-eafc-44e1-a8dc-7a614dcf1d08"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20130606"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63667-954" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NATURAL HONEY HERB COUGH SUPPRESSANT THROAT DROPS<suffix/>
+                        </name>
+                        <formCode code="C42955" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LOZENGE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>MENTHOL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="2.0" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="L7T10EIP3A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MENTHOL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="L7T10EIP3A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MENTHOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T9D99G2B1R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARAMEL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Y9H1V576FH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HONEY</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="24" unit="1">
+                                 <translation code="C48491" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DROPS"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63667-954-24" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1">
+                                 <translation code="C48491" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DROPS"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63667-954-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73394" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="HONEY" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19420101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part341" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">R</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="24" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="brown" xsi:type="CE">
+                              <originalText>golden brown</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7e124231-db42-4e03-ada8-3d742d8a3fa5"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Drug Facts</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Purpose</content>
+                  </paragraph>
+                  <paragraph>Cough suppressant, Oral anesthetic</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a5eee8fb-7893-4fac-a904-e69c714d7b06"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active Ingredient (in each drop)</title>
+               <text>
+                  <paragraph>
+
+Menthol, 2.0 mg</paragraph>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a6e04c21-34a6-4330-9bfc-031f30acaef7"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>temporarily
+relieves:</paragraph>
+                  <list listType="unordered" ID="ib4470998-0596-44e8-8d1c-5eb5b03bd156">
+                     <item> cough due to a cold or inhaled irritants</item>
+                     <item>occasional minor irritation and pain due to sore throat or sore mouth</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="265abe36-7a2a-4fc6-8eff-458b32b76a51"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Sore throat warnings:</content>
+                  </paragraph>
+                  <list listType="unordered" ID="id540a855-1eb6-4f70-8675-00c964babd3e">
+                     <item>if sore throat is severe, persists for more than 2 days, is accompanied or followed by fever, headache, rash, swelling, nausea, or vomiting, consult a doctor promptly.  These may be serious.</item>
+                     <item>do not use in children under 6 years of age unless directed by a doctor.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5e1d2554-fecf-4c38-8c67-f3327bf065bc"/>
+               <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+               <title>Ask doctor before use if you have</title>
+               <text>
+                  <list listType="unordered" ID="i527b02de-b391-4b06-8c88-f7fe7472728b">
+                     <item>persistent chronic
+cough such as occurs with smoking, asthma, or emphysema</item>
+                     <item>cough accompanied by excessive phlegm (mucus)</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="76681675-463b-4e4f-a3c2-ad3984e4e675"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title>Stop use and ask a doctor if</title>
+               <text>
+                  <paragraph/>
+                  <list listType="unordered" ID="i88eace32-68e7-4038-8357-31396160b1ae">
+                     <item>cough persists for
+more than 1 week, tends to recur, or is accompanied by fever, rash, or
+persistent headache.  These could be
+signs of a serious condition.</item>
+                     <item>sore mouth does not improve in 7 days</item>
+                     <item>
+irritation, pain, or redness persists or worsens</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3bc8739b-5a6a-4f19-a4db-1a5e1181dac8"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>Keep out of reach of children.</title>
+               <text>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5a64d138-aa00-47aa-bc42-accd12a45714"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <list listType="unordered" ID="ie36d32fc-17e7-42be-8d5c-184b6dad87b5">
+                     <item>adults and children 6 years and older:  dissolve 3 drops (one at a time) slowly in the mouth.  Repeat every 2 hours as needed or as directed by a doctor</item>
+                     <item>children under 6 years: ask a doctor</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5cc12bdc-e115-4630-a347-738bf87d6ceb"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Other Information</title>
+               <text>
+                  <paragraph>Store in a dry place<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ae5e8689-81c3-4902-87b3-f3354ec87a52"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive Ingredients</title>
+               <text>
+                  <content>color (caramel), extract of Ricola's
+herb mixture (elder, </content>
+                  <content>horehound, hyssop,
+lemon balm, linden flowers, mallow, peppermint, sage, thyme, </content>
+                  <content>wild thyme),
+honey, natural flavors</content>
+                  <content>,
+starch syrup, sugar</content>
+               </text>
+               <effectiveTime value="20120802"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f609be34-d704-43f7-b9da-2bb5a84acca2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="pdp"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="pdp">
+                     <text>Image of Ricola Honey Herb.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Ricola Honey Herb.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

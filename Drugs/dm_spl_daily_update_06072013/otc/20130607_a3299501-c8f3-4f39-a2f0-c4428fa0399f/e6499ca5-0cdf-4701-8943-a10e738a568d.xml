@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e6499ca5-0cdf-4701-8943-a10e738a568d"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Drug Facts</title>
+   <effectiveTime value="20130606"/>
+   <setId root="a3299501-c8f3-4f39-a2f0-c4428fa0399f"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="008965063" root="1.3.6.1.4.1.519.1"/>
+            <name>Walgreen Co.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="38590560-c6fa-452d-ac82-23e8101faa13"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20130606"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0363-0554" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nice<suffix>fresh scent</suffix>
+                        </name>
+                        <formCode code="C60884" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CLOTH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Benzalkonium chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="0.115" unit="g"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZALKONIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7N6JUD5X6Y" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BENZALKONIUM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ZY81Z83H0X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALOE VERA LEAF</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="18L9G3U51M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DISODIUM COCOAMPHODIACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="DEL7T5QRPN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLCHLOROISOTHIAZOLINONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="229D0E1QFA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLISOTHIAZOLINONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9E8X80D2L0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>.ALPHA.-TOCOPHEROL ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="40" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0363-0554-40" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43181" displayName="CANISTER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130527"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part333A" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73604" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph not final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="382aec50-9736-41a8-be42-76bbfe93458d"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="italics">Active Ingredient</content>
+               </title>
+               <text>
+                  <paragraph>Benzalkonium Chloride 0.115%</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="58009f23-50c7-49d9-8529-8f5e1761c23a"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>
+                  <content styleCode="italics">Purpose</content>
+               </title>
+               <text>
+                  <paragraph>Antibacterial</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5df5bf5f-c22f-42a5-92a5-73a779014cf3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="italics">Uses</content>
+               </title>
+               <text>
+                  <paragraph>For handwashing to decrease bacteria on the skin</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f0de03e7-f3cb-4cdf-86e4-b8fc7e48035b"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="italics">Warnings</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For external use only</content>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le8262e5b-f807-4c44-a135-d794934ea969">
+               <id root="01dfa57a-e50e-4f03-837b-fe69d167e75a"/>
+               <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+               <title>
+                  <content styleCode="italics">Do not use</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>in the eyes</item>
+                     <item>if you are allergic to any of the ingredients</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9e924967-b457-47a6-a8de-ff4d12e4ac97"/>
+               <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+               <title>
+                  <content styleCode="italics">When using this product</content>
+               </title>
+               <text>
+                  <paragraph>if eye contact occurs, rinse eyes thoroughly with water.</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bff0d602-c7eb-48ee-a865-5ea030fbd8f9"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title>
+                  <content styleCode="italics">Stop use and ask a doctor if</content>
+               </title>
+               <text>
+                  <paragraph>if irritation and redness develops and persist for more than 72 hours.</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b534336b-8790-401d-ad80-701962cef209"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content> If swallowed contact a doctor or Poison Control Center right away.</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a365da04-b898-49f4-a205-dd0f73d82458"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="italics">Directions</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">Storage, </content>Store at room temperature</item>
+                     <item>
+                        <content styleCode="bold">Dispensing</content> Remove seal band. Lift tab at front of lid. Pull up corner of center sheet and thread through dispenser slit in lid. Close lid to retain moisture.</item>
+                     <item>
+                        <content styleCode="bold">Use</content>. Apply wipe thoroughly to hands as desired. Allow to dry without rinsing.</item>
+                     <item>
+                        <content styleCode="bold">Disposal</content>. Dispose of used wipes in a trash receptacle after use. Do not flush.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="00c2177b-fc16-4f12-8a25-08298a216097"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive Ingredients</title>
+               <text>
+                  <paragraph>Water, Aloe Barbadensis Leaf Extract, Disodium Cocoamphodiacetate, SD Alcohol 40-B, Methylchloroisothiazolinone, Methylisothiazolinone, Tocopheryl Acetate, Disodium EDTA, Citric Acid, Fragrance</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="63dc923d-0cf1-4a60-a0ac-2a75e905ee49"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L5ed52807-1abc-49e1-95f7-2363998fb73a"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+               <component>
+                  <observationMedia ID="L5ed52807-1abc-49e1-95f7-2363998fb73a">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="AntbacWpesWlgrns.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

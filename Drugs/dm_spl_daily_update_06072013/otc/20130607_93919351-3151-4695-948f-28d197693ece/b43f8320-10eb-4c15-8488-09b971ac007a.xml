@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="b43f8320-10eb-4c15-8488-09b971ac007a"/>
+   <code code="34390-5" displayName="HUMAN OTC DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">Hydrocortisone Cream, USP 1% (1 oz) – Actavis</content>
+   </title>
+   <effectiveTime value="20130605"/>
+   <setId root="93919351-3151-4695-948f-28d197693ece"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="809515898" root="1.3.6.1.4.1.519.1"/>
+            <name>Actavis Mid Atlantic LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="809515898" root="1.3.6.1.4.1.519.1"/>
+                        <name>Actavis Mid Atlantic LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="ANALYSIS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0472-0343" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="MANUFACTURE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0472-0343" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9082eb6d-f0bd-441a-b968-bd274b39adc4"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20130605"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0472-0343" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Hydrocortisone<suffix>Maximum Strength</suffix>
+                        </name>
+                        <formCode code="C28944" displayName="CREAM" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Hydrocortisone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WI4X0X7BPJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCORTISONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WI4X0X7BPJ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROCORTISONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="936JST6JCN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CETYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="230OU9XXE4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERYL MONOSTEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0RE8K4LNJS" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL MYRISTATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="13A4J4NH9I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYOXYL 40 STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="CAL22UVI4M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 60</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="NVZ4I0H58X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITAN MONOSTEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2KR89I4H1Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7G1J5DA97F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WHITE WAX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="X045WJ989B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="28"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" displayName="TUBE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1">
+                                       <translation code="C48549" value="1" displayName="TUBE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0472-0343-56" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part348" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73604" displayName="OTC MONOGRAPH NOT FINAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19970801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" displayName="TOPICAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_38e25832-294d-49cd-a012-4b60d6342f5f">
+               <id root="fc58d3a2-e981-475d-8e85-703673dfa7d3"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="bold">ACTIVE INGREDIENT </content>
+               </title>
+               <text>
+                  <paragraph>Hydrocortisone, USP 1%</paragraph>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3ace6a72-6b3c-4cd2-8003-f2e5706360d7">
+               <id root="3ace6a72-6b3c-4cd2-8003-f2e5706360d7"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>
+                  <content styleCode="bold">PURPOSE 
+</content>
+               </title>
+               <text>
+                  <paragraph>Anti-itch</paragraph>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ab432e05-e144-465c-8c2f-13f5ad6b1dc7">
+               <id root="ab432e05-e144-465c-8c2f-13f5ad6b1dc7"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">USES 
+</content>
+               </title>
+               <text>
+                  <paragraph>For the temporary relief of itching associated with minor skin irritations, inflammation, and rashes due to:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>eczema</item>
+                     <item>insect bites</item>
+                     <item>poison ivy</item>
+                     <item>poison oak</item>
+                     <item>poison sumac</item>
+                     <item>soaps</item>
+                     <item>jewelry</item>
+                     <item>detergents</item>
+                     <item>cosmetics</item>
+                     <item>psoriasis</item>
+                     <item>seborrheic dermatitis</item>
+                     <item>for external genital, feminine and anal itching</item>
+                     <item>other uses of this product should be only under the advice and supervision of a doctor</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9aa02059-baf4-4a7a-b95a-cb9a9a141aed">
+               <id root="9aa02059-baf4-4a7a-b95a-cb9a9a141aed"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS
+</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For external use only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f353d295-a6c3-4b85-9169-fa1f05473a55">
+               <id root="f353d295-a6c3-4b85-9169-fa1f05473a55"/>
+               <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+               <title>
+                  <content styleCode="bold">DO NOT USE 
+</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>for external feminine itching if you have a vaginal discharge. Consult a doctor.</item>
+                     <item>for the treatment of diaper rash. Consult a doctor.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e96fb581-f113-4421-9028-c4c6039a8be5">
+               <id root="e96fb581-f113-4421-9028-c4c6039a8be5"/>
+               <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+               <title>
+                  <content styleCode="bold">WHEN USING THIS PRODUCT 
+</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>avoid contact with the eyes</item>
+                     <item>do not begin the use of any other hydrocortisone product unless directed by a doctor</item>
+                     <item>for external anal itching:</item>
+                  </list>
+                  <list listType="unordered" styleCode="Circle">
+                     <item>do not use more than directed unless directed by a doctor</item>
+                     <item>do not put this product into the rectum by using fingers or any mechanical device or applicator</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_47137508-e167-42e0-b305-a57a80377410">
+               <id root="47137508-e167-42e0-b305-a57a80377410"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title>
+                  <content styleCode="bold">STOP USE AND ASK A DOCTOR IF 
+</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>symptoms last for more than 7 days</item>
+                     <item>the condition gets worse</item>
+                     <item>symptoms clear up and occur again in a few days</item>
+                     <item>rectal bleeding occurs, consult doctor promptly</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b4a2a0b8-04ca-4c16-9ffd-a3637bf39e4d">
+               <id root="b4a2a0b8-04ca-4c16-9ffd-a3637bf39e4d"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>
+                  <content styleCode="bold">KEEP OUT OF REACH OF CHILDREN. 
+</content>
+               </title>
+               <text>
+                  <paragraph>If swallowed, get medical help or contact a Poison Control Center right away.</paragraph>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1c034cab-ac42-4c98-abd1-6a108ecdeb4f">
+               <id root="18a0f0b4-b5f6-4d52-9b1c-0328fa2c553c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DIRECTIONS </content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Adults and children 2 years of age and older</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>apply to affected area not more than 3 to 4 times daily </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Children under 2 years of age</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>do not use, consult a doctor </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">For external anal itching</content>
+                  </paragraph>
+                  <paragraph>Adults: when practical, clean the affected area with mild soap and warm water, rinse thoroughly, gently dry by patting or blotting with toilet tissue or a soft cloth before application of this product</paragraph>
+                  <paragraph>Children under 12 years of age: consult a doctor</paragraph>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_98058c97-2597-4195-8cdf-cc381679b353">
+               <id root="98058c97-2597-4195-8cdf-cc381679b353"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">OTHER INFORMATION
+</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Store at room temperature 59°-86°F (15°-30°C).  Protect from freezing.</item>
+                     <item>Before using any medication, read all label directions.  Keep carton, it contains important information.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_270bd629-80af-4d50-9e77-3331282944b4">
+               <id root="270bd629-80af-4d50-9e77-3331282944b4"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="bold">INACTIVE INGREDIENT
+</content>
+               </title>
+               <text>
+                  <paragraph>cetyl alcohol, glyceryl stearate, isopropyl myristate, methylparaben, polyoxyl 40 stearate, polysorbate 60, propylene glycol, propylparaben, purified water, sorbic acid, sorbitan monostearate, stearyl alcohol, white wax.  May contain citric acid or sodium citrate solution to adjust pH.</paragraph>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ef564800-0766-4946-b811-ee4b9c88f37f">
+               <id root="ef564800-0766-4946-b811-ee4b9c88f37f"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">QUESTIONS
+</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">1-800-432-8534 between 9 am and 4 pm EST, Monday – Friday.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130604"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ae3be440-34a5-4077-932e-b0af142484cf">
+               <id root="ae3be440-34a5-4077-932e-b0af142484cf"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PACKAGE LABEL.PRINCIPAL DISPLAY PANEL
+</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Actavis</content>
+                  </paragraph>
+                  <paragraph>NDC 0472-<content styleCode="bold">0343</content>-56</paragraph>
+                  <paragraph>Anti-itch Cream</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hydrocortisone CREAM USP 1% </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Compare to the active ingredient in Cortaid</content>
+                     <content styleCode="italics">
+                        <sup>®</sup>
+                     </content>
+                     <content styleCode="italics"> Maximum Strength Cream*</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MAXIMUM STRENGTH CREAM</content>
+                  </paragraph>
+                  <paragraph>For the Temporary Relief of Itching Associated with Minor Skin Irritations, Inflammation and Rashes Due to:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Poison Ivy, Oak, Sumac</item>
+                     <item>Eczema</item>
+                     <item>Insect Bites</item>
+                     <item>Seborrheic Dermatitis</item>
+                     <item>External Genital, Feminine or Anal Itch</item>
+                  </list>
+                  <paragraph>NET WT 1 OZ (28 g)</paragraph>
+                  <paragraph>03430311F1		VC110436</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20130604"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>ff4c3686-figure-01</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="hydrocortisone-maximum-strength-cream-actavis-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

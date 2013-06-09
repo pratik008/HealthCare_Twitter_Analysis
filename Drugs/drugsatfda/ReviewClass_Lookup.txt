@@ -1,0 +1,4 @@
+ReviewClassID	ReviewCode	LongDescription	ShortDescription
+1	P	A drug that appears to represent an advance over available therapy	Priority review drug
+2	S	A drug that appears to have therapeutic qualities similar to those of an already marketed drug	Standard review drug
+3	V		Orphan drug

@@ -1,0 +1,20 @@
+AppDocType	SortOrder
+Consumer Information Sheet	11
+Dear Health Professional Letter	7
+Exclusivity Letter	12
+FDA Press Release	5
+FDA Talk Paper	4
+Healthcare Professional Sheet	16
+Label	2
+Letter	1
+Medication Guide	8
+Other	14
+Other Important Information from FDA	10
+Patient Information Sheet	15
+Patient Package Insert	6
+Pediatric Summary, Clinical Pharmacology Review	18
+Pediatric Summary, Medical Review	17
+Questions and Answers	13
+Review	3
+Summary Review	19
+Withdrawal Notice	9

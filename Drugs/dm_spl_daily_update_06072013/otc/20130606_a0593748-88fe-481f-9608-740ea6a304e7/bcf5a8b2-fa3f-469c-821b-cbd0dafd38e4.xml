@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="bcf5a8b2-fa3f-469c-821b-cbd0dafd38e4"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Drug Facts</title>
+   <effectiveTime value="20121001"/>
+   <setId root="a0593748-88fe-481f-9608-740ea6a304e7"/>
+   <versionNumber value="14"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="110342024" root="1.3.6.1.4.1.519.1"/>
+            <name>Sandoz Inc</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="34f47089-f1dd-43df-8c9f-1f62eccb2589"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20121001"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0781-5077" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Loratadine</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Loratadine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7AJO3BO7QN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LORATADINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7AJO3BO7QN" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LORATADINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0781-5077-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075209" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20030121"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText>white to off white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="6" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">GG296</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Active_Ingredient_id_b7cbae61-422f-423a-8f45-144abd571aff">
+               <id root="ef3fd922-d380-4d36-9fce-5dd9c7dcde94"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active Ingredient (in each tablet)</title>
+               <text>
+                  <paragraph>Loratadine, USP 10 mg</paragraph>
+               </text>
+               <effectiveTime value="20091217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Purpose_id_4554f2e1-e8fc-44b8-b925-270bd5cbc0ac">
+               <id root="6b804388-c72b-4013-81a2-08938ed5630a"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>Antihistamine</paragraph>
+               </text>
+               <effectiveTime value="20091217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_6588cb1f-64a2-494d-9ea9-e6c8dd8bd692">
+               <id root="60e5d123-19b2-4308-b67b-fc94fa80b4d9"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <paragraph>Temporarily relieves these symptoms due to hay fever or other upper respiratory allergies:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>runny nose</item>
+                     <item>
+                        <caption>•</caption>itchy, watery eyes</item>
+                     <item>
+                        <caption>•</caption>sneezing</item>
+                     <item>
+                        <caption>•</caption>itching of the nose or throat</item>
+                  </list>
+               </text>
+               <effectiveTime value="20121001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_a9ed7739-77dc-4148-9d26-4ae5163cc593">
+               <id root="feaaaf13-bf10-467f-b86e-ede70c41319e"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <effectiveTime value="20091217"/>
+               <component>
+                  <section ID="i4i_OTC_Do_not_use_id_4515dc2c-a73a-4834-a689-4a601675bc04">
+                     <id root="ee866a1f-f8ca-47c0-8821-4d670f0bcbf9"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>Do not use</title>
+                     <text>
+                        <paragraph>if you have ever had an allergic reaction to this product or any of its ingredients.</paragraph>
+                     </text>
+                     <effectiveTime value="20091217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Ask_Doctor_id_112895bf-fbdb-4b4e-87d5-7bbff3888a4b">
+                     <id root="fe7ff88e-8564-4327-9f98-ab79353f3c72"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title>Ask a doctor before use if you have</title>
+                     <text>
+                        <paragraph>liver or kidney disease.Your doctor should determine if you need a different dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20091217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_When_Using_id_d5e4f2d1-9f9b-4095-82e8-4d878991da7c">
+                     <id root="fd087f1e-1814-4105-bdca-82325dcfedad"/>
+                     <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+                     <title>When using this product</title>
+                     <text>
+                        <paragraph>do not take more than directed. Taking more than directed may cause drowsiness.</paragraph>
+                     </text>
+                     <effectiveTime value="20091217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Stop_Use_id_74111936-2972-4684-a9ae-3d97eb32d1e0">
+                     <id root="be3703cc-fc89-4c43-a5bb-fabda6ec2f00"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>Stop use and ask a doctor</title>
+                     <text>
+                        <paragraph>if an allergic reaction to this product occurs. Seek medical help right away.</paragraph>
+                     </text>
+                     <effectiveTime value="20091217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Pregancy_Breastfeeding_id_e899e4c9-8dbf-4ae2-bdbf-8cba6be0e664">
+                     <id root="d51a1810-aab4-4e5f-9724-004b77b224b8"/>
+                     <code code="53414-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PREGNANCY OR BREAST FEEDING SECTION"/>
+                     <title>If pregnant or breast-feeding,</title>
+                     <text>
+                        <paragraph>ask a health professional before use.</paragraph>
+                     </text>
+                     <effectiveTime value="20091217"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_OTC_Keep_Away_Children_id_c2cc109b-6728-47e0-9814-97620a95797e">
+                     <id root="9e34eea3-0d5f-4fb5-a0cb-927874fca54a"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>Keep out of reach of children.</title>
+                     <text>
+                        <paragraph>In case of overdose, get medical help or contact a Poison Control Center right away.</paragraph>
+                     </text>
+                     <effectiveTime value="20091217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_a5e4a7a9-4901-4350-96b9-ef99e4010f00">
+               <id root="f344e9d0-8383-4c15-b890-115b2d9032fe"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <table>
+                     <col width="41%"/>
+                     <col width="49%"/>
+                     <tbody>
+                        <tr styleCode="Toprule">
+                           <td styleCode="Botrule Lrule ">
+                              <paragraph>adults and children 6 years and over</paragraph>
+                           </td>
+                           <td styleCode="Botrule ">
+                              <paragraph>1 tablet daily; not more than 1 tablet in 24 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Botrule ">
+                              <paragraph>children under 6 years of age</paragraph>
+                           </td>
+                           <td styleCode="Botrule ">
+                              <paragraph>ask a doctor</paragraph>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule ">
+                              <paragraph>consumers with liver or kidney disease</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>ask a doctor</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20121001"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_5ee92be7-d7a6-4d6d-82d9-bf3c107e7cd9">
+               <id root="4d1a61ab-d794-4c32-9d10-625355e3b34f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Other Information</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Safety sealed: do not use if the imprinted bottle seal is open or torn (for bottle only).</item>
+                     <item>
+                        <caption>•</caption>Safety sealed: do not use if open or torn (for blister package only).</item>
+                  </list>
+               </text>
+               <effectiveTime value="20121001"/>
+               <component>
+                  <section ID="i4i_storage_id_8e442079-d1e7-4407-8db1-a8812b929560">
+                     <id root="cc1b78e9-7748-4558-bb7c-8c31612d3a0a"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Store at 20°-25°C (68°-77°F) (see USP Controlled Room Temperature).</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20121001"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_inactive_ingredients_id_4a3f281b-fb0a-49cf-b4bb-cbedf1d36be4">
+               <id root="90b0bf9f-b184-4d0b-996f-0837ef9821d4"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive Ingredients</title>
+               <text>
+                  <paragraph>Lactose monohydrate, magnesium stearate, microcrystalline cellulose and sodium starch glycolate.</paragraph>
+               </text>
+               <effectiveTime value="20091217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_OTC_Questions_id_7c98b2ed-ef9e-4d4c-9096-4cc43ab1cb4e">
+               <id root="e03832be-8122-450d-9678-7f2cecaebba7"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>Questions or comments?</title>
+               <text>
+                  <paragraph>1-800-525-8747</paragraph>
+               </text>
+               <effectiveTime value="20091217"/>
+               <component>
+                  <section ID="i4i_section_id_485f4ab4-e663-437f-823f-dcb5b17c0ca5">
+                     <id root="d4b2f0f4-5281-4cbf-9eca-5a5ff9bb86a3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>05-2010M</paragraph>
+                        <paragraph>Sandoz Inc.</paragraph>
+                        <paragraph>Princeton, NJ 08540</paragraph>
+                     </text>
+                     <effectiveTime value="20091217"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_039fa442-c0e3-446f-bd23-3f80147d0374">
+               <id root="6e612e24-5dc7-4d8a-9a4f-7763082db0ce"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>10 mg Label</title>
+               <text>
+                  <renderMultiMedia ID="id-372689665" referencedObject="ID_94fd7605-2f2d-4dec-9994-8428d51259fe"/>
+                  <paragraph>NDC 0781-5077-01 Non-Drowsy*</paragraph>
+                  <paragraph>LORAtadine</paragraph>
+                  <paragraph>Tablets, USP</paragraph>
+                  <paragraph>10 mg</paragraph>
+                  <paragraph>Antihistamine</paragraph>
+                  <paragraph>Indoor &amp; Outdoor Allergies</paragraph>
+                  <paragraph>100 Tablets</paragraph>
+                  <paragraph>SANDOZ</paragraph>
+                  <paragraph>24 Hour</paragraph>
+                  <paragraph>Relief of:</paragraph>
+                  <paragraph>Sneezing</paragraph>
+                  <paragraph>Runny Nose</paragraph>
+                  <paragraph>Itchy, Watery</paragraph>
+                  <paragraph>Eyes</paragraph>
+                  <paragraph>Itchy Throat</paragraph>
+                  <paragraph>or Nose</paragraph>
+                  <paragraph>* When taken as directed.</paragraph>
+                  <paragraph>See Drug Facts Panel.</paragraph>
+               </text>
+               <effectiveTime value="20121001"/>
+               <component>
+                  <observationMedia ID="ID_94fd7605-2f2d-4dec-9994-8428d51259fe">
+                     <text>Loratadine 10 mg Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="bcf5a8b2-fa3f-469c-821b-cbd0dafd38e4-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

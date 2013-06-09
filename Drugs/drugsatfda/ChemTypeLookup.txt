@@ -1,0 +1,10 @@
+ChemicalTypeID	ChemicalTypeCode	ChemicalTypeDescription
+1	1	New molecular entity (NME)
+2	2	New ester, new salt, or other noncovalent derivative
+3	3	New formulation
+4	4	New combination
+5	5	New manufacturer
+6	6	New indication
+7	7	Drug already marketed, but without an approved NDA
+15	8	OTC (over-the-counter) switch
+16	10	New indication submitted as distinct NDA - not consolidated

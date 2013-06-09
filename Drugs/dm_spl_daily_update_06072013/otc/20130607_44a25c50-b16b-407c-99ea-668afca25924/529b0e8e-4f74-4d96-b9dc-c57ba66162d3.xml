@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="529b0e8e-4f74-4d96-b9dc-c57ba66162d3"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <effectiveTime value="20130606"/>
+   <setId root="44a25c50-b16b-407c-99ea-668afca25924"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="677378339" root="1.3.6.1.4.1.519.1"/>
+            <name>A P J Laboratories Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="677378339" root="1.3.6.1.4.1.519.1"/>
+                  <name>A P J Laboratories Limited</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="677378339" root="1.3.6.1.4.1.519.1"/>
+                        <name>A P J Laboratories Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="46084-101" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="fc174686-b75e-4527-b834-0f74b076d058"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20130606"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="46084-101" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ACETAMINOPHEN SINUS CONGESTION AND PAIN<suffix>A P J COATED</suffix>
+                        </name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ACETAMINOPHEN, PHENYLEPHRINE HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="325" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETAMINOPHEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETAMINOPHEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="5" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="04JA59TNSJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENYLEPHRINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1WS297W6MV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENYLEPHRINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="160" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="L11K75P92J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM PHOSPHATE, DIBASIC, ANHYDROUS</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="120" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="30" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value=".5" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1P9D0Z171K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYLATED HYDROXYTOLUENE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value=".8" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value=".4" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="20" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="15" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="13" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="4" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="O414PZ4LPZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SALICYLIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="7" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="2" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="130" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="280" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="588X2YUY0A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLENE CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="1.5" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="3" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="46084-101-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130606"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id root="2.16.840.1.113883.3.149" extension="part341"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="18" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ab3122ca-db2f-4a17-9294-383206b79cc7">
+               <id root="9f5d7f8b-5dc8-4291-a272-30ac5f7916e2"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>ACETAMINOPHEN 325 mg</paragraph>
+                  <paragraph>PHENYLEPHRINE HYDROCHLORIDE 5mg</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section ID="dd39cff8-583f-4536-b2c7-7d0426baa5ec">
+               <id root="8ddf553e-139e-4589-bfac-58aef156a68e"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>•Alleviates Sinus Headache &amp; Pain (Acetaminophen)</paragraph>
+                  <paragraph>•Relieves Sinus Pressure Clears Nasal Congestion (Phenylephrine HCl)</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f575abba-74b7-4b7a-a818-833909e60052">
+               <id root="031becd5-29a3-414a-a2bd-3928da0f0f5f"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title/>
+               <text>
+                  <paragraph/>
+                  <paragraph>Keep out of reach of children.</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e9b7dae9-1a09-421c-a0ce-e98b6e9d49f0">
+               <id root="c8aaca4c-c217-4766-b691-c000b82535b2"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>for the temporary relief of:</paragraph>
+                  <paragraph>• headache</paragraph>
+                  <paragraph>•sinus</paragraph>
+                  <paragraph>•congestion and pressurenasal congestion</paragraph>
+                  <paragraph>•minor aches and pains</paragraph>
+                  <paragraph>•helps decongest sinus openings and passages</paragraph>
+                  <paragraph>•promotes sinus drainage</paragraph>
+                  <paragraph>•helps clear nasal passages</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section ID="daf4ce41-7973-4e12-90a3-be5f736a2f5b">
+               <id root="105fb8bb-24f1-4df1-a179-b081d96a1079"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Liver warning:</paragraph>
+                  <paragraph>This product contains acetaminophen. Severe liver damage may occur if you take</paragraph>
+                  <paragraph>■ more than 12 gelcaps in 24 hours, which is the maximum daily amount</paragraph>
+                  <paragraph>■ with other drugs containing acetaminophen</paragraph>
+                  <paragraph>■ 3 or more alcoholic drinks every day while using this product</paragraph>
+                  <paragraph/>
+                  <paragraph>Overdose warning:</paragraph>
+                  <paragraph/>
+                  <paragraph>■ Taking more than the recommended dose (overdose) may cause liver damage.</paragraph>
+                  <paragraph>■ In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222) Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms.</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a1bf0fdc-8a33-48e9-94cc-05d24d6e16e1">
+               <id root="4231a0b6-3d56-443e-91e0-91df98554b8c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>  Directions
+</title>
+               <text>
+                  <paragraph>■ Do not take more than directed (see overdose warning)</paragraph>
+                  <paragraph>■ Adults and children 12 years and over: Take 2 gelcaps every 4 hoursdo not take more than 12 gelcaps in 24 hours</paragraph>
+                  <paragraph>■ Children under 12 years: Do not use this adult product in children under 12 years of age</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section ID="de52dd11-61ab-4dac-976d-305c20305659">
+               <id root="4e2e15fd-8b98-4128-be83-1dff35e596f2"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>•CALCIUM PHOSPHATE, DIBASIC, ANHYDROUS</paragraph>
+                  <paragraph>•CELLULOSE, MICROCRYSTALLINE</paragraph>
+                  <paragraph>•STARCH, CORN</paragraph>
+                  <paragraph>•BUTYLATED HYDROXYTOLUENE</paragraph>
+                  <paragraph>•METHYLPARABEN</paragraph>
+                  <paragraph>•PROPYLPARABEN</paragraph>
+                  <paragraph>•SODIUM STARCH GLYCOLATE TYPE A POTATO</paragraph>
+                  <paragraph>•TALC</paragraph>
+                  <paragraph>•MAGNESIUM STEARATE</paragraph>
+                  <paragraph>•SALICYLIC ACID</paragraph>
+                  <paragraph>•CROSCARMELLOSE SODIUM</paragraph>
+                  <paragraph>•SODIUM LAURYL SULFATE</paragraph>
+                  <paragraph>•ISOPROPYL ALCOHOL</paragraph>
+                  <paragraph>•METHYLENE CHLORIDE</paragraph>
+                  <paragraph>•TITANIUM DIOXIDE</paragraph>
+                  <paragraph>•HYPROMELLOSES</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section ID="cc777e1d-77a6-45ae-817f-9b9a71dd2b3f">
+               <id root="d3c85114-8f00-4446-800f-439778585d04"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="c5b0ae8a-6375-41ba-89cd-fad8e4715826"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+               <component>
+                  <observationMedia ID="c5b0ae8a-6375-41ba-89cd-fad8e4715826">
+                     <text>Product</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="mm1_product.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d5f76f24-05fe-44df-8cfe-4ffa7e6c2dd4"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>DawnMist Fluoride Toothpaste
+</title>
+   <effectiveTime value="20130606"/>
+   <setId root="ed6be2de-7c85-4eed-98f2-54e5aada6232"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="791014871" root="1.3.6.1.4.1.519.1"/>
+            <name>Dukal Corporation</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d3a55b4b-c3c5-4500-82d4-907f98d95162"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20130606"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="65517-1018" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>DawnMist Fluoride
+                <suffix/>
+                        </name>
+                        <formCode code="C42967" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PASTE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM MONOFLUOROPHOSPHATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Y6O7T4G8P9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDRATED SILICA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OJ245FE5EU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BENZOATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="AV092KU4JH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEPPERMINT OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SACCHARIN SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="0.76" unit="g"/>
+                              <denominator value="100" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="C810JCZ56Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM MONOFLUOROPHOSPHATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q80VPU408O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLUORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="17" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="65517-1018-0" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130606"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part355" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DENTAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="26bd0b53-2504-44b8-b57d-a5d3edc18458"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DawnMist Fluoride Toothpaste</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0fb589ac-f216-452f-b1cc-9dcfdbc158cf"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active Ingredient</title>
+               <text>
+                  <paragraph>Sodium Monofluorophosphate 0.76%<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b886a4c2-34cb-4a8c-9f91-7b5339d3bd1f"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>Anticavity</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="35d47df7-740b-4c2d-8135-af1f098cace0"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Use</title>
+               <text>
+                  <paragraph>Aids in the prevention of dental cavities.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8eed5946-533a-4eff-8c30-b63bb4318194"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warning: </title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20130606"/>
+               <component>
+                  <section ID="Lb03a590b-5b33-46af-94cf-c5dbd758535d">
+                     <id root="442cab48-6007-4cff-a017-ec5f2422dc7c"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>Keep out of reach of children under 6 years of age.</title>
+                     <text>
+                        <paragraph>If you accidentally swallow more than used for brushing seek professional assistance or contact a Poison Control Center immediately.</paragraph>
+                     </text>
+                     <effectiveTime value="20130606"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fc89a0ca-d71f-4111-8ec9-2c60e8a04e45"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Adults and children 2 years and older:</content> Brush teeth thoroughly after meals or at least twice a day or use as directed by a dentist or physician.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Children under 6 years:</content> To minimize swallowing, use a pea sized amount and supervise brushing until good habits are established.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Children under 2 years:</content> Ask a dentist or physician.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="886e49c5-1728-48f1-8961-1c7fa40b5a9c"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive Ingredients</title>
+               <text>
+                  <paragraph>Sorbitol, Silica, Water, Sodium Lauryl Sulfate, Xanthan Gum, Sodium Benzoate, Titanium Dioxide, Mentha Piperita (Peppermint Oil), Sodium Saccharin</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4db3eadb-97fb-4e77-9a8f-db10a5b696c6"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>DawnMist Fluoride Toothpaste 0.6oz/17g (65517-1018-0)</title>
+               <text>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>DUKAL CORPORATION<br/>Ronkonkoma, NY 11779<br/>(631) 656-3800</paragraph>
+                  <paragraph>Made in Malaysia</paragraph>
+                  <renderMultiMedia referencedObject="LL1"/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20130606"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="LL1">
+                     <text>OuterLabel</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="OuterLabel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

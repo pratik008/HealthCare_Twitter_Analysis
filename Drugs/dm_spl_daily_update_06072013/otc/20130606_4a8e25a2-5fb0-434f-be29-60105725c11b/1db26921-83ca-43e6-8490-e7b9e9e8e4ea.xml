@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1db26921-83ca-43e6-8490-e7b9e9e8e4ea"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Merle Norman Clear Complexion Moisturizer</title>
+   <effectiveTime value="20130606"/>
+   <setId root="4a8e25a2-5fb0-434f-be29-60105725c11b"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="008479388" root="1.3.6.1.4.1.519.1"/>
+            <name>Merle Norman Cosmetics, Inc </name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="008479388" root="1.3.6.1.4.1.519.1"/>
+                  <name>Merle Norman Cosmetics, Inc </name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="008479388" root="1.3.6.1.4.1.519.1"/>
+                        <name>Merle Norman Cosmetics, Inc </name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="57627-101" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="650bb84f-cc30-4f80-933e-e0ab682d3245"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20130510"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="57627-101" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Clear Complexion Moisturizer <suffix>Merle Norman </suffix>
+                        </name>
+                        <formCode code="C29167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LOTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>salicylic Acid</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3XUS85K0RA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0THT5PCI0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CYCLOMETHICONE 5</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="W60VYE24XC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISODECYL NEOPENTANOATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="936JST6JCN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CETYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="083X55C543" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRUS MAXIMA SEED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5EVU04N5QU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ORANGE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="UDA30A2JJY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HAMAMELIS VIRGINIANA TOP</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XE54U569EC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CINNAMON BARK OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="24WE03BX2T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LEVOMENOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WV9CM0O67Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PANTHENOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YSE9PPT4TH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYALURONATE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1D1K0N0VVC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VITAMIN A PALMITATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QN83US2B0N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASCORBYL PALMITATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="IY9XDZ35W2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="33X04XA5AT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A1A1I8X02B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIETHYLENE GLYCOL MONOETHYL ETHER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7YC686GQ8F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYOXYL 40 HYDROGENATED CASTOR OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="E4F12ROE70" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>C13-14 ISOPARAFFIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="NVZ4I0H58X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITAN MONOSTEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="230OU9XXE4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERYL MONOSTEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YD01N1999R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEG-100 STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="CAL22UVI4M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 60</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z95S6G8201" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LAURETH-7</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6M3P64V0NC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM ALUMINUM SILICATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="HIE492ZZ3T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENOXYETHANOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="2.0" unit="g"/>
+                              <denominator value="100" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="O414PZ4LPZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SALICYLIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="O414PZ4LPZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SALICYLIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="56" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="57627-101-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="57627-101-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="28" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="57627-101-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="57627-101-04" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20110418"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part358H" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3bda7fd8-51d6-4815-a2df-1fb83d3f7a71"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>Active ingredient                        Purpose</paragraph>
+                  <paragraph>Salicylic Acid 2.0%                     Acne treatment cream</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM1">
+                     <text>image of secondary label </text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="secondary.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <section>
+                     <id root="bd86168f-307b-4d82-92f6-789532fb4f52"/>
+                     <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+                     <text>
+                        <paragraph>Use</paragraph>
+                        <paragraph>for the treatment of acne</paragraph>
+                     </text>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="670303ff-6452-4f10-a273-e1ff56de090f"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <text>
+                        <paragraph>keep out of reach of children. if swallowed, get medical help or contact a Poison Control Center right away.</paragraph>
+                     </text>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="186665b3-0bad-4b88-a1f3-c03d37e83c68"/>
+                     <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+                     <text>
+                        <paragraph>for external use only.</paragraph>
+                     </text>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="978ccd89-f5c5-4485-9133-59ab787391c5"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <text>
+                        <paragraph>Warnings</paragraph>
+                        <paragraph>using other topical acne medication at the same time or immediately following the use of this product may increase dryness or irritation of the skin. if this occurs, only one medication should be used unless directed by a doctor.</paragraph>
+                     </text>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="758a8069-31a2-406e-b368-762a31864ada"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <text>
+                        <paragraph>Directions  cleanse skin thoroughly before applying. cover the affected area with a think layer 1-3 times daily.because excessive drying of the skin may occur, start with 1 application daily, then gradually increase to 2 or 3 times daily if needed or as directed by a doctor. if bothersome dryness or peeling occurs, reduce application to once a day or every other day.</paragraph>
+                     </text>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="8050c76c-057d-4755-b181-7baa36e2e491"/>
+                     <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+                     <text>
+                        <paragraph>Water(Aqua), butylene glycol, cyclopentasilozane, isodecyl neopentanoate, cetyl alcohol, stearic acid, polyacrylamide, ppg-26-buteth-26, citrus grandis (grapefruit) seed extract, citrus aurantium dulcis (orange) fruit extract, chamomilla recutita ( matricaria) flower extract, hamamelis virginiana (witch hazel) bark/leaf/twig extract, cinnamomum zeylanicum bark extract, bisabolol,panthenol , sodium hyaluronate, tocopheryl acetate, retinyl palmitate, ascorbyl palitate, phospholipids, glucose, lactic acid, propylene glycol, ethoxydiglycol, peg-40 hydrogenated castor oil, c13-14 isoparaffin, sobitan stearate, glyceryl stearate, peg-100 stearate, nylon-12, polysorbate 60, laureth-7, magnesium aluminum silicate, xanthan gum, disodium edta, sodium hydroxide, phenoxyethanol, fragrance (parfum)</paragraph>
+                     </text>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a7a378c3-97be-4fa8-8cd4-9bb4374f46e0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>clear complexion moisturizer</paragraph>
+                  <paragraph>acne treatment cream</paragraph>
+                  <paragraph>merle norman</paragraph>
+                  <paragraph>56g E Net Wt. 2 oz.</paragraph>
+               </text>
+               <effectiveTime value="20130606"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM2">
+                     <text>image of primary label </text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="primary.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

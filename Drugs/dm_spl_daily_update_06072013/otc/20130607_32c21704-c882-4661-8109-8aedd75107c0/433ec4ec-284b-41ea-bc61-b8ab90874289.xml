@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="433ec4ec-284b-41ea-bc61-b8ab90874289"/>
+   <code code="34390-5" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN OTC DRUG LABEL"/>
+   <title>Drug Facts</title>
+   <effectiveTime value="20130605"/>
+   <setId root="32c21704-c882-4661-8109-8aedd75107c0"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="002136794"/>
+            <name>L'Oreal USA Products Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="076693183"/>
+                        <name>Dimensional Merchandising Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="49967-019" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ba7a9293-5608-435e-b463-7ed8e1e446e1"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20130605"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="49967-019" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dermablend Quick Fix Concealer</name>
+                        <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Titanium Dioxide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="30" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TITANIUM DIOXIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="4.5" unit="g"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" displayName="TUBE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="49967-019-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20060101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="part352" root="2.16.840.1.113883.3.149"/>
+                           <code code="C73604" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph not final"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="La3be645d-7f13-4e8b-b4f4-28bb738a1db7">
+               <id root="1d0012bd-b350-4bbe-8c42-cae26c9353b7"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active ingredient</title>
+               <text>
+                  <paragraph>Titanium dioxide 3%</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L13917a38-0955-496d-987f-c6f7186612f4">
+               <id root="52093e32-f525-4f27-906e-124e4c0e2ad9"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>Purpose</title>
+               <text>
+                  <paragraph>Sunscreen</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5a26c51b-8c1c-4e9b-a2dd-999bfe96d888">
+               <id root="ad6508b1-fd5e-42c9-bbda-ef99f336c5e2"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <paragraph>- helps prevent sunburn</paragraph>
+                  <paragraph>- if used as directed with other sun protection measures (see Directions), decreases the risk of skin cancer and early skin aging caused by the sun</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8463a899-648d-49e5-81cf-28b75c332fc2">
+               <id root="4f5a6e8c-9e5e-4e67-be97-df5eb87f15c9"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>For external use only</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2cd5a59d-0ff4-4e06-b785-1093238d0ea7">
+               <id root="1e9801bb-97ec-4cd4-b916-f2e4e7aeb86a"/>
+               <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+               <title>Do not use</title>
+               <text>
+                  <paragraph>on damaged or broken skin</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L334ebafb-51c5-4726-9ab5-282205acd1a6">
+               <id root="19133878-28bd-4c9e-bba2-bed865ffd43b"/>
+               <code code="50567-7" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - WHEN USING SECTION"/>
+               <title>When using this product</title>
+               <text>
+                  <paragraph>keep out of eyes. Rinse with water to remove.</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8aa26a67-e5a8-4362-b4bb-061d8c6d75ee">
+               <id root="a1c6b3bc-ddd0-4469-9ad4-ca17df9d66c4"/>
+               <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+               <title>Stop use and ask a doctor if</title>
+               <text>
+                  <paragraph>rash occurs</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le61a0bfd-d1be-473b-bbfb-8dae4c4bc909">
+               <id root="8053c98d-9289-47a4-a146-7334e9cce9a6"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <title>Keep out of reach of children.</title>
+               <text>
+                  <paragraph>If swallowed, get medical help or contact a Poison Control Center right away.</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8ecda54a-ddee-475a-a280-b8ea9922e450">
+               <id root="10430540-af6e-4599-ad81-84176ae604cb"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <paragraph>For sunscreen use:</paragraph>
+                  <paragraph>● apply liberally 15 minutes before sun exposure</paragraph>
+                  <paragraph>● reapply at least every 2 hours</paragraph>
+                  <paragraph>● use a water resistant sunscreen if swimming or sweating</paragraph>
+                  <paragraph>● Sun Protection Measures. Spending time in the sun increases your risk of skin cancer and early skin aging. To decrease this risk, regularly use a sunscreen with a Broad Spectrum SPF value of 15 or higher and other sun protection measures including:</paragraph>
+                  <paragraph>● limit time in the sun, especially from 10 a.m. – 2 p.m.</paragraph>
+                  <paragraph>● wear long-sleeved shirts, pants, hats, and sunglasses</paragraph>
+                  <paragraph>● children under 6 months of age: Ask a doctor</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcba4adf8-e89d-4e27-a953-641857ff20ef">
+               <id root="af6d41ed-2419-42ba-995d-8b629b701b34"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <paragraph>protect the product in this container from excessive heat and direct sun</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L663b68f6-c699-478e-b7f4-730047fb7368">
+               <id root="7d9b09b6-970e-4986-b40b-286fc1163c7b"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive ingredients</title>
+               <text>
+                  <paragraph>mineral oil, talc, beeswax, isopropyl palmitate, stearyl stearate, kaolin, magnesium carbonate, copernicia cerifera (carnauba) wax, allantoin, microcrystalline wax, lauroyl lysine; may contain: titanium dioxide, barium sulfate, iron oxides</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbefc562c-2db4-46fa-8849-9b5aae59c808">
+               <id root="fbd40864-ac77-4750-b681-0d1d65cbdd0f"/>
+               <code code="53413-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - QUESTIONS SECTION"/>
+               <title>Questions or comments?</title>
+               <text>
+                  <paragraph>1-877-900-6700</paragraph>
+                  <paragraph>Monday - Friday (9 a.m. - 5 p.m. EST)</paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La8d73572-4008-4fea-98ba-5fbc53d7fa38">
+               <id root="ea5f4234-150e-4d8b-93ac-75f84bce59d4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L09e0dce7-cdbb-4a81-b4f8-85581396be69"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130605"/>
+               <component>
+                  <observationMedia ID="L09e0dce7-cdbb-4a81-b4f8-85581396be69">
+                     <text>image of carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="DermQFC.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
