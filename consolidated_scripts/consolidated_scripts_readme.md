@@ -1,12 +1,9 @@
 Health Care Twitter Analysis Public Files Documentation
 
-Author:	Longbo Qiao
-
-Email:	longboqiao@gmail.com	
-
-Editor:	askrht
-
-Date:	6/28/2013	
+Author:	Longbo Qiao    
+Email:	longboqiao@gmail.com    
+Editor:	askrht    
+Date:	6/28/2013    
 
 #### Installation
 -	Python 2.7.5 is highly recommended.
