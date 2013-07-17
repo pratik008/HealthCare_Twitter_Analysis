@@ -1,8 +1,11 @@
 Health Care Twitter Analysis Public Files Documentation
 
-Author:	Longbo Qiao	
+Author:	Longbo Qiao
+
 Email:	longboqiao@gmail.com	
+
 Editor:	askrht
+
 Date:	6/28/2013	
 
 #### Installation
