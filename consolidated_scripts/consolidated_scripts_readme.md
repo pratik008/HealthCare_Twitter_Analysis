@@ -59,7 +59,7 @@ Make sure you have a ‘config.json’ file ready in ‘Dictionaries’ folder. 
 	1.	Run Frm_Raw_to_Cleaned_Tweets_Less.py to clean up tweets without doing lowercase conversion and punctuations removal.
 	2.	Run __NER.py__ to generate a list of NNP words with its frequency in ‘processed’ folder
 
-2.Sentiment Analysis
+2.	Sentiment Analysis
 	1.	Sentiment Score Table is based on the file ‘AFINN-111.txt’
 	2.	Run __Sentiment_Tweets.py__ to generate a CSV file that has tweets with sentiment scores
 	3.	Run __Sentiment_Word_Frequency.py__ to generate a CSV file that has the list of unique words in the tweets set with the frequency counts and sentiment scores
@@ -67,13 +67,14 @@ Make sure you have a ‘config.json’ file ready in ‘Dictionaries’ folder. 
 	5.	Run __Keyword_Filtered_by_Score.py__ to generate keywords that scores higher than a user defined number
 
 3.	Classification
-	1.	Run __From_Raw_to_Cleaned_Tweets_Full.py____ __ to make a “cleaned” Tweet file
-	2.	Run __From_Tweets_to_matrix_TrainingSet.py __to make a “Training” matrix based on step 3a’s output file.
+	1.	Run __From_Raw_to_Cleaned_Tweets_Full.py__ to make a “cleaned” Tweet file
+	2.	Run __From_Tweets_to_matrix_TrainingSet.py__ to make a “Training” matrix based on step 3a’s output file.
 	3.	Run __Convert_TrainingSetHeaders_To_WordList.py__ to extract a list of word that will be used as our new word list to filter the “Testing” tweets. Backup the old __newWL.csv__ file if desired.
 	4.	Run __Remove_By_newWL_get_Tweets.py__ to remove words that not exist in the “Testing” tweets. (Assume that the size of “Training” tweets >> the size of “Testing” tweets.) By doing this, we assure that the “Testing” tweets is the subset of “Training” tweets.
-	6.	Run __From_Tweets_to_matrix_TrainingSet.py __to make a “Testing” matrix based on step 3d’s output file.
-	7.	Run __Get_Prediction_From_TestingSetMatrix.py __to make a final classification decision.* 
-	8.	Run __Xvalidation_Training.py__ to do cross validation (make 20% of the tweets as test set and 80% as train set)Co-occurrenceRun __co-occurrences.py__ to get only keywords’ co-occurrences
+	5.	Run __From_Tweets_to_matrix_TrainingSet.py__ to make a “Testing” matrix based on step 3d’s output file.
+	6.	Run __Get_Prediction_From_TestingSetMatrix.py__ to make a final classification decision.* 
+	7.	Run __Xvalidation_Training.py__ to do cross validation (make 20% of the tweets as test set and 80% as train set)Co-occurrence
+	8.	Run __co-occurrences.py__ to get only keywords’ co-occurrences
 	9.	Run __co-occurrences-1-word.py__ to get the specified one word’s  co-occurrences
 	10.	Run __co-occurrences-1-word-top-20.py__ to get the sorted top 20 frequent words’ co-occurrences of  step 4b
 	11.	Run __co-occurrences-2-word-inersection.py__ to get the specified two word’s co-occurrences__License Grant__
