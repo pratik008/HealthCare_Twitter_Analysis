@@ -1,7 +1,7 @@
 README
 ========
 
-This is the [HealthCare Twitter Analysis](http://twitteranalysis.webuda.com/main/) Open Source Project. Project started via Coursera by Pratik Mehta and Joon Lee from [Saama Technologies](http://saama.com) on May 10th 2013. Thanking, coursera course 'Introduction to Data Science' taught by Bill Howe.
+This is the [HealthCare Twitter Analysis](http://healthcaredataanalysis.org/main/) Open Source Project. Project started via Coursera by Pratik Mehta and Joon Lee from [Saama Technologies](http://saama.com) on May 10th 2013. Thanking, coursera course 'Introduction to Data Science' taught by Bill Howe.
 
 
 We strongly believe that Medical Care Quality can be improved using Data Science. The challenge is to detect medical comments & events, create models, generate insights, and finally correlate it to Medical Care to suggest improvements in the quality of care.
