@@ -7,7 +7,7 @@
 ##########################################################
 
 """
-   generate_grams.py
+   generate_ngrams.py
    
    Creates a csv file with all the n-grams
    
@@ -19,7 +19,7 @@ import sys
 import csv
 import os
 from nltk.util import ngrams
-from nltk import FreqDist as freq_dist
+import pymongo
 
 ############################################################################
 
