@@ -1,15 +1,7 @@
 import send_tweets_to_mongodb as st
 
-path='/Users/cato/programacion/HealthCare_Twitter_Analysis/Twitter Data/Jan to May'
-group='Blood'
-file='Tweets_BleedingDisorders.csv'
+path1='/Users/cato/programacion/HealthCare_Twitter_Analysis/Twitter Data/Jan to May'
+path2='/Users/cato/programacion/HealthCare_Twitter_Analysis/Twitter Data/June'
 
-client = MongoClient()
-    db = client['HealthCare_Twitter_Analysis']
-    
-    #Use test database for debugging
-    #db = client['test']
-    
-    collection = db.tweets
-
-st.process_disease_file(path,group,file,collection)
+st.send_tweets_one_core(path1)
+st.send_tweets_one_core(path2)

@@ -69,6 +69,25 @@ def process_disease_file(path,group,collection,file):
 
 ###################################################################################
 
+def send_tweets_one_core(path):
+
+    #Database
+    client = MongoClient()
+    db = client['HealthCare_Twitter_Analysis']
+
+
+    #Navigate directory structure
+    for g in os.listdir(path):
+        try:
+            for f in os.listdir(path+'/'+g):
+                process_disease_file(path,g,db.tweets,f)
+    
+        except:
+            continue
+
+
+###################################################################################
+
 if __name__ == '__main__':
     
     
@@ -85,8 +104,6 @@ if __name__ == '__main__':
     #Use test database for debugging
     #db = client['test']
     
-    
-
 
     #Navigate directory structure
     for g in os.listdir(path):
