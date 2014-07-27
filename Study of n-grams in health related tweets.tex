@@ -81,7 +81,57 @@ By isolating these n-grams with a higher frecuency I expect to identify issues u
 
 \section{Tools}
 
-We will use Python to analyze the tweets, probably with the NLTK libraries.
+We will use Python to analyze the tweets, probably with the NLTK libraries, and the Mongo database.
+
+\section{Installing and running the Mongo database}
+
+To be able to use the python tools, mongodb has to be installed and running in the computer. 
+
+\section{Adding tweets to the database}
+The function send\_tweets\_to\_mongodb.py sends the tweets in the csv files to the database. It can be used to send a unique csv file as:
+
+\begin{quote}
+\begin{verbatim}
+import send_tweets_to_mongodb as st
+path='/Users/cato/programacion/HealthCare_Twitter_Analysis/Twitter Data/Jan to May'
+group='Blood'
+file='Tweets_BleedingDisorders.csv'
+client = MongoClient()
+db = client['HealthCare_Twitter_Analysis']
+st.process_disease_file(path,group,file,collection)
+\end{verbatim}
+\end{quote}
+
+
+
+or to navigate a folder with the structure ./Folder/Group/disease.csv as
+\begin{quote}
+\begin{verbatim}
+python send_tweets_to_mongodb.py Folder
+\end{verbatim}
+\end{quote}
+
+The function check for all individual tweets (represented by their url) if they are yet in the database, so no duplicates will be send, even if the p is run twice on a Folder.\\
+
+\par
+Each tweet is a document in the collection, with the following fields:
+
+\begin{quote}
+\begin{verbatim}
+{
+_id
+firstpost_date
+url
+trackback_author_nick
+content
+score
+trackback_permalink
+trackback_author_url
+group
+disease
+}
+\end{verbatim}
+\end{quote}
 
 
 \end{document}

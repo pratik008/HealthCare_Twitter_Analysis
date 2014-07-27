@@ -18,28 +18,38 @@
 import sys
 import csv
 import os
-import pymongo
+from pymongo import MongoClient
+from multiprocessing import Pool
+from multiprocessing.dummy import Pool as ThreadPool
+from functools import partial
 
-############################################################################
+#############################################################################
 
-def send_tweets(tweets,group,disease):
+
+def process_disease_file(path,group,collection,file):
     
-    """
-        Send the tweets from a csv file to mongodb
-    """
-
-    
-
-#####################################################################################
-
-def process_disease_file(path,group,file,n,csvfile):
 
     wholepath=path+'/'+group+'/'+file
     with open(wholepath,'r') as disease_file:
-        tweets = csv.reader(disease_file)
+        #Read the tweet file as a dictionary
+        tweets=csv.DictReader(disease_file)
         disease=file[7:-4]
-        
-        send_tweets(tweets,group,disease)
+        print disease
+    
+        #Adding the group and disease fields to all tweets
+        for thistweet in tweets:
+            thistweet['group']=group
+            thistweet['disease']=disease
+            
+            #Is this tweet in the database?
+            if collection.find({"url": thistweet['url']}).count()==0:
+
+                #Insert tweet in the database
+                thistweet_id = collection.insert(thistweet)
+
+            else:
+                print 'Tweet '+repr(thistweet['url'])+' already in the database'
+
     
     disease_file.close()
 
@@ -51,14 +61,28 @@ if __name__ == '__main__':
     
     
     path=sys.argv[1]
-
+    pool = ThreadPool(6)#You should modify this function depending on the number of cores in your computer
     
+    #Database
+    client = MongoClient()
+    db = client['HealthCare_Twitter_Analysis']
+    
+    #Use test database for debugging
+    #db = client['test']
+    
+    #collection = db.tweets
+
+
     #Navigate directory structure
-    for group in os.listdir(path):
+    for g in os.listdir(path):
         try:
-            for file in os.listdir(path+'/'+group):
-                process_disease_file(path,group,file)
+            files=os.listdir(path+'/'+g)
+            partial_process_disease_file=partial(process_disease_file,path,g,db.tweets)
+            pool.map(partial_process_disease_file,files)
+            pool.close
+            pool.join
+                #pool.map(process_disease_file(path,group,file,collection),)
+                #process_disease_file(path,group,file,collection)
         except:
                 continue
 
-    csvfile.close()
