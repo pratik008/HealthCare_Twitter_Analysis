@@ -12,7 +12,7 @@
    Send tweets from csv files to mongodb
    
    Execute as:
-   python generate_ngrams.py ./HealthCare_Twitter_Analysis/Twitter\ Data/Jan\ to\ May 4
+   python send_tweets_to_mongodb.py ./HealthCare_Twitter_Analysis/Twitter\ Data/Jan\ to\ May 4
 """
 
 import sys
