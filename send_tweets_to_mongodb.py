@@ -30,6 +30,7 @@ def process_disease_file(path,group,collection,file):
     
     ni=0
     nu=0
+    nr=0
     wholepath=path+'/'+group+'/'+file
     with open(wholepath,'r') as disease_file:
         #Read the tweet file as a dictionary
@@ -51,15 +52,18 @@ def process_disease_file(path,group,collection,file):
 
             else:
                 #Maybe the tweet was in the database for other disease file
-                nu+=1
-                tweetindb['group']=list(set(tweetindb['group']+group))
-                tweetindb['disease']=list(set(tweetindb['disease']+disease))
-                mycollection.update({'_id':tweetindb['_id']}, {"$set": tweetindb}, upsert=False)
+                if disease not in tweetindb['disease']:
+                    nu+=1
+                    tweetindb['group']=list(set(tweetindb['group']+group))
+                    tweetindb['disease']=tweetindb['disease']+disease
+                    collection.update({'_id':tweetindb['_id']}, {"$set": tweetindb}, upsert=False)
+                else:
+                    nr+=1
 
 
     
     disease_file.close()
-    print repr(disease)+': '+repr(ni)+' inserted, '+repr(nu)+' updated'
+    print repr(disease)+': '+repr(ni)+' inserted, '+repr(nu)+' updated, '+repr(nr)+' skipped'
 
 
 
@@ -69,6 +73,8 @@ if __name__ == '__main__':
     
     
     path=sys.argv[1]
+    
+    #Multiprocessing
     pool = ThreadPool(6)#You should modify this function depending on the number of cores in your computer
     
     #Database
