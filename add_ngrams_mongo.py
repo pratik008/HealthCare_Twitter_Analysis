@@ -36,7 +36,7 @@ def loop_database(n):
     db = client['HealthCare_Twitter_Analysis']
     
     col = db.tweets
-    docs=col.find({'n-grams': {'$exists': False}}).batch_size(50)
+    docs=col.find({'$or':[{'n-grams': {'$exists': False}},{'n-grams':[]}]}).batch_size(50)
     total=docs.count()
     print repr(total)+' documents to include n-grams'
     n=0
