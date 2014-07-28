@@ -1,7 +1,8 @@
-import send_tweets_to_mongodb as st
+from pymongo import MongoClient
 
-path1='/Users/cato/programacion/HealthCare_Twitter_Analysis/Twitter Data/Jan to May'
-path2='/Users/cato/programacion/HealthCare_Twitter_Analysis/Twitter Data/June'
+#Database
+client = MongoClient()
+db = client['HealthCare_Twitter_Analysis']
+col = db.tweets
 
-st.send_tweets_one_core(path1)
-st.send_tweets_one_core(path2)
+col.find()
