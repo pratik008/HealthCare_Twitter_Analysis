@@ -19,7 +19,6 @@ import sys
 import csv
 import os
 from nltk.util import ngrams
-import pymongo
 
 ############################################################################
 
