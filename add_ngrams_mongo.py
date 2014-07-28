@@ -36,19 +36,20 @@ def loop_database(n):
     db = client['HealthCare_Twitter_Analysis']
     
     col = db.tweets
-    docs=col.find({'$or':[{'n-grams': {'$exists': False}},{'n-grams':[]}]}).batch_size(50)
+    docs=col.find({'n-grams.0':{'$exists': False}}).batch_size(50)
+    #docs=col.find().batch_size(50)
     total=docs.count()
     print repr(total)+' documents to include n-grams'
-    n=0
+    nt=0
 
     #Iterate over all elements in the collection without n-grams field
-    for tweet in col.find({'n-grams': {'$exists': False}}):
+    for tweet in docs:
         add_ngrams_tweet(tweet,col,n)
-        n+=1
+        nt+=1
 
         #Just for let you know that it's working
-        if n%1000==0:
-            print tweet['content']+' ... '+repr(n*100/total)+'% done...'
+        if nt%1000==0:
+            print tweet['content']+' ... '+repr(nt*100/total)+'% done...'
 
 
 ###########################################################################################
