@@ -1,8 +1,8 @@
-from pymongo import MongoClient
+import calculate_frequencies as cf
+import time
 
-#Database
-client = MongoClient()
-db = client['HealthCare_Twitter_Analysis']
-col = db.tweets
+start_time = time.time()
 
-col.find()
+f=cf.calculate_frequency(['feel','sick'],'all','Cancer')
+print f
+print repr(time.time() - start_time)+' s'
