@@ -3,6 +3,5 @@ import time
 
 start_time = time.time()
 
-f=cf.calculate_frequency(['feel','sick'],'all','Cancer')
-print f
+cf.insert_total_number_ngrams()
 print repr(time.time() - start_time)+' s'
