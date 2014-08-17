@@ -3,5 +3,10 @@ import time
 
 start_time = time.time()
 
-cf.insert_total_number_ngrams()
-print repr(time.time() - start_time)+' s'
+#cf.insert_total_number_ngrams()
+
+#f=cf.calculate_relative_frequency(['anxious'],'disease','Ulcers')
+#f=cf.calculate_all_relative_frequencies(1,'disease','Ulcers')
+#print repr(f)
+
+cf.insert_all_relative_frequencies()
