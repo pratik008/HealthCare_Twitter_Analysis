@@ -11,5 +11,5 @@ start_time = time.time()
 
 #cf.insert_all_relative_frequencies()
 
-f=cf.calculate_all_frequencies(2,'all','Blood')
+f=cf.calculate_frequencies_whole_corpus(1)
 print f

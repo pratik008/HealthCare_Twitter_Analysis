@@ -66,7 +66,7 @@ def calculate_all_frequencies(n,level,field):
     col = db.tweets
     
     #Defining the pipeline
-    pipeline=[\
+    pipeline=[{'$match' : {level:field}},\
               {'$unwind' : '$n-grams' },\
               {'$match' : {'n-grams.rank' : n}},\
               {'$group' : \
@@ -75,9 +75,6 @@ def calculate_all_frequencies(n,level,field):
               }
               ]
               
-              
-    if level is not 'all':
-        pipeline=[{'$match' : {level:field}}]+pipeline
               
     ftot=col.aggregate(pipeline, allowDiskUse=True)
     f=ftot['result']
@@ -91,12 +88,48 @@ def calculate_all_frequencies(n,level,field):
         for ngram in f:
             ngram['relative frequency']=float(ngram['frequency'])/ntot
             ngram['n']=n
-
-            if level is not 'all':
-                ngram[level]=field
-            else:
-                ngram['all']=True
+            ngram[level]=field
                 
+    return f
+
+###########################################################################################
+
+#Calculate frequencies
+def calculate_frequencies_whole_corpus(n):
+    
+    """
+        Finds the frequency of the ngram with level(all,group,disease)=field
+        """
+    
+    client = MongoClient()
+    db = client['HealthCare_Twitter_Analysis']
+    col = db.tweets
+    
+    #Defining the pipeline
+    pipeline=[
+              {'$unwind' : '$n-grams' },\
+              {'$match' : {'n-grams.rank' : n}},\
+              {'$group' : \
+              { '_id' : '$n-grams.text',\
+              'frequency' : { '$sum' : 1 }}\
+              }
+              ]
+              
+              
+    ftot=col.aggregate(pipeline, allowDiskUse=True)
+    f=ftot['result']
+        
+    if len(f)>0:
+        #Calculate total number of n-grams
+        ntot=float(sum([ngram['frequency'] for ngram in f]))
+                  
+        #Calculate relative frequencies
+                  
+        for ngram in f:
+            ngram['relative frequency']=float(ngram['frequency'])/ntot
+            ngram['n']=n
+            ngram['all']=True
+              
     return f
 
 
@@ -172,7 +205,7 @@ def insert_all_relative_frequencies():
 
     for n in range(1,5):
         #Insert the relative frequencies in the whole corpus
-        f=calculate_all_frequencies(n,level,field)
+        f=cf.calculate_frequencies_whole_corpus(n)
         cfreq.insert(f)
 
         #Insert the relative frequencies for each group
