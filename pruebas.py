@@ -9,4 +9,7 @@ start_time = time.time()
 #f=cf.calculate_all_relative_frequencies(1,'disease','Ulcers')
 #print repr(f)
 
-cf.insert_all_relative_frequencies()
+#cf.insert_all_relative_frequencies()
+
+f=cf.calculate_all_frequencies(2,'all','Blood')
+print f
