@@ -107,26 +107,29 @@ def calculate_frequencies_whole_corpus(n):
     col = db.tweets
     results=db.myresults
     
+    #Delete all results collection
+    results.drop()
+    
     mapper = Code("""function () {this["n-grams"].forEach(function(z) {emit(z.text, 1);});}""")
     
     reducer = Code("""function (key, values) {var total = 0;for (var i = 0; i < values.length; i++) 
         {total += values[i];}return total;}""")
     
     
-    col.map_reduce(mapper, reducer, "myresults", query={"n-grams.rank": n})
-    f=results.find()
+    col.map_reduce(mapper, reducer, 'myresults', query={'n-grams.rank': n})
     
     #Calculate total number of n-grams
     
-    ntot=float(sum([ngram['value'] for ngram in f]))
+    agtotal=results.aggregate([ {'$group': {'_id': 'null', 'total': {'$sum': '$value'}}} ] )
+    ntot=float(agtotal['result'][0]['total'])
     
     f=[]
-    for ngram in f:
+    for ngram in results.find():
         ngram['all']=True
         ngram['frequency']=ngram.pop('value', None)
         ngram['n']=n
         ngram['relative frequency']=float(ngram['frequency'])/ntot
-    
+        f.append(ngram)
     
     results.drop()
     return f
@@ -204,18 +207,21 @@ def insert_all_relative_frequencies():
 
     for n in range(1,5):
         #Insert the relative frequencies in the whole corpus
-        f=calculate_all_frequencies(n,level,field)
+        f=calculate_frequencies_whole_corpus(n)
         cfreq.insert(f)
+        print('Completed for the whole corpus, n='+repr(n))
 
         #Insert the relative frequencies for each group
         for g in groups:
             f=calculate_all_frequencies(n,'group',g)
             cfreq.insert(f)
+            print('Completed for the group '+repr(g)+' n='+repr(n))
 
         #Insert the relative frequencies for each disease
         for d in diseases:
             f=calculate_all_frequencies(n,'disease',d)
             cfreq.insert(f)
+            print('Completed for the group '+repr(d)+' n='+repr(n))
 
 
 
