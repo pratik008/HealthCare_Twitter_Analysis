@@ -99,37 +99,36 @@ def calculate_frequencies_whole_corpus(n):
     
     """
         Finds the frequency of the ngram with level(all,group,disease)=field
-        """
+    """
     
+    from bson.code import Code
     client = MongoClient()
     db = client['HealthCare_Twitter_Analysis']
     col = db.tweets
+    results=db.myresults
     
-    #Defining the pipeline
-    pipeline=[
-              {'$unwind' : '$n-grams' },\
-              {'$match' : {'n-grams.rank' : n}},\
-              {'$group' : \
-              { '_id' : '$n-grams.text',\
-              'frequency' : { '$sum' : 1 }}\
-              }
-              ]
-              
-              
-    ftot=col.aggregate(pipeline, allowDiskUse=True)
-    f=ftot['result']
-        
-    if len(f)>0:
-        #Calculate total number of n-grams
-        ntot=float(sum([ngram['frequency'] for ngram in f]))
-                  
-        #Calculate relative frequencies
-                  
-        for ngram in f:
-            ngram['relative frequency']=float(ngram['frequency'])/ntot
-            ngram['n']=n
-            ngram['all']=True
-              
+    mapper = Code("""function () {this["n-grams"].forEach(function(z) {emit(z.text, 1);});}""")
+    
+    reducer = Code("""function (key, values) {var total = 0;for (var i = 0; i < values.length; i++) 
+        {total += values[i];}return total;}""")
+    
+    
+    col.map_reduce(mapper, reducer, "myresults", query={"n-grams.rank": n})
+    f=results.find()
+    
+    #Calculate total number of n-grams
+    
+    ntot=float(sum([ngram['value'] for ngram in f]))
+    
+    f=[]
+    for ngram in f:
+        ngram['all']=True
+        ngram['frequency']=ngram.pop('value', None)
+        ngram['n']=n
+        ngram['relative frequency']=float(ngram['frequency'])/ntot
+    
+    
+    results.drop()
     return f
 
 
@@ -205,7 +204,7 @@ def insert_all_relative_frequencies():
 
     for n in range(1,5):
         #Insert the relative frequencies in the whole corpus
-        f=cf.calculate_frequencies_whole_corpus(n)
+        f=calculate_all_frequencies(n,level,field)
         cfreq.insert(f)
 
         #Insert the relative frequencies for each group
