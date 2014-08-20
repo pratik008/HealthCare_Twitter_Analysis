@@ -64,34 +64,41 @@ def calculate_all_frequencies(n,level,field):
     client = MongoClient()
     db = client['HealthCare_Twitter_Analysis']
     col = db.tweets
+    results=db.myresults
+    nguncol=db.ngun
+    
+    #Create a temporary collection unwinding the n-grams
+    nguncol.drop()
     
     #Defining the pipeline
-    pipeline=[{'$match' : {level:field}},\
+    pipeline=[
+              {'$match' : {level : field}},\
               {'$unwind' : '$n-grams' },\
               {'$match' : {'n-grams.rank' : n}},\
               {'$project':{'_id':0,'n-grams.text':1}},\
               {'$group' : \
               { '_id' : {'text':'$n-grams.text'},\
-              'frequency' : { '$sum' : 1 }}
+              'frequency' : { '$sum' : 1 }},\
               },\
-              {'$sort' : {'frequency' : -1}}
+              {'$sort' : {'frequency' : -1}},\
+              {'$out':'ngun'}
               ]
-              
-              
-    ftot=col.aggregate(pipeline, allowDiskUse=True)
-    f=ftot['result']
 
-    if len(f)>0:
-        #Calculate total number of n-grams
-        ntot=float(sum([ngram['frequency'] for ngram in f]))
+    col.aggregate(pipeline, allowDiskUse=True)
+  
+    #Calculate total number of n-grams
+  
+    agtotal=nguncol.aggregate([ {'$group': {'_id': 'null', 'total': {'$sum': '$frequency'}}} ] )
+    ntot=float(agtotal['result'][0]['total'])
+  
+    f=[]
+    for ngram in nguncol.find():
+        ngram[level]=field
+        ngram['n']=n
+        ngram['relative frequency']=float(ngram['frequency'])/ntot
+        f.append(ngram)
 
-        #Calculate relative frequencies
-
-        for ngram in f:
-            ngram['relative frequency']=float(ngram['frequency'])/ntot
-            ngram['n']=n
-            ngram[level]=field
-                
+    nguncol.drop()
     return f
 
 ###########################################################################################
@@ -103,7 +110,6 @@ def calculate_frequencies_whole_corpus(n):
         Finds the frequency of the ngram with level(all,group,disease)=field
     """
     
-    from bson.code import Code
     client = MongoClient()
     db = client['HealthCare_Twitter_Analysis']
     col = db.tweets
