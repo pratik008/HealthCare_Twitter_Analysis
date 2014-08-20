@@ -69,10 +69,12 @@ def calculate_all_frequencies(n,level,field):
     pipeline=[{'$match' : {level:field}},\
               {'$unwind' : '$n-grams' },\
               {'$match' : {'n-grams.rank' : n}},\
+              {'$project':{'_id':0,'n-grams.text':1}},\
               {'$group' : \
-              { '_id' : '$n-grams.text',\
-              'frequency' : { '$sum' : 1 }}\
-              }
+              { '_id' : {'text':'$n-grams.text'},\
+              'frequency' : { '$sum' : 1 }}
+              },\
+              {'$sort' : {'frequency' : -1}}
               ]
               
               
@@ -106,32 +108,39 @@ def calculate_frequencies_whole_corpus(n):
     db = client['HealthCare_Twitter_Analysis']
     col = db.tweets
     results=db.myresults
+    nguncol=db.ngun
     
-    #Delete all results collection
-    results.drop()
+    #Create a temporary collection unwinding the n-grams
+    nguncol.drop()
     
-    mapper = Code("""function () {this["n-grams"].forEach(function(z) {emit(z.text, 1);});}""")
-    
-    reducer = Code("""function (key, values) {var total = 0;for (var i = 0; i < values.length; i++) 
-        {total += values[i];}return total;}""")
-    
-    
-    col.map_reduce(mapper, reducer, 'myresults', query={'n-grams.rank': n})
+    #Defining the pipeline
+    pipeline=[
+              {'$unwind' : '$n-grams' },\
+              {'$match' : {'n-grams.rank' : n}},\
+              {'$project':{'_id':0,'n-grams.text':1}},\
+              {'$group' : \
+              { '_id' : {'text':'$n-grams.text'},\
+              'frequency' : { '$sum' : 1 }},\
+              },\
+              {'$sort' : {'frequency' : -1}},\
+              {'$out':'ngun'}
+              ]
+              
+    col.aggregate(pipeline, allowDiskUse=True)
     
     #Calculate total number of n-grams
     
-    agtotal=results.aggregate([ {'$group': {'_id': 'null', 'total': {'$sum': '$value'}}} ] )
+    agtotal=nguncol.aggregate([ {'$group': {'_id': 'null', 'total': {'$sum': '$frequency'}}} ] )
     ntot=float(agtotal['result'][0]['total'])
-    
+
     f=[]
-    for ngram in results.find():
+    for ngram in nguncol.find():
         ngram['all']=True
-        ngram['frequency']=ngram.pop('value', None)
         ngram['n']=n
         ngram['relative frequency']=float(ngram['frequency'])/ntot
         f.append(ngram)
-    
-    results.drop()
+
+    nguncol.drop()
     return f
 
 
