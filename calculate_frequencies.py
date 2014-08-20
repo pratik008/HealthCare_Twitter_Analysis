@@ -77,7 +77,7 @@ def calculate_all_frequencies(n,level,field):
               {'$match' : {'n-grams.rank' : n}},\
               {'$project':{'_id':0,'n-grams.text':1}},\
               {'$group' : \
-              { '_id' : {'text':'$n-grams.text'},\
+              { '_id' : {'text':'$n-grams.text',level:field},\
               'frequency' : { '$sum' : 1 }},\
               },\
               {'$sort' : {'frequency' : -1}},\
@@ -125,7 +125,7 @@ def calculate_frequencies_whole_corpus(n):
               {'$match' : {'n-grams.rank' : n}},\
               {'$project':{'_id':0,'n-grams.text':1}},\
               {'$group' : \
-              { '_id' : {'text':'$n-grams.text'},\
+              { '_id' : {'text':'$n-grams.text','all':'True'},\
               'frequency' : { '$sum' : 1 }},\
               },\
               {'$sort' : {'frequency' : -1}},\
@@ -141,7 +141,6 @@ def calculate_frequencies_whole_corpus(n):
 
     f=[]
     for ngram in nguncol.find():
-        ngram['all']=True
         ngram['n']=n
         ngram['relative frequency']=float(ngram['frequency'])/ntot
         f.append(ngram)
