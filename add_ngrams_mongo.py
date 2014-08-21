@@ -21,6 +21,7 @@
 from nltk.util import ngrams
 from pymongo import MongoClient
 import sys
+import re
 
 
 ###########################################################################################
@@ -51,6 +52,34 @@ def loop_database(n):
         if nt%1000==0:
             print tweet['content']+' ... '+repr(nt*100/total)+'% done...'
 
+###########################################################################################
+
+def update_all_tweets_in_database(n):
+    
+    """
+        Go through the tweets in the database
+        """
+    
+    #Database
+    client = MongoClient()
+    db = client['HealthCare_Twitter_Analysis']
+    
+    col = db.tweets
+    docs=col.find().batch_size(50)
+    #docs=col.find().batch_size(50)
+    total=docs.count()
+    print repr(total)+' documents to include n-grams'
+    nt=0
+    
+    #Iterate over all elements in the collection without n-grams field
+    for tweet in docs:
+        add_ngrams_tweet(tweet,col,n)
+        nt+=1
+        
+        #Just for let you know that it's working
+        if nt%1000==0:
+            print tweet['content']+' ... '+repr(nt*100/total)+'% done...'
+
 
 ###########################################################################################
 
@@ -61,12 +90,15 @@ def add_ngrams_tweet(tweet,col,n):
     """
 
     list_of_ngrams=[]
-    words=tweet['content'].split()
+    #Delete special characters, convert to lowercase, and split into words
+    words=re.sub('[^a-zA-Z0-9\@]', ' ', tweet['content']).lower().split()
 
     for rank in range(1,n+1):
         #Generate n-grams
         for gram in ngrams(words, rank):
-            list_of_ngrams.append({'rank':rank,'text':gram})
+            #We don't want links in our n-grams
+            if all([not w.startswith("http") for w in gram]):
+                list_of_ngrams.append({'rank':rank,'text':gram})
 
     tweet['n-grams']=list_of_ngrams
 
