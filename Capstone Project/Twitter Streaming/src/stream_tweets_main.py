@@ -23,3 +23,5 @@ if __name__ == '__main__':
         listener = CustomListener(i, DATA_DIRECTORY, MAIN_PROGRAM_FILE_PATH, logger)
         stream = CustomStream(listener, auth_manager.auth_handlers[i], tag_manager.distributed_tag_list[i])
         stream.stream(async=True)
+
+# TODO: Handle error (disconnected from internet)

@@ -26,4 +26,4 @@ class CustomListener(StreamListener):
             # Restart and disconnect
             os.system(self.main_program_file_path)
             return False  # Disconnects the stream
-        self.logger.log(status_code, self.index)
+        self.logger.log(status_code, self.index, None)

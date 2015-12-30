@@ -3,11 +3,11 @@ from utility import byteify
 from tweepy import OAuthHandler
 
 
-class AuthHandler(OAuthHandler):
+class CustomAuthHandler(OAuthHandler):
 
     def __init__(self, access_token, access_token_secret, consumer_key, consumer_secret):
-        super(AuthHandler, self).__init__(consumer_key, consumer_secret)
-        super(AuthHandler, self).set_access_token(access_token, access_token_secret)
+        super(CustomAuthHandler, self).__init__(consumer_key, consumer_secret)
+        super(CustomAuthHandler, self).set_access_token(access_token, access_token_secret)
 
 
 class AuthManager:
@@ -23,6 +23,6 @@ class AuthManager:
             credentials = byteify(json.load(credentials_file))
 
         for item in credentials:
-            auth_handler = AuthHandler(item['access_token'], item['access_token_secret'], item['consumer_key'],
-                                       item['consumer_secret'])
+            auth_handler = CustomAuthHandler(item['access_token'], item['access_token_secret'], item['consumer_key'],
+                                             item['consumer_secret'])
             self.auth_handlers.append(auth_handler)
