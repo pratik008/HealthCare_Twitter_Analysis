@@ -1,0 +1,110 @@
+Release Notes, August 2014
+
+Here is the list of ZIP codes that the US Postal Service has recently added, 
+deleted, or renamed.
+
+=====================================================================
+
+For August 2014 the US Postal Service added two new 5-digit ZIP codes, deleted 
+five existing 5-digit ZIP codes, and renamed no 5-digit ZIP code.
+
+    Added   09523  M  FPO, AE
+    Added   09808  M  DPO, AE
+
+    Deleted 06859  U  Norwalk, CT
+    Deleted 06925  U  Stamford, CT
+    Deleted 06928  U  Stamford, CT
+    Deleted 09711  M  APO, AE
+    Deleted 20051  U  Washington, DC
+
+The number of active ZIP codes is 41,747 
+
+=====================================================================
+
+For July 2014 the US Postal Service added five new 5-digit ZIP codes, deleted 
+five existing 5-digit ZIP codes, and renamed three 5-digit ZIP code.
+
+    Added   09754  M  APO, AE
+    Added   09755  M  APO, AE
+    Added   09756  M  APO, AE
+    Added   09760  M  APO, AE
+    Added   20252  U  Washington, DC
+
+    Deleted 09099  M  APO, AE
+    Deleted 09311  M  APO, AE
+    Deleted 09314  M  APO, AE
+    Deleted 09394  M  FPO, AE
+    Deleted 09798  M  APO, AE
+
+    Renamed 30092 from Norcross to Peachtree Corners GA
+    Renamed 36449 from Goodway to Uriah AL
+    Renamed 36762 from Morvin to Thomasville AL
+
+The number of active ZIP codes is 41,750
+
+=====================================================================
+
+For June 2014 the US Postal Service added two new 5-digit ZIP codes, deleted 
+seven existing 5-digit ZIP codes, and renamed one 5-digit ZIP code.
+
+    Added   09016  M  APO, AE
+    Added   56998  U  Parcel Return Service, DC
+
+    Deleted 09353  M  APO, AE
+    Deleted 09807  M  APO, AE
+    Deleted 17415  U  York, PA
+    Deleted 23520     Norfolk, VA
+    Deleted 23521     Norfolk, VA
+    Deleted 94246  U  Sacramento, CA
+    Deleted 98205     Everett, WA
+
+    Renamed 30671 from Maxey to Maxeys GA
+
+The number of active ZIP codes is 41,750
+
+=====================================================================
+
+For May 2014 the US Postal Service added four new 5-digit ZIP codes, deleted 
+one existing 5-digit ZIP code, and renamed two 5-digit ZIP codes.
+
+    Added   58803  P  Williston, ND
+    Added   96631  M  FPO, AP
+    Added   97003     Beaverton, OR
+    Added   97078     Beaverton, OR
+
+    Deleted 09301  M  DPO, AE
+
+    Renamed 96542 from APO to FPO, AP
+    Renamed 96543 from APO to FPO, AP   
+
+The number of active ZIP codes is 41,755
+
+=====================================================================
+
+For April 2014 the US Postal Service added one new 5-digit ZIP codes, deleted 
+no existing 5-digit ZIP code, and renamed one 5-digit ZIP code.
+
+    Added   34094  M  FPO, AA
+
+    Renamed 41021 from Erlanger to Hebron KY
+
+The number of active ZIP codes is 41,752
+
+=====================================================================
+
+For March 2014 the US Postal Service added two new 5-digit ZIP codes, deleted 
+four existing 5-digit ZIP codes, and renamed one 5-digit ZIP code.
+
+    Added   09712  M  FPO, AE
+    Added   09861  M  APO, AE
+
+    Deleted 09102  M  APO, AE
+    Deleted 09866  M  APO, AE
+    Deleted 92326  P  Crest Park, CA
+    Deleted 95887     Sacramento, CA
+
+    Renamed 09841 from APO to FPO AE
+
+The number of active ZIP codes is 41,751
+
+=====================================================================

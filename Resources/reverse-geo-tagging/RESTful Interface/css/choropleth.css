@@ -1,0 +1,29 @@
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+/*
+.q0-9 { fill:rgb(247,251,255); }  // indistinguishable from white
+.q1-9 { fill:rgb(222,235,247); }
+.q2-9 { fill:rgb(198,219,239); }
+.q3-9 { fill:rgb(158,202,225); }
+.q4-9 { fill:rgb(107,174,214); }
+.q5-9 { fill:rgb(66,146,198); }
+.q6-9 { fill:rgb(33,113,181); }
+.q7-9 { fill:rgb(8,81,156); }
+.q8-9 { fill:rgb(8,48,107); }    // deep blue  */
+
+.q0-9 { fill:rgb(0, 0 , 255); }  // pure blue
+.q1-9 { fill:rgb(0, 123, 255); }
+.q2-9 { fill:rgb(0, 247, 255); }
+.q3-9 { fill:rgb(0, 255, 132); }
+.q4-9 { fill:rgb(16, 255, 0); }
+.q5-9 { fill:rgb(132, 255, 0); }
+.q6-9 { fill:rgb(255, 247, 0); }
+.q7-9 { fill:rgb(255, 123, 0); }
+.q8-9 { fill:rgb(255, 0, 0); }    // pure red

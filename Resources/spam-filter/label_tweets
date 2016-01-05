@@ -1,0 +1,35 @@
+#!/usr/bin/python
+import numpy as np
+import json
+import pickle
+print 'Reading inputs...'
+labels = np.loadtxt('topic_keys_labeled.txt', usecols=[0,1], dtype='int')
+labels = dict((labels[i,1], labels[i,0]) for  i in range(labels.shape[0]))
+
+# Output
+outfile_targ = open('ids_and_labels.csv','w')
+
+docs = open('doc_topics.txt')
+
+docs.readline()
+docs.readline()
+lines = docs.readlines()
+print 'Iterating...'
+for i in range(len(lines)):
+    line = lines[i]
+    fractions = json.loads('['+','.join(line.split('txt')[1].split())+']')
+
+    # Only use as training example if label is unambiguous
+    if fractions[0] != fractions[2]:
+        id = line.split('.txt')[0].split('/tweet_')[-1]
+        topic = fractions[0]    
+        outfile_targ.write('{1},{0}\n'.format(labels[topic],id) )
+
+print 'Saving output...'
+outfile_targ.close()
+
+
+
+
+    
+

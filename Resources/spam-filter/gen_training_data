@@ -1,0 +1,36 @@
+#!/usr/bin/python
+
+import csv
+import numpy
+import time
+import numpy as np
+
+Xfile = open('X', 'w')
+Yfile = open('Y', 'w')
+features_reader = csv.reader(open('ids_and_features.csv'))
+
+labels_ids = np.loadtxt('ids_and_labels.csv', usecols=[0], dtype='str', unpack=True, delimiter=',')
+labels = np.loadtxt('ids_and_labels.csv', usecols=[1], dtype='str', unpack=True, delimiter=',')
+
+print 'Scanning feature vectors...'
+count=0
+for l in features_reader:
+    print l
+    i = (np.argwhere(l[0] == labels_ids))
+
+
+    if len(i)<1:
+        print 'Skipping missing label'
+        continue
+
+    Xfile.write(','.join(l[1:])+'\n')
+    Yfile.write(labels[i[0][0]]+'\n')
+
+Xfile.close()
+Yfile.close()
+
+
+
+
+
+

@@ -1,0 +1,897 @@
+/home/ubuntu/files/Jan to May/Blood/Tweets_BleedingDisorders.csv
+/home/ubuntu/files/Jan to May/Blood/Tweets_BloodCancer.csv
+/home/ubuntu/files/Jan to May/Blood/Tweets_Cryoglobulinemia.csv
+/home/ubuntu/files/Jan to May/Blood/Tweets_CryoGroup.csv
+/home/ubuntu/files/Jan to May/Blood/Tweets_Hemophilia.csv
+/home/ubuntu/files/Jan to May/Blood/Tweets_Leukaemia.csv
+/home/ubuntu/files/Jan to May/Blood/Tweets_MMSM.csv
+/home/ubuntu/files/Jan to May/Blood/Tweets_Myeloma.csv
+/home/ubuntu/files/Jan to May/Blood/Tweets_Sepsis.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_adcsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_ancsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_Angiosarcoma.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_BCANS.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_BCmets.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_BCSM.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_BladderCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_blcsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_BloodCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_BowelCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_BrainCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_BRCA.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_BRCA1.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_BRCA2.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_Brustkrebs.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_CancerChat.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_CancerFreeMe.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_CancerSurvivors.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_CervicalCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_Chemo.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_ChildhoodCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_ColonCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_ColonChat.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_CRCSM.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_esocsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_GynCSM.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_hncsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_hpbcsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_hsronc.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_LCSM.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_Leukaemia.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_leusm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_LiverCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_LungCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_Lymphoma.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_lymsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_LynchSyndrome.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_Lyphoma.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_mBCSM.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_MCAM.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_Melanoma.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_Mesothelioma.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_MMSM.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_Myeloma.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_NotJustOneDisease.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_OralCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_OvarianCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_OVCA.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_PanCan.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_pancsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_PCSM.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_ProstateCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_radonc.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_RectalCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_Retinoblastoma.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_scmsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_SkinCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_stcsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_TesticularCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_thmcsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_ThroatCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_thycsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_ThyroidCancer.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_tscsm.csv
+/home/ubuntu/files/Jan to May/Cancer/Tweets_XMRV.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_AFib.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_AtrialFibrillation.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_BloodClot.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_Cardiomyopathy.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_CHD.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_CHF.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_Cholesterol.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_CongestiveHeartFailure.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_CoronaryArteryDisease.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_DeepVeinThrombosis.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_DVT.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_Eclampsia.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_FMD.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_FMDaware.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_HeartDisease.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_HeartHealth.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_HighBloodPressure.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_HighCholesterol.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_HoFH.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_Hypertension.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_Lymphoedema.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_Preeclampsia.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_SCADheart.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_Thrombosis.csv
+/home/ubuntu/files/Jan to May/Cardiovasucular/Tweets_Varicose.csv
+/home/ubuntu/files/Jan to May/Congenital Anomolies/Tweets_CleftLip.csv
+/home/ubuntu/files/Jan to May/Congenital Anomolies/Tweets_CleftPalate.csv
+/home/ubuntu/files/Jan to May/Congenital Anomolies/Tweets_CowdensSyndrome.csv
+/home/ubuntu/files/Jan to May/Congenital Anomolies/Tweets_EmanuelSyndrome.csv
+/home/ubuntu/files/Jan to May/Congenital Anomolies/Tweets_LongQT.csv
+/home/ubuntu/files/Jan to May/Congenital Anomolies/Tweets_Marfan.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_BowelCancer.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_CeliacDisease.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Celiaquia.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Cholera.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Cirrhosis.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Colitis.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_ColonCancer.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_ColonChat.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_ColonIrritable.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_CRCSM.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Crohns.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_CrohnsDisease.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Diverticulitis.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_EColi.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Gallbladder.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_GERD.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Halitosis.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_HCCD.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Heartburn.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Hepatitis.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_HepB.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_HepC.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_HepPartners.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Hernia.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_IBD.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_IBS.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_LiverCancer.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_LiverDisease.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_LynchSyndrome.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_PanCan.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_RectalCancer.csv
+/home/ubuntu/files/Jan to May/Digestive/Tweets_Ulcers.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_ChildhoodObesity.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_Cushings.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_Diabesity.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_DiabetesEmpowered.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_DiabetesLA.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_Diabetics.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_Gestationaldiabetes.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_Gout.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_Hypothyroidism.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_InsightSBS.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_MultipleEndocrineNeoplasia.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_Overweight.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_T1D.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_ThyroidAwareness.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_ThyroidCancer.csv
+/home/ubuntu/files/Jan to May/Endocrine/Tweets_Triglycerides.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_Bedwetting.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_BladderCancer.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_blcsm.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_Dialysis.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_ESRD.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_Incontinence.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_KidneyCancer.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_KidneyDisease.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_KidneyStones.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_Renal.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_RenalFailure.csv
+/home/ubuntu/files/Jan to May/Excretory/Tweets_UTI.csv
+/home/ubuntu/files/Jan to May/ill Defined/Tweets_Deafness.csv
+/home/ubuntu/files/Jan to May/ill Defined/Tweets_HearingLoss.csv
+/home/ubuntu/files/Jan to May/ill Defined/Tweets_Menieres.csv
+/home/ubuntu/files/Jan to May/ill Defined/Tweets_Nocturia.csv
+/home/ubuntu/files/Jan to May/ill Defined/Tweets_Progeria.csv
+/home/ubuntu/files/Jan to May/ill Defined/Tweets_RareDisease.csv
+/home/ubuntu/files/Jan to May/ill Defined/Tweets_SIDS.csv
+/home/ubuntu/files/Jan to May/ill Defined/Tweets_XMRV.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_AIDS.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_Alergia.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_Allergies.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_Amyloidosis.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_ArtritisReumatoide.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_Autoimmune.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_FoodAllergy.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_Glint.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_HIVBC.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_HIVchat.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_IBD.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_Lupus.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_Myeloma.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_PeanutAllergy.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_PsoriaticArthritis.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_Rheum.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_RheumatoidArthritis.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_Rhinitis.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_SLE.csv
+/home/ubuntu/files/Jan to May/Immune/Tweets_Urticaria.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_AIDS.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Bronchitis.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Candidiasis.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Cholera.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Congestionnasal.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Dengue.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Flu.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Gripe.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Grippe.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_H7N9.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Hepatitis.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_HepB.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_HepC.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_HepPartners.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_HIVBC.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_HPV.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Influenza.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Leprosy.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Malaria.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_McrFluSafe.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_MdrTB.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Meningitis.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_MRSA.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Pneumonia.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Resfriado.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_STD.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_Tuberculosis.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_UTI.csv
+/home/ubuntu/files/Jan to May/Infectious Disease/Tweets_YellowFever.csv
+/home/ubuntu/files/Jan to May/Injury/Tweets_Anaphylaxis.csv
+/home/ubuntu/files/Jan to May/Injury/Tweets_BackPain.csv
+/home/ubuntu/files/Jan to May/Injury/Tweets_BrainInjury.csv
+/home/ubuntu/files/Jan to May/Injury/Tweets_Deafness.csv
+/home/ubuntu/files/Jan to May/Injury/Tweets_HearingLoss.csv
+/home/ubuntu/files/Jan to May/Injury/Tweets_HeatStroke.csv
+/home/ubuntu/files/Jan to May/Injury/Tweets_TBI.csv
+/home/ubuntu/files/Jan to May/Lymphatic/Tweets_BCANS.csv
+/home/ubuntu/files/Jan to May/Lymphatic/Tweets_BCmets.csv
+/home/ubuntu/files/Jan to May/Lymphatic/Tweets_BCSM.csv
+/home/ubuntu/files/Jan to May/Lymphatic/Tweets_BRCA.csv
+/home/ubuntu/files/Jan to May/Lymphatic/Tweets_BRCA1.csv
+/home/ubuntu/files/Jan to May/Lymphatic/Tweets_BRCA2.csv
+/home/ubuntu/files/Jan to May/Lymphatic/Tweets_Brustkrebs.csv
+/home/ubuntu/files/Jan to May/Lymphatic/Tweets_Lymphoma.csv
+/home/ubuntu/files/Jan to May/Lymphatic/Tweets_Lyphoma.csv
+/home/ubuntu/files/Jan to May/Lymphatic/Tweets_mBCSM.csv
+/home/ubuntu/files/Jan to May/Metabolic/Tweets_HunterSyndrome.csv
+/home/ubuntu/files/Jan to May/Metabolic/Tweets_MPSII.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Anaphylaxis.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Andropause.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Angiosarcoma.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_CancerChat.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_CancerSurvivors.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Chemo.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_ChildhoodCancer.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_ChronicPain.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_CysticFibrosis.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Dysautonomia.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_EhlersDanlos.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_FacialDifference.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_FacialDisfigurement.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_fragileX.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_HeatStroke.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_hncsm.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Hyperglycemia.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Inflammation.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Malaria.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Marfan.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Mesothelioma.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_MRSA.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_NCDs.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_PainSomnia.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_PediatricCancer.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_Sarcoidosis.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_STD.csv
+/home/ubuntu/files/Jan to May/Multiple/Tweets_YellowFever.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_Arthritis.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_Artritis.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_BackPain.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_Bursitis.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_CarpalTunnelSyndrome.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_dupuytrens.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_Fibromyalgia.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_HipPain.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_Myositis.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_Osteoarthritis.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_Osteoporosis.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_Sciatica.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_Spondylitis.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_TeamSpondy.csv
+/home/ubuntu/files/Jan to May/Musculoskeletal/Tweets_TennisElbow.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_ADD.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_ALS.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Alzheimer.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Alzheimers.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Arachnoiditis.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Aspergers.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Ataxia.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_BattenDisease.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_BrainCancer.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_BrainInjury.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_BrainTumor.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_BTSM.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_CaudaEquina.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Cerebral.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Chiari.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_DementiaChallengers.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_DownSyndrome.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Dysautonomia.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Dystonia.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Epilepsy.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_IIH.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_MemoryLoss.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Meningitis.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Migraine.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_MND.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_MoebiusSyndrome.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_MultScler.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Narcolepsy.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Neuropathy.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Parkinsons.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_RettSyndrome.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Seizures.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Shingles.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Stroke.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_Synesthesia.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_TBI.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_theARCchat.csv
+/home/ubuntu/files/Jan to May/Neurological/Tweets_TrigeminalNeuralgia.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_ADHD.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Alopecia.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Anorexia.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Autism.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Breastcancer.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Cancer.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Celiac.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_ChronicPain.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_CysticFibrosis.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Dementia.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Depression.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Diabetes.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Diabetic.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Dyslexia.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_EDS.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Fibromyalgia.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_HIV.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Leukemia.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_LungCancer.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_MERS.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_MultipleSclerosis.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Obesity.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_PancreaticCancer.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_Polio.csv
+/home/ubuntu/files/Jan to May/Other Files/Tweets_PTSD.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_AnorexiaNervosa.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_Anxiety.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_BDD.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_bePNDaware.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_Bipolar.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_BipolarDisorder.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_BPD.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_Bulimia.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_EatingDisorder.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_EatingDisorders.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_EndEd.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_Hypochondria.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_OCD.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_PPD.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_PPDchat.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_Schizofrenie.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_Schizophrenia.csv
+/home/ubuntu/files/Jan to May/Psych/Tweets_Trichotillomania.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_ALS.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_Amyloidosis.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_Ataxia.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_BattenDisease.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_CowdensSyndrome.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_Cryoglobulinemia.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_CryoGroup.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_Cushings.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_EmanuelSyndrome.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_FMD.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_FMDaware.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_GPFAD2013.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_HunterSyndrome.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_Marfan.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_Mastocytosis.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_Mesothelioma.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_MoebiusSyndrome.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_MPSII.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_MultipleEndocrineNeoplasia.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_Myositis.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_PulmonaryFibrosis.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_RareDisease.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_RareDiseaseDay.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_RettSyndrome.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_Sarcoidosis.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_SCADheart.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_TrigeminalNeuralgia.csv
+/home/ubuntu/files/Jan to May/Rare Diseases/Tweets_Vasculitis.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_CervicalCancer.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_Endometriosis.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_Fibroid.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_Fibroids.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_GynCSM.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_HPV.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_Infertility.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_OvarianCancer.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_OVCA.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_PCOS.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_PCSM.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_Peyronies.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_PeyroniesDisease.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_Preeclampsia.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_ProstateCancer.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_SecondaryInfertility.csv
+/home/ubuntu/files/Jan to May/Reproductive/Tweets_TesticularCancer.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Asthma.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Bronchitis.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Congestionnasal.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_COPD.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Flu.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_GPFAD2013.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Gripe.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Grippe.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Influenza.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_LCSM.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_McrFluSafe.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_McrFluSafe13.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_MdrTB.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Pneumonia.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_PulmonaryFibrosis.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Resfriado.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Rhinitis.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_SleepApnea.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_SleepDisorder.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_StockportFluFighting.csv
+/home/ubuntu/files/Jan to May/Respiratory/Tweets_Tuberculosis.csv
+/home/ubuntu/files/Jan to May/Sense Organs/Tweets_Cholesteatoma.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_ACNE.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Angioedema.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Bald.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Baldness.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Eczema.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_HairLoss.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Hives.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Leprosy.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Mastocytosis.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Melanoma.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Psoriasis.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Shingles.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_SkinCancer.csv
+/home/ubuntu/files/Jan to May/Skin/Tweets_Urticaria.csv
+/home/ubuntu/files/June/Blood/Tweets_BleedingDisorders.csv
+/home/ubuntu/files/June/Blood/Tweets_BloodCancer.csv
+/home/ubuntu/files/June/Blood/Tweets_Cryoglobulinemia.csv
+/home/ubuntu/files/June/Blood/Tweets_CryoGroup.csv
+/home/ubuntu/files/June/Blood/Tweets_HemoAM.csv
+/home/ubuntu/files/June/Blood/Tweets_Hemophilia.csv
+/home/ubuntu/files/June/Blood/Tweets_Leukaemia.csv
+/home/ubuntu/files/June/Blood/Tweets_Leukemia.csv
+/home/ubuntu/files/June/Blood/Tweets_MMSM.csv
+/home/ubuntu/files/June/Blood/Tweets_Myeloma.csv
+/home/ubuntu/files/June/Blood/Tweets_Sepsis.csv
+/home/ubuntu/files/June/Cancer/Tweets_adcsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_ancsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_Angiosarcoma.csv
+/home/ubuntu/files/June/Cancer/Tweets_BCANS.csv
+/home/ubuntu/files/June/Cancer/Tweets_BCmets.csv
+/home/ubuntu/files/June/Cancer/Tweets_BCSM.csv
+/home/ubuntu/files/June/Cancer/Tweets_BladderCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_blcsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_BloodCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_BowelCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_BrainCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_BRCA.csv
+/home/ubuntu/files/June/Cancer/Tweets_BRCA1.csv
+/home/ubuntu/files/June/Cancer/Tweets_BRCA2.csv
+/home/ubuntu/files/June/Cancer/Tweets_BreastCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_Brustkrebs.csv
+/home/ubuntu/files/June/Cancer/Tweets_CancerChat.csv
+/home/ubuntu/files/June/Cancer/Tweets_CancerFreeMe.csv
+/home/ubuntu/files/June/Cancer/Tweets_CancerSurvivors.csv
+/home/ubuntu/files/June/Cancer/Tweets_CervicalCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_Chemo.csv
+/home/ubuntu/files/June/Cancer/Tweets_ChildhoodCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_ColonCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_ColonChat.csv
+/home/ubuntu/files/June/Cancer/Tweets_CRCSM.csv
+/home/ubuntu/files/June/Cancer/Tweets_esocsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_GynCSM.csv
+/home/ubuntu/files/June/Cancer/Tweets_hncsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_hpbcsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_hsronc.csv
+/home/ubuntu/files/June/Cancer/Tweets_LCSM.csv
+/home/ubuntu/files/June/Cancer/Tweets_Leukaemia.csv
+/home/ubuntu/files/June/Cancer/Tweets_Leukemia.csv
+/home/ubuntu/files/June/Cancer/Tweets_leusm.csv
+/home/ubuntu/files/June/Cancer/Tweets_LiverCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_LungCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_Lymphoma.csv
+/home/ubuntu/files/June/Cancer/Tweets_lymsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_LynchSyndrome.csv
+/home/ubuntu/files/June/Cancer/Tweets_Lyphoma.csv
+/home/ubuntu/files/June/Cancer/Tweets_mBCSM.csv
+/home/ubuntu/files/June/Cancer/Tweets_MCAM.csv
+/home/ubuntu/files/June/Cancer/Tweets_Melanoma.csv
+/home/ubuntu/files/June/Cancer/Tweets_Mesothelioma.csv
+/home/ubuntu/files/June/Cancer/Tweets_MMSM.csv
+/home/ubuntu/files/June/Cancer/Tweets_Myeloma.csv
+/home/ubuntu/files/June/Cancer/Tweets_NotJustOneDisease.csv
+/home/ubuntu/files/June/Cancer/Tweets_OralCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_OvarianCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_OVCA.csv
+/home/ubuntu/files/June/Cancer/Tweets_PanCan.csv
+/home/ubuntu/files/June/Cancer/Tweets_PancreaticCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_pancsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_PCSM.csv
+/home/ubuntu/files/June/Cancer/Tweets_PediatricCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_ProstateCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_radonc.csv
+/home/ubuntu/files/June/Cancer/Tweets_RectalCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_Retinoblastoma.csv
+/home/ubuntu/files/June/Cancer/Tweets_scmsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_SkinCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_stcsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_TesticularCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_thmcsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_ThroatCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_thycsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_ThyroidCancer.csv
+/home/ubuntu/files/June/Cancer/Tweets_tscsm.csv
+/home/ubuntu/files/June/Cancer/Tweets_XMRV.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_AFib.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_AtrialFibrillation.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_BloodClot.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_Cardiomyopathy.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_CHD.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_CHF.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_Cholesterol.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_CongestiveHeartFailure.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_CoronaryArteryDisease.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_DeepVeinThrombosis.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_DVT.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_Eclampsia.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_FMD.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_FMDaware.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_HeartDisease.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_HeartHealth.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_HighBloodPressure.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_HighCholesterol.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_HoFH.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_Hypertension.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_Lymphoedema.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_Preeclampsia.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_SCADheart.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_Thrombosis.csv
+/home/ubuntu/files/June/Cardiovasucular/Tweets_Varicose.csv
+/home/ubuntu/files/June/Congenital Anomolies/Tweets_CleftLip.csv
+/home/ubuntu/files/June/Congenital Anomolies/Tweets_CleftPalate.csv
+/home/ubuntu/files/June/Congenital Anomolies/Tweets_CowdensSyndrome.csv
+/home/ubuntu/files/June/Congenital Anomolies/Tweets_EmanuelSyndrome.csv
+/home/ubuntu/files/June/Congenital Anomolies/Tweets_LongQT.csv
+/home/ubuntu/files/June/Congenital Anomolies/Tweets_Marfan.csv
+/home/ubuntu/files/June/Digestive/Tweets_BowelCancer.csv
+/home/ubuntu/files/June/Digestive/Tweets_Celiac.csv
+/home/ubuntu/files/June/Digestive/Tweets_CeliacDisease.csv
+/home/ubuntu/files/June/Digestive/Tweets_Celiaquia.csv
+/home/ubuntu/files/June/Digestive/Tweets_Cholera.csv
+/home/ubuntu/files/June/Digestive/Tweets_Cirrhosis.csv
+/home/ubuntu/files/June/Digestive/Tweets_Colitis.csv
+/home/ubuntu/files/June/Digestive/Tweets_ColonCancer.csv
+/home/ubuntu/files/June/Digestive/Tweets_ColonChat.csv
+/home/ubuntu/files/June/Digestive/Tweets_ColonIrritable.csv
+/home/ubuntu/files/June/Digestive/Tweets_CRCSM.csv
+/home/ubuntu/files/June/Digestive/Tweets_Crohns.csv
+/home/ubuntu/files/June/Digestive/Tweets_CrohnsDisease.csv
+/home/ubuntu/files/June/Digestive/Tweets_Diverticulitis.csv
+/home/ubuntu/files/June/Digestive/Tweets_EColi.csv
+/home/ubuntu/files/June/Digestive/Tweets_Gallbladder.csv
+/home/ubuntu/files/June/Digestive/Tweets_GERD.csv
+/home/ubuntu/files/June/Digestive/Tweets_Halitosis.csv
+/home/ubuntu/files/June/Digestive/Tweets_HCCD.csv
+/home/ubuntu/files/June/Digestive/Tweets_Heartburn.csv
+/home/ubuntu/files/June/Digestive/Tweets_Hepatitis.csv
+/home/ubuntu/files/June/Digestive/Tweets_HepB.csv
+/home/ubuntu/files/June/Digestive/Tweets_HepC.csv
+/home/ubuntu/files/June/Digestive/Tweets_HepPartners.csv
+/home/ubuntu/files/June/Digestive/Tweets_Hernia.csv
+/home/ubuntu/files/June/Digestive/Tweets_IBD.csv
+/home/ubuntu/files/June/Digestive/Tweets_IBS.csv
+/home/ubuntu/files/June/Digestive/Tweets_LiverCancer.csv
+/home/ubuntu/files/June/Digestive/Tweets_LiverDisease.csv
+/home/ubuntu/files/June/Digestive/Tweets_LynchSyndrome.csv
+/home/ubuntu/files/June/Digestive/Tweets_PanCan.csv
+/home/ubuntu/files/June/Digestive/Tweets_PancreaticCancer.csv
+/home/ubuntu/files/June/Digestive/Tweets_RectalCancer.csv
+/home/ubuntu/files/June/Digestive/Tweets_Ulcers.csv
+/home/ubuntu/files/June/Endocrine/Tweets_ChildhoodObesity.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Cushings.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Diabesity.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Diabetes.csv
+/home/ubuntu/files/June/Endocrine/Tweets_DiabetesEmpowered.csv
+/home/ubuntu/files/June/Endocrine/Tweets_DiabetesLA.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Diabetic.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Diabetics.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Gestationaldiabetes.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Gout.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Hypothyroidism.csv
+/home/ubuntu/files/June/Endocrine/Tweets_InsightSBS.csv
+/home/ubuntu/files/June/Endocrine/Tweets_MultipleEndocrineNeoplasia.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Obesity.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Overweight.csv
+/home/ubuntu/files/June/Endocrine/Tweets_T1D.csv
+/home/ubuntu/files/June/Endocrine/Tweets_ThyroidAwareness.csv
+/home/ubuntu/files/June/Endocrine/Tweets_ThyroidCancer.csv
+/home/ubuntu/files/June/Endocrine/Tweets_Triglycerides.csv
+/home/ubuntu/files/June/Error Files/Tweets_Alopecia.csv
+/home/ubuntu/files/June/Error Files/Tweets_Anaphylaxis.csv
+/home/ubuntu/files/June/Error Files/Tweets_ArtritisReumatoide.csv
+/home/ubuntu/files/June/Error Files/Tweets_Autoimmune.csv
+/home/ubuntu/files/June/Error Files/Tweets_heatstroke.csv
+/home/ubuntu/files/June/Excretory/Tweets_Bedwetting.csv
+/home/ubuntu/files/June/Excretory/Tweets_BladderCancer.csv
+/home/ubuntu/files/June/Excretory/Tweets_blcsm.csv
+/home/ubuntu/files/June/Excretory/Tweets_Dialysis.csv
+/home/ubuntu/files/June/Excretory/Tweets_ESRD.csv
+/home/ubuntu/files/June/Excretory/Tweets_Incontinence.csv
+/home/ubuntu/files/June/Excretory/Tweets_KidneyCancer.csv
+/home/ubuntu/files/June/Excretory/Tweets_KidneyDisease.csv
+/home/ubuntu/files/June/Excretory/Tweets_KidneyStones.csv
+/home/ubuntu/files/June/Excretory/Tweets_Renal.csv
+/home/ubuntu/files/June/Excretory/Tweets_RenalFailure.csv
+/home/ubuntu/files/June/Excretory/Tweets_UTI.csv
+/home/ubuntu/files/June/ill Defined/Tweets_Deafness.csv
+/home/ubuntu/files/June/ill Defined/Tweets_Dyslexia.csv
+/home/ubuntu/files/June/ill Defined/Tweets_HearingLoss.csv
+/home/ubuntu/files/June/ill Defined/Tweets_Menieres.csv
+/home/ubuntu/files/June/ill Defined/Tweets_Nocturia.csv
+/home/ubuntu/files/June/ill Defined/Tweets_Progeria.csv
+/home/ubuntu/files/June/ill Defined/Tweets_RareDisease.csv
+/home/ubuntu/files/June/ill Defined/Tweets_SIDS.csv
+/home/ubuntu/files/June/ill Defined/Tweets_XMRV.csv
+/home/ubuntu/files/June/Immune/Tweets_AIDS.csv
+/home/ubuntu/files/June/Immune/Tweets_Alergia.csv
+/home/ubuntu/files/June/Immune/Tweets_Allergies.csv
+/home/ubuntu/files/June/Immune/Tweets_Amyloidosis.csv
+/home/ubuntu/files/June/Immune/Tweets_ArtritisReumatoide.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_AIDS.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Bronchitis.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Candidiasis.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Cholera.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Congestionnasal.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Dengue.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Flu.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Gripe.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Grippe.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_H7N9.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Hepatitis.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_HepB.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_HepC.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_HepPartners.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_HIV.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_HIVBC.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_HPV.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Influenza.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Leprosy.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Malaria.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_McrFluSafe.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_MdrTB.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Meningitis.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_MERS.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_MRSA.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Pneumonia.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Polio.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Resfriado.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_STD.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_Tuberculosis.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_UTI.csv
+/home/ubuntu/files/June/Infectious Disease/Tweets_YellowFever.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_BCANS.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_BCmets.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_BCSM.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_BRCA.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_BRCA1.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_BRCA2.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_BreastCancer.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_Brustkrebs.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_Lymphoma.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_Lyphoma.csv
+/home/ubuntu/files/June/Lymphatic/Tweets_mBCSM.csv
+/home/ubuntu/files/June/Metabolic/Tweets_HunterSyndrome.csv
+/home/ubuntu/files/June/Metabolic/Tweets_MPSII.csv
+/home/ubuntu/files/June/Multiple/Tweets_Anaphylaxis.csv
+/home/ubuntu/files/June/Multiple/Tweets_Andropause.csv
+/home/ubuntu/files/June/Multiple/Tweets_Angiosarcoma.csv
+/home/ubuntu/files/June/Multiple/Tweets_CancerChat.csv
+/home/ubuntu/files/June/Multiple/Tweets_CancerSurvivors.csv
+/home/ubuntu/files/June/Multiple/Tweets_Chemo.csv
+/home/ubuntu/files/June/Multiple/Tweets_ChildhoodCancer.csv
+/home/ubuntu/files/June/Multiple/Tweets_ChronicPain.csv
+/home/ubuntu/files/June/Multiple/Tweets_CysticFibrosis.csv
+/home/ubuntu/files/June/Multiple/Tweets_Dysautonomia.csv
+/home/ubuntu/files/June/Multiple/Tweets_EDS.csv
+/home/ubuntu/files/June/Multiple/Tweets_EhlersDanlos.csv
+/home/ubuntu/files/June/Multiple/Tweets_FacialDifference.csv
+/home/ubuntu/files/June/Multiple/Tweets_FacialDisfigurement.csv
+/home/ubuntu/files/June/Multiple/Tweets_fragileX.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_Arthritis.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_Artritis.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_BackPain.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_Bursitis.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_CarpalTunnelSyndrome.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_dupuytrens.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_Fibromyalgia.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_HipPain.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_Myositis.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_Osteoarthritis.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_Osteoporosis.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_Sciatica.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_Spondylitis.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_TeamSpondy.csv
+/home/ubuntu/files/June/Musculoskeletal/Tweets_TennisElbow.csv
+/home/ubuntu/files/June/Neurological/Tweets_ADD.csv
+/home/ubuntu/files/June/Neurological/Tweets_ADHD.csv
+/home/ubuntu/files/June/Neurological/Tweets_ALS.csv
+/home/ubuntu/files/June/Neurological/Tweets_Alzheimer.csv
+/home/ubuntu/files/June/Neurological/Tweets_Alzheimers.csv
+/home/ubuntu/files/June/Neurological/Tweets_Arachnoiditis.csv
+/home/ubuntu/files/June/Neurological/Tweets_Aspergers.csv
+/home/ubuntu/files/June/Neurological/Tweets_Ataxia.csv
+/home/ubuntu/files/June/Neurological/Tweets_Autism.csv
+/home/ubuntu/files/June/Neurological/Tweets_BattenDisease.csv
+/home/ubuntu/files/June/Neurological/Tweets_BrainCancer.csv
+/home/ubuntu/files/June/Neurological/Tweets_BrainInjury.csv
+/home/ubuntu/files/June/Neurological/Tweets_BrainTumor.csv
+/home/ubuntu/files/June/Neurological/Tweets_BTSM.csv
+/home/ubuntu/files/June/Neurological/Tweets_CaudaEquina.csv
+/home/ubuntu/files/June/Neurological/Tweets_Cerebral.csv
+/home/ubuntu/files/June/Neurological/Tweets_Chiari.csv
+/home/ubuntu/files/June/Neurological/Tweets_Dementia.csv
+/home/ubuntu/files/June/Neurological/Tweets_DementiaChallengers.csv
+/home/ubuntu/files/June/Neurological/Tweets_DownSyndrome.csv
+/home/ubuntu/files/June/Neurological/Tweets_Dysautonomia.csv
+/home/ubuntu/files/June/Neurological/Tweets_Dystonia.csv
+/home/ubuntu/files/June/Neurological/Tweets_Epilepsy.csv
+/home/ubuntu/files/June/Neurological/Tweets_IIH.csv
+/home/ubuntu/files/June/Neurological/Tweets_MemoryLoss.csv
+/home/ubuntu/files/June/Neurological/Tweets_Meningitis.csv
+/home/ubuntu/files/June/Neurological/Tweets_Migraine.csv
+/home/ubuntu/files/June/Neurological/Tweets_MND.csv
+/home/ubuntu/files/June/Neurological/Tweets_MoebiusSyndrome.csv
+/home/ubuntu/files/June/Neurological/Tweets_MultipleSclerosis.csv
+/home/ubuntu/files/June/Neurological/Tweets_MultScler.csv
+/home/ubuntu/files/June/Neurological/Tweets_Narcolepsy.csv
+/home/ubuntu/files/June/Neurological/Tweets_Neuropathy.csv
+/home/ubuntu/files/June/Neurological/Tweets_Parkinsons.csv
+/home/ubuntu/files/June/Neurological/Tweets_Polio.csv
+/home/ubuntu/files/June/Neurological/Tweets_RettSyndrome.csv
+/home/ubuntu/files/June/Neurological/Tweets_Seizures.csv
+/home/ubuntu/files/June/Neurological/Tweets_Shingles.csv
+/home/ubuntu/files/June/Neurological/Tweets_Stroke.csv
+/home/ubuntu/files/June/Neurological/Tweets_Synesthesia.csv
+/home/ubuntu/files/June/Neurological/Tweets_TBI.csv
+/home/ubuntu/files/June/Neurological/Tweets_theARCchat.csv
+/home/ubuntu/files/June/Neurological/Tweets_TrigeminalNeuralgia.csv
+/home/ubuntu/files/June/Other Files/Tweets_Angioedema.csv
+/home/ubuntu/files/June/Other Files/Tweets_BackPain.csv
+/home/ubuntu/files/June/Other Files/Tweets_Bald.csv
+/home/ubuntu/files/June/Other Files/Tweets_Baldness.csv
+/home/ubuntu/files/June/Other Files/Tweets_BrainInjury.csv
+/home/ubuntu/files/June/Other Files/Tweets_Deafness.csv
+/home/ubuntu/files/June/Other Files/Tweets_Eczema.csv
+/home/ubuntu/files/June/Other Files/Tweets_FoodAllergy.csv
+/home/ubuntu/files/June/Other Files/Tweets_Glint.csv
+/home/ubuntu/files/June/Other Files/Tweets_HairLoss.csv
+/home/ubuntu/files/June/Other Files/Tweets_HearingLoss.csv
+/home/ubuntu/files/June/Other Files/Tweets_HIV.csv
+/home/ubuntu/files/June/Other Files/Tweets_HIVBC.csv
+/home/ubuntu/files/June/Other Files/Tweets_HIVchat.csv
+/home/ubuntu/files/June/Other Files/Tweets_Hives.csv
+/home/ubuntu/files/June/Other Files/Tweets_hncsm.csv
+/home/ubuntu/files/June/Other Files/Tweets_Hyperglycemia.csv
+/home/ubuntu/files/June/Other Files/Tweets_IBD.csv
+/home/ubuntu/files/June/Other Files/Tweets_Inflammation.csv
+/home/ubuntu/files/June/Other Files/Tweets_Leprosy.csv
+/home/ubuntu/files/June/Other Files/Tweets_Lupus.csv
+/home/ubuntu/files/June/Other Files/Tweets_Malaria.csv
+/home/ubuntu/files/June/Other Files/Tweets_Marfan.csv
+/home/ubuntu/files/June/Other Files/Tweets_Mastocytosis.csv
+/home/ubuntu/files/June/Other Files/Tweets_Melanoma.csv
+/home/ubuntu/files/June/Other Files/Tweets_Mesothelioma.csv
+/home/ubuntu/files/June/Other Files/Tweets_MRSA.csv
+/home/ubuntu/files/June/Other Files/Tweets_Myeloma.csv
+/home/ubuntu/files/June/Other Files/Tweets_NCDs.csv
+/home/ubuntu/files/June/Other Files/Tweets_PainSomnia.csv
+/home/ubuntu/files/June/Other Files/Tweets_PeanutAllergy.csv
+/home/ubuntu/files/June/Other Files/Tweets_PediatricCancer.csv
+/home/ubuntu/files/June/Other Files/Tweets_Psoriasis.csv
+/home/ubuntu/files/June/Other Files/Tweets_PsoriaticArthritis.csv
+/home/ubuntu/files/June/Other Files/Tweets_Rheum.csv
+/home/ubuntu/files/June/Other Files/Tweets_RheumatoidArthritis.csv
+/home/ubuntu/files/June/Other Files/Tweets_Rhinitis.csv
+/home/ubuntu/files/June/Other Files/Tweets_Sarcoidosis.csv
+/home/ubuntu/files/June/Other Files/Tweets_Shingles.csv
+/home/ubuntu/files/June/Other Files/Tweets_SkinCancer.csv
+/home/ubuntu/files/June/Other Files/Tweets_SLE.csv
+/home/ubuntu/files/June/Other Files/Tweets_STD.csv
+/home/ubuntu/files/June/Other Files/Tweets_TBI.csv
+/home/ubuntu/files/June/Other Files/Tweets_Urticaria.csv
+/home/ubuntu/files/June/Other Files/Tweets_YellowFever.csv
+/home/ubuntu/files/June/Psych/Tweets_Anorexia.csv
+/home/ubuntu/files/June/Psych/Tweets_AnorexiaNervosa.csv
+/home/ubuntu/files/June/Psych/Tweets_Anxiety.csv
+/home/ubuntu/files/June/Psych/Tweets_BDD.csv
+/home/ubuntu/files/June/Psych/Tweets_bePNDaware.csv
+/home/ubuntu/files/June/Psych/Tweets_Bipolar.csv
+/home/ubuntu/files/June/Psych/Tweets_BipolarDisorder.csv
+/home/ubuntu/files/June/Psych/Tweets_BPD.csv
+/home/ubuntu/files/June/Psych/Tweets_Bulimia.csv
+/home/ubuntu/files/June/Psych/Tweets_Depression.csv
+/home/ubuntu/files/June/Psych/Tweets_EatingDisorder.csv
+/home/ubuntu/files/June/Psych/Tweets_EatingDisorders.csv
+/home/ubuntu/files/June/Psych/Tweets_EndEd.csv
+/home/ubuntu/files/June/Psych/Tweets_Hypochondria.csv
+/home/ubuntu/files/June/Psych/Tweets_OCD.csv
+/home/ubuntu/files/June/Psych/Tweets_PPD.csv
+/home/ubuntu/files/June/Psych/Tweets_PPDchat.csv
+/home/ubuntu/files/June/Psych/Tweets_PTSD.csv
+/home/ubuntu/files/June/Psych/Tweets_Schizofrenie.csv
+/home/ubuntu/files/June/Psych/Tweets_Schizophrenia.csv
+/home/ubuntu/files/June/Psych/Tweets_Trichotillomania.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_ALS.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_Amyloidosis.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_Ataxia.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_BattenDisease.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_CowdensSyndrome.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_Cryoglobulinemia.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_CryoGroup.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_Cushings.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_EmanuelSyndrome.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_FMD.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_FMDaware.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_GPFAD2013.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_HunterSyndrome.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_Marfan.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_Mastocytosis.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_MERS.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_Mesothelioma.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_MoebiusSyndrome.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_MPSII.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_MultipleEndocrineNeoplasia.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_Myositis.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_PulmonaryFibrosis.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_RareDisease.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_RareDiseaseDay.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_RettSyndrome.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_Sarcoidosis.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_SCADheart.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_TrigeminalNeuralgia.csv
+/home/ubuntu/files/June/Rare Diseases/Tweets_Vasculitis.csv
+/home/ubuntu/files/June/Reproductive/Tweets_CervicalCancer.csv
+/home/ubuntu/files/June/Reproductive/Tweets_Endometriosis.csv
+/home/ubuntu/files/June/Reproductive/Tweets_Fibroid.csv
+/home/ubuntu/files/June/Reproductive/Tweets_Fibroids.csv
+/home/ubuntu/files/June/Reproductive/Tweets_GynCSM.csv
+/home/ubuntu/files/June/Reproductive/Tweets_HPV.csv
+/home/ubuntu/files/June/Reproductive/Tweets_Infertility.csv
+/home/ubuntu/files/June/Reproductive/Tweets_OvarianCancer.csv
+/home/ubuntu/files/June/Reproductive/Tweets_OVCA.csv
+/home/ubuntu/files/June/Reproductive/Tweets_PCOS.csv
+/home/ubuntu/files/June/Reproductive/Tweets_PCSM.csv
+/home/ubuntu/files/June/Reproductive/Tweets_Peyronies.csv
+/home/ubuntu/files/June/Reproductive/Tweets_PeyroniesDisease.csv
+/home/ubuntu/files/June/Reproductive/Tweets_Preeclampsia.csv
+/home/ubuntu/files/June/Reproductive/Tweets_ProstateCancer.csv
+/home/ubuntu/files/June/Reproductive/Tweets_SecondaryInfertility.csv
+/home/ubuntu/files/June/Reproductive/Tweets_TesticularCancer.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Asthma.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Bronchitis.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Congestionnasal.csv
+/home/ubuntu/files/June/Respiratory/Tweets_COPD.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Flu.csv
+/home/ubuntu/files/June/Respiratory/Tweets_GPFAD2013.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Gripe.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Grippe.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Influenza.csv
+/home/ubuntu/files/June/Respiratory/Tweets_LCSM.csv
+/home/ubuntu/files/June/Respiratory/Tweets_LungCancer.csv
+/home/ubuntu/files/June/Respiratory/Tweets_McrFluSafe.csv
+/home/ubuntu/files/June/Respiratory/Tweets_McrFluSafe13.csv
+/home/ubuntu/files/June/Respiratory/Tweets_MdrTB.csv
+/home/ubuntu/files/June/Respiratory/Tweets_MERS.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Pneumonia.csv
+/home/ubuntu/files/June/Respiratory/Tweets_PulmonaryFibrosis.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Resfriado.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Rhinitis.csv
+/home/ubuntu/files/June/Respiratory/Tweets_SleepApnea.csv
+/home/ubuntu/files/June/Respiratory/Tweets_SleepDisorder.csv
+/home/ubuntu/files/June/Respiratory/Tweets_StockportFluFighting.csv
+/home/ubuntu/files/June/Respiratory/Tweets_Tuberculosis.csv
+/home/ubuntu/files/June/Sense Organs/Tweets_Cholesteatoma.csv
+/home/ubuntu/files/June/Sense Organs/Tweets_Cholesteatoma_full.csv
+/home/ubuntu/files/June/Skin/Tweets_ACNE.csv

@@ -1,0 +1,65 @@
+#!/usr/bin/python
+import sys
+import json
+import codecs
+import re
+import os
+import time
+
+
+
+
+# Outputs
+# -------
+output_dir = 'tweet_text'
+output_big_file = 'all_tweets.txt'
+
+
+# Hard-coded text-parsing properties
+# ----------------------------------
+allowed_chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ '
+shortword = re.compile(r'\W*\b\w{1,3}\b')
+
+
+
+
+
+
+
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+bigflattext = open(output_big_file,'w')
+
+
+
+
+def extract_tweets(file_name):
+
+
+    count = 0
+    with codecs.open(file_name,encoding="utf-8") as f1:
+        for line in f1:            
+            if float(count)/10000. == count/10000: print count
+
+            try: 
+                data = json.loads(line)
+	    except ValueError:
+                print 'Bad JSON record, skipping...', count
+		continue
+
+	    result = 'tweet_text/tweet_' + str(data['id']) + '.txt'
+	    out = shortword.sub('', data['text'].encode('ascii','ignore'))
+	    json.dump(out, open(result, 'w'))
+            bigflattext.write(str(data['id']) + ' '*5 + out + '\n' )
+	    count = count + 1
+
+
+    bigflattext.close()
+    return count
+
+
+if __name__ == '__main__':
+    t0 = time.time()
+    count = extract_tweets(sys.argv[1])
+    print 'Finished. Took {0:4.1f} minutes.'.format((time.time()-t0)/60.)
+    print '{0} tweets dumped.'.format(count)

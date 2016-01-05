@@ -1,0 +1,496 @@
+Raw Data,Sub-Group,Hashtags,File Name
+#ACNE,Skin,ACNE,Tweets_ACNE.csv
+#adcsm,Cancer,adcsm,Tweets_adcsm.csv
+#ADD,Neurological,ADD,Tweets_ADD.csv
+#ADHD,Neurological,ADHD,Tweets_ADHD.csv
+#AFib,Cardiovascular,AFib,Tweets_AFib.csv
+#AIDS,Immune,AIDS,Tweets_AIDS.csv
+#AIDS,Infectious Disease,AIDS,Tweets_AIDS.csv
+#Alergia,Immune,Alergia,Tweets_Alergia.csv
+#Allergies,Immune,Allergies,Tweets_Allergies.csv
+#Alopecia,Skin,Alopecia,Tweets_Alopecia.csv
+#ALS,Neurological,ALS,Tweets_ALS.csv
+#ALS,Rare Diseases,ALS,Tweets_ALS.csv
+#Alzheimer,Neurological,Alzheimer,Tweets_Alzheimer.csv
+#Alzheimers,Neurological,Alzheimers,Tweets_Alzheimers.csv
+#Amyloidosis,Immune,Amyloidosis,Tweets_Amyloidosis.csv
+#Amyloidosis,Rare Diseases,Amyloidosis,Tweets_Amyloidosis.csv
+#Anaphylaxis,Multiple,Anaphylaxis,Tweets_Anaphylaxis.csv
+#Anaphylaxis,Injury,Anaphylaxis,Tweets_Anaphylaxis.csv
+#ancsm,Cancer,ancsm,Tweets_ancsm.csv
+#Andropause,Multiple,Andropause,Tweets_Andropause.csv
+#Angioedema,Skin,Angioedema,Tweets_Angioedema.csv
+#Angiosarcoma,Multiple,Angiosarcoma,Tweets_Angiosarcoma.csv
+#Angiosarcoma,Cancer,Angiosarcoma,Tweets_Angiosarcoma.csv
+#Anorexia,Psych,Anorexia,Tweets_Anorexia.csv
+#AnorexiaNervosa,Psych,AnorexiaNervosa,Tweets_AnorexiaNervosa.csv
+#Anxiety,Psych,Anxiety,Tweets_Anxiety.csv
+#Arachnoiditis,Neurological,Arachnoiditis,Tweets_Arachnoiditis.csv
+#Arthritis,Musculoskeletal,Arthritis,Tweets_Arthritis.csv
+#Artritis,Musculoskeletal,Artritis,Tweets_Artritis.csv
+#ArtritisReumatoide,Immune,ArtritisReumatoide,Tweets_ArtritisReumatoide.csv
+#Aspergers,Neurological,Aspergers,Tweets_Aspergers.csv
+#Asthma,Respiratory,Asthma,Tweets_Asthma.csv
+#Ataxia,Neurological,Ataxia,Tweets_Ataxia.csv
+#Ataxia,Rare Diseases,Ataxia,Tweets_Ataxia.csv
+#AtrialFibrillation,Cardiovascular,AtrialFibrillation,Tweets_AtrialFibrillation.csv
+#Autism,Neurological,Autism,Tweets_Autism.csv
+#Autoimmune,Immune,Autoimmune,Tweets_Autoimmune.csv
+#BackPain,Musculoskeletal,BackPain,Tweets_BackPain.csv
+#BackPain,Injury,BackPain,Tweets_BackPain.csv
+#Bald,Skin,Bald,Tweets_Bald.csv
+#Baldness,Skin,Baldness,Tweets_Baldness.csv
+#BattenDisease,Neurological,BattenDisease,Tweets_BattenDisease.csv
+#BattenDisease,Rare Diseases,BattenDisease,Tweets_BattenDisease.csv
+#BCANS,Lymphatic,BCANS,Tweets_BCANS.csv
+#BCANS,Cancer,BCANS,Tweets_BCANS.csv
+#BCmets,Lymphatic,BCmets,Tweets_BCmets.csv
+#BCmets,Cancer,BCmets,Tweets_BCmets.csv
+#BCSM,Lymphatic,BCSM,Tweets_BCSM.csv
+#BCSM,Cancer,BCSM,Tweets_BCSM.csv
+#BDD,Psych,BDD,Tweets_BDD.csv
+#Bedwetting,Excretory,Bedwetting,Tweets_Bedwetting.csv
+#bePNDaware,Psych,bePNDaware,Tweets_bePNDaware.csv
+#Bipolar,Psych,Bipolar,Tweets_Bipolar.csv
+#BipolarDisorder,Psych,BipolarDisorder,Tweets_BipolarDisorder.csv
+#BladderCancer,Excretory,BladderCancer,Tweets_BladderCancer.csv
+#BladderCancer,Cancer,BladderCancer,Tweets_BladderCancer.csv
+#blcsm,Excretory,blcsm,Tweets_blcsm.csv
+#blcsm,Cancer,blcsm,Tweets_blcsm.csv
+#BleedingDisorders,Blood,BleedingDisorders,Tweets_BleedingDisorders.csv
+#BloodCancer,Blood,BloodCancer,Tweets_BloodCancer.csv
+#BloodCancer,Cancer,BloodCancer,Tweets_BloodCancer.csv
+#BloodClot,Cardiovascular,BloodClot,Tweets_BloodClot.csv
+#BowelCancer,Digestive,BowelCancer,Tweets_BowelCancer.csv
+#BowelCancer,Cancer,BowelCancer,Tweets_BowelCancer.csv
+#BPD,Psych,BPD,Tweets_BPD.csv
+#BrainCancer,Neurological,BrainCancer,Tweets_BrainCancer.csv
+#BrainCancer,Cancer,BrainCancer,Tweets_BrainCancer.csv
+#BrainInjury,Neurological,BrainInjury,Tweets_BrainInjury.csv
+#BrainInjury,Injury,BrainInjury,Tweets_BrainInjury.csv
+#BrainTumor,Neurological,BrainTumor,Tweets_BrainTumor.csv
+#BRCA,Lymphatic,BRCA,Tweets_BRCA.csv
+#BRCA,Cancer,BRCA,Tweets_BRCA.csv
+#BRCA1,Lymphatic,BRCA1,Tweets_BRCA1.csv
+#BRCA1,Cancer,BRCA1,Tweets_BRCA1.csv
+#BRCA2,Lymphatic,BRCA2,Tweets_BRCA2.csv
+#BRCA2,Cancer,BRCA2,Tweets_BRCA2.csv
+#BreastCancer,Lymphatic,BreastCancer,Tweets_BreastCancer.csv
+#BreastCancer,Cancer,BreastCancer,Tweets_BreastCancer.csv
+#Bronchitis,Respiratory,Bronchitis,Tweets_Bronchitis.csv
+#Bronchitis,Infectious Disease,Bronchitis,Tweets_Bronchitis.csv
+#Brustkrebs,Lymphatic,Brustkrebs,Tweets_Brustkrebs.csv
+#Brustkrebs,Cancer,Brustkrebs,Tweets_Brustkrebs.csv
+#BTSM,Neurological,BTSM,Tweets_BTSM.csv
+#Bulimia,Psych,Bulimia,Tweets_Bulimia.csv
+#Bursitis,Musculoskeletal,Bursitis,Tweets_Bursitis.csv
+#CancerChat,Multiple,CancerChat,Tweets_CancerChat.csv
+#CancerChat,Cancer,CancerChat,Tweets_CancerChat.csv
+#CancerFreeMe,Cancer,CancerFreeMe,Tweets_CancerFreeMe.csv
+#CancerSurvivors,Multiple,CancerSurvivors,Tweets_CancerSurvivors.csv
+#CancerSurvivors,Cancer,CancerSurvivors,Tweets_CancerSurvivors.csv
+#Candidiasis,Infectious Disease,Candidiasis,Tweets_Candidiasis.csv
+#Cardiomyopathy,Cardiovascular,Cardiomyopathy,Tweets_Cardiomyopathy.csv
+#CarpalTunnelSyndrome,Musculoskeletal,CarpalTunnelSyndrome,Tweets_CarpalTunnelSyndrome.csv
+#CaudaEquina,Neurological,CaudaEquina,Tweets_CaudaEquina.csv
+#Celiac,Digestive,Celiac,Tweets_Celiac.csv
+#CeliacDisease,Digestive,CeliacDisease,Tweets_CeliacDisease.csv
+#Celiaquia,Digestive,Celiaquia,Tweets_Celiaquia.csv
+#Cerebral,Neurological,Cerebral,Tweets_Cerebral.csv
+#CervicalCancer,Reproductive,CervicalCancer,Tweets_CervicalCancer.csv
+#CervicalCancer,Cancer,CervicalCancer,Tweets_CervicalCancer.csv
+#CHD,Cardiovascular,CHD,Tweets_CHD.csv
+#Chemo,Multiple,Chemo,Tweets_Chemo.csv
+#Chemo,Cancer,Chemo,Tweets_Chemo.csv
+#CHF,Cardiovascular,CHF,Tweets_CHF.csv
+#Chiari,Neurological,Chiari,Tweets_Chiari.csv
+#ChildhoodCancer,Multiple,ChildhoodCancer,Tweets_ChildhoodCancer.csv
+#ChildhoodCancer,Cancer,ChildhoodCancer,Tweets_ChildhoodCancer.csv
+#ChildhoodObesity,Endocrine,ChildhoodObesity,Tweets_ChildhoodObesity.csv
+#Cholera,Digestive,Cholera,Tweets_Cholera.csv
+#Cholera,Infectious Disease,Cholera,Tweets_Cholera.csv
+#Cholesteatoma,Sense Organs,Cholesteatoma,Tweets_Cholesteatoma.csv
+#Cholesterol,Cardiovascular,Cholesterol,Tweets_Cholesterol.csv
+#ChronicPain,Multiple,ChronicPain,Tweets_ChronicPain.csv
+#Cirrhosis,Digestive,Cirrhosis,Tweets_Cirrhosis.csv
+#CleftLip,Congenital Anomolies,CleftLip,Tweets_CleftLip.csv
+#CleftPalate,Congenital Anomolies,CleftPalate,Tweets_CleftPalate.csv
+#Colitis,Digestive,Colitis,Tweets_Colitis.csv
+#ColonCancer,Digestive,ColonCancer,Tweets_ColonCancer.csv
+#ColonCancer,Cancer,ColonCancer,Tweets_ColonCancer.csv
+#ColonChat,Digestive,ColonChat,Tweets_ColonChat.csv
+#ColonChat,Cancer,ColonChat,Tweets_ColonChat.csv
+#ColonIrritable,Digestive,ColonIrritable,Tweets_ColonIrritable.csv
+#Congestionnasal,Respiratory,Congestionnasal,Tweets_Congestionnasal.csv
+#Congestionnasal,Infectious Disease,Congestionnasal,Tweets_Congestionnasal.csv
+#CongestiveHeartFailure,Cardiovascular,CongestiveHeartFailure,Tweets_CongestiveHeartFailure.csv
+#COPD,Respiratory,COPD,Tweets_COPD.csv
+#CoronaryArteryDisease,Cardiovascular,CoronaryArteryDisease,Tweets_CoronaryArteryDisease.csv
+#CowdensSyndrome,Congenital Anomolies,CowdensSyndrome,Tweets_CowdensSyndrome.csv
+#CowdensSyndrome,Rare Diseases,CowdensSyndrome,Tweets_CowdensSyndrome.csv
+#CRCSM,Digestive,CRCSM,Tweets_CRCSM.csv
+#CRCSM,Cancer,CRCSM,Tweets_CRCSM.csv
+#Crohns,Digestive,Crohns,Tweets_Crohns.csv
+#CrohnsDisease,Digestive,CrohnsDisease,Tweets_CrohnsDisease.csv
+#Cryoglobulinemia,Blood,Cryoglobulinemia,Tweets_Cryoglobulinemia.csv
+#Cryoglobulinemia,Rare Diseases,Cryoglobulinemia,Tweets_Cryoglobulinemia.csv
+#CryoGroup,Blood,CryoGroup,Tweets_CryoGroup.csv
+#CryoGroup,Rare Diseases,CryoGroup,Tweets_CryoGroup.csv
+#Cushings,Endocrine,Cushings,Tweets_Cushings.csv
+#Cushings,Rare Diseases,Cushings,Tweets_Cushings.csv
+#CysticFibrosis,Multiple,CysticFibrosis,Tweets_CysticFibrosis.csv
+#Deafness,Ill Defined,Deafness,Tweets_Deafness.csv
+#Deafness,Injury,Deafness,Tweets_Deafness.csv
+#DeepVeinThrombosis,Cardiovascular,DeepVeinThrombosis,Tweets_DeepVeinThrombosis.csv
+#Dementia,Neurological,Dementia,Tweets_Dementia.csv
+#DementiaChallengers,Neurological,DementiaChallengers,Tweets_DementiaChallengers.csv
+#Dengue,Infectious Disease,Dengue,Tweets_Dengue.csv
+#Depression,Psych,Depression,Tweets_Depression.csv
+#Diabesity,Endocrine,Diabesity,Tweets_Diabesity.csv
+#Diabetes,Endocrine,Diabetes,Tweets_Diabetes.csv
+#DiabetesEmpowered,Endocrine,DiabetesEmpowered,Tweets_DiabetesEmpowered.csv
+#DiabetesLA,Endocrine,DiabetesLA,Tweets_DiabetesLA.csv
+#Diabetic,Endocrine,Diabetic,Tweets_Diabetic.csv
+#Diabetics,Endocrine,Diabetics,Tweets_Diabetics.csv
+#Dialysis,Excretory,Dialysis,Tweets_Dialysis.csv
+#Diverticulitis,Digestive,Diverticulitis,Tweets_Diverticulitis.csv
+#DownSyndrome,Neurological,DownSyndrome,Tweets_DownSyndrome.csv
+#dupuytrens,Musculoskeletal,dupuytrens,Tweets_dupuytrens.csv
+#DVT,Cardiovascular,DVT,Tweets_DVT.csv
+#Dysautonomia,Multiple,Dysautonomia,Tweets_Dysautonomia.csv
+#Dysautonomia,Neurological,Dysautonomia,Tweets_Dysautonomia.csv
+#Dyslexia,Ill Defined,Dyslexia,Tweets_Dyslexia.csv
+#Dystonia,Neurological,Dystonia,Tweets_Dystonia.csv
+#EatingDisorder,Psych,EatingDisorder,Tweets_EatingDisorder.csv
+#EatingDisorders,Psych,EatingDisorders,Tweets_EatingDisorders.csv
+#Eclampsia,Cardiovascular,Eclampsia,Tweets_Eclampsia.csv
+#EColi,Digestive,EColi,Tweets_EColi.csv
+#Eczema,Skin,Eczema,Tweets_Eczema.csv
+#EDS,Multiple,EDS,Tweets_EDS.csv
+#EhlersDanlos,Multiple,EhlersDanlos,Tweets_EhlersDanlos.csv
+#EmanuelSyndrome,Congenital Anomolies,EmanuelSyndrome,Tweets_EmanuelSyndrome.csv
+#EmanuelSyndrome,Rare Diseases,EmanuelSyndrome,Tweets_EmanuelSyndrome.csv
+#EndEd,Psych,EndEd,Tweets_EndEd.csv
+#Endometriosis,Reproductive,Endometriosis,Tweets_Endometriosis.csv
+#Epilepsy,Neurological,Epilepsy,Tweets_Epilepsy.csv
+#esocsm,Cancer,esocsm,Tweets_esocsm.csv
+#ESRD,Excretory,ESRD,Tweets_ESRD.csv
+#FacialDifference,Multiple,FacialDifference,Tweets_FacialDifference.csv
+#FacialDisfigurement,Multiple,FacialDisfigurement,Tweets_FacialDisfigurement.csv
+#Fibroid,Reproductive,Fibroid,Tweets_Fibroid.csv
+#Fibroids,Reproductive,Fibroids,Tweets_Fibroids.csv
+#Fibromyalgia,Musculoskeletal,Fibromyalgia,Tweets_Fibromyalgia.csv
+#Flu,Respiratory,Flu,Tweets_Flu.csv
+#Flu,Infectious Disease,Flu,Tweets_Flu.csv
+#FMD,Cardiovascular,FMD,Tweets_FMD.csv
+#FMD,Rare Diseases,FMD,Tweets_FMD.csv
+#FMDaware,Cardiovascular,FMDaware,Tweets_FMDaware.csv
+#FMDaware,Rare Diseases,FMDaware,Tweets_FMDaware.csv
+#FoodAllergy,Immune,FoodAllergy,Tweets_FoodAllergy.csv
+#fragileX,Multiple,fragileX,Tweets_fragileX.csv
+#Gallbladder,Digestive,Gallbladder,Tweets_Gallbladder.csv
+#GERD,Digestive,GERD,Tweets_GERD.csv
+#Gestationaldiabetes,Endocrine,Gestationaldiabetes,Tweets_Gestationaldiabetes.csv
+#Glint,Immune,Glint,Tweets_Glint.csv
+#Gout,Endocrine,Gout,Tweets_Gout.csv
+#GPFAD2013,Respiratory,GPFAD2013,Tweets_GPFAD2013.csv
+#GPFAD2013,Rare Diseases,GPFAD2013,Tweets_GPFAD2013.csv
+#Gripe,Respiratory,Gripe,Tweets_Gripe.csv
+#Gripe,Infectious Disease,Gripe,Tweets_Gripe.csv
+#Grippe,Respiratory,Grippe,Tweets_Grippe.csv
+#Grippe,Infectious Disease,Grippe,Tweets_Grippe.csv
+#GynCSM,Reproductive,GynCSM,Tweets_GynCSM.csv
+#GynCSM,Cancer,GynCSM,Tweets_GynCSM.csv
+#H7N9,Infectious Disease,H7N9,Tweets_H7N9.csv
+#HairLoss,Skin,HairLoss,Tweets_HairLoss.csv
+#Halitosis,Digestive,Halitosis,Tweets_Halitosis.csv
+#HCCD,Digestive,HCCD,Tweets_HCCD.csv
+#HearingLoss,Ill Defined,HearingLoss,Tweets_HearingLoss.csv
+#HearingLoss,Injury,HearingLoss,Tweets_HearingLoss.csv
+#Heartburn,Digestive,Heartburn,Tweets_Heartburn.csv
+#HeartDisease,Cardiovascular,HeartDisease,Tweets_HeartDisease.csv
+#HeartHealth,Cardiovascular,HeartHealth,Tweets_HeartHealth.csv
+#HeatStroke,Multiple,HeatStroke,Tweets_HeatStroke.csv
+#HeatStroke,Injury,HeatStroke,Tweets_HeatStroke.csv
+#HemoAM,Blood,HemoAM,Tweets_HemoAM.csv
+#Hemophilia,Blood,Hemophilia,Tweets_Hemophilia.csv
+#Hepatitis,Digestive,Hepatitis,Tweets_Hepatitis.csv
+#Hepatitis,Infectious Disease,Hepatitis,Tweets_Hepatitis.csv
+#HepB,Digestive,HepB,Tweets_HepB.csv
+#HepB,Infectious Disease,HepB,Tweets_HepB.csv
+#HepC,Digestive,HepC,Tweets_HepC.csv
+#HepC,Infectious Disease,HepC,Tweets_HepC.csv
+#HepPartners,Digestive,HepPartners,Tweets_HepPartners.csv
+#HepPartners,Infectious Disease,HepPartners,Tweets_HepPartners.csv
+#Hernia,Digestive,Hernia,Tweets_Hernia.csv
+#HighBloodPressure,Cardiovascular,HighBloodPressure,Tweets_HighBloodPressure.csv
+#HighCholesterol,Cardiovascular,HighCholesterol,Tweets_HighCholesterol.csv
+#HipPain,Musculoskeletal,HipPain,Tweets_HipPain.csv
+#HIV,Immune,HIV,Tweets_HIV.csv
+#HIV,Infectious Disease,HIV,Tweets_HIV.csv
+#HIV_chat,Immune,HIV_chat,Tweets_HIV_chat.csv
+#HIVBC,Immune,HIVBC,Tweets_HIVBC.csv
+#HIVBC,Infectious Disease,HIVBC,Tweets_HIVBC.csv
+#Hives,Skin,Hives,Tweets_Hives.csv
+#hncsm,Multiple,hncsm,Tweets_hncsm.csv
+#hncsm,Cancer,hncsm,Tweets_hncsm.csv
+#HoFH,Cardiovascular,HoFH,Tweets_HoFH.csv
+#hpbcsm,Cancer,hpbcsm,Tweets_hpbcsm.csv
+#HPV,Reproductive,HPV,Tweets_HPV.csv
+#HPV,Infectious Disease,HPV,Tweets_HPV.csv
+#hsronc,Cancer,hsronc,Tweets_hsronc.csv
+#HunterSyndrome,Metabolic,HunterSyndrome,Tweets_HunterSyndrome.csv
+#HunterSyndrome,Rare Diseases,HunterSyndrome,Tweets_HunterSyndrome.csv
+#Hyperglycemia,Multiple,Hyperglycemia,Tweets_Hyperglycemia.csv
+#Hypertension,Cardiovascular,Hypertension,Tweets_Hypertension.csv
+#Hypochondria,Psych,Hypochondria,Tweets_Hypochondria.csv
+#Hypothyroidism,Endocrine,Hypothyroidism,Tweets_Hypothyroidism.csv
+#IBD,Digestive,IBD,Tweets_IBD.csv
+#IBD,Immune,IBD,Tweets_IBD.csv
+#IBS,Digestive,IBS,Tweets_IBS.csv
+#IIH,Neurological,IIH,Tweets_IIH.csv
+#Incontinence,Excretory,Incontinence,Tweets_Incontinence.csv
+#Infertility,Reproductive,Infertility,Tweets_Infertility.csv
+#Inflammation,Multiple,Inflammation,Tweets_Inflammation.csv
+#Influenza,Respiratory,Influenza,Tweets_Influenza.csv
+#Influenza,Infectious Disease,Influenza,Tweets_Influenza.csv
+#InsightSBS,Endocrine,InsightSBS,Tweets_InsightSBS.csv
+#KidneyCancer,Excretory,KidneyCancer,Tweets_KidneyCancer.csv
+#KidneyDisease,Excretory,KidneyDisease,Tweets_KidneyDisease.csv
+#KidneyStones,Excretory,KidneyStones,Tweets_KidneyStones.csv
+#LCSM,Respiratory,LCSM,Tweets_LCSM.csv
+#LCSM,Cancer,LCSM,Tweets_LCSM.csv
+#Leprosy,Skin,Leprosy,Tweets_Leprosy.csv
+#Leprosy,Infectious Disease,Leprosy,Tweets_Leprosy.csv
+#Leukaemia,Blood,Leukaemia,Tweets_Leukaemia.csv
+#Leukaemia,Cancer,Leukaemia,Tweets_Leukaemia.csv
+#Leukemia,Blood,Leukemia,Tweets_Leukemia.csv
+#Leukemia,Cancer,Leukemia,Tweets_Leukemia.csv
+#leusm,Cancer,leusm,Tweets_leusm.csv
+#LiverCancer,Digestive,LiverCancer,Tweets_LiverCancer.csv
+#LiverCancer,Cancer,LiverCancer,Tweets_LiverCancer.csv
+#LiverDisease,Digestive,LiverDisease,Tweets_LiverDisease.csv
+#LongQT,Congenital Anomolies,LongQT,Tweets_LongQT.csv
+#LungCancer,Respiratory,LungCancer,Tweets_LungCancer.csv
+#LungCancer,Cancer,LungCancer,Tweets_LungCancer.csv
+#Lupus,Immune,Lupus,Tweets_Lupus.csv
+#Lymphoedema,Cardiovascular,Lymphoedema,Tweets_Lymphoedema.csv
+#Lymphoma,Lymphatic,Lymphoma,Tweets_Lymphoma.csv
+#Lymphoma,Cancer,Lymphoma,Tweets_Lymphoma.csv
+#lymsm,Cancer,lymsm,Tweets_lymsm.csv
+#LynchSyndrome,Digestive,LynchSyndrome,Tweets_LynchSyndrome.csv
+#LynchSyndrome,Cancer,LynchSyndrome,Tweets_LynchSyndrome.csv
+#Lyphoma,Lymphatic,Lyphoma,Tweets_Lyphoma.csv
+#Lyphoma,Cancer,Lyphoma,Tweets_Lyphoma.csv
+#Malaria,Multiple,Malaria,Tweets_Malaria.csv
+#Malaria,Infectious Disease,Malaria,Tweets_Malaria.csv
+#Marfan,Congenital Anomolies,Marfan,Tweets_Marfan.csv
+#Marfan,Multiple,Marfan,Tweets_Marfan.csv
+#Marfan,Rare Diseases,Marfan,Tweets_Marfan.csv
+#Mastocytosis,Skin,Mastocytosis,Tweets_Mastocytosis.csv
+#Mastocytosis,Rare Diseases,Mastocytosis,Tweets_Mastocytosis.csv
+#mBCSM,Lymphatic,mBCSM,Tweets_mBCSM.csv
+#mBCSM,Cancer,mBCSM,Tweets_mBCSM.csv
+#MCAM,Cancer,MCAM,Tweets_MCAM.csv
+#McrFluSafe,Respiratory,McrFluSafe,Tweets_McrFluSafe.csv
+#McrFluSafe,Infectious Disease,McrFluSafe,Tweets_McrFluSafe.csv
+#McrFluSafe13,Respiratory,McrFluSafe13,Tweets_McrFluSafe13.csv
+#MdrTB,Respiratory,MdrTB,Tweets_MdrTB.csv
+#MdrTB,Infectious Disease,MdrTB,Tweets_MdrTB.csv
+#Melanoma,Skin,Melanoma,Tweets_Melanoma.csv
+#Melanoma,Cancer,Melanoma,Tweets_Melanoma.csv
+#MemoryLoss,Neurological,MemoryLoss,Tweets_MemoryLoss.csv
+#Menieres,Ill Defined,Menieres,Tweets_Menieres.csv
+#Meningitis,Neurological,Meningitis,Tweets_Meningitis.csv
+#Meningitis,Infectious Disease,Meningitis,Tweets_Meningitis.csv
+#MERS,Respiratory,MERS,Tweets_MERS.csv
+#MERS,Rare Diseases,MERS,Tweets_MERS.csv
+#MERS,Infectious Disease,MERS,Tweets_MERS.csv
+#Mesothelioma,Multiple,Mesothelioma,Tweets_Mesothelioma.csv
+#Mesothelioma,Rare Diseases,Mesothelioma,Tweets_Mesothelioma.csv
+#Mesothelioma,Cancer,Mesothelioma,Tweets_Mesothelioma.csv
+#Migraine,Neurological,Migraine,Tweets_Migraine.csv
+#MMSM,Blood,MMSM,Tweets_MMSM.csv
+#MMSM,Cancer,MMSM,Tweets_MMSM.csv
+#MND,Neurological,MND,Tweets_MND.csv
+#MoebiusSyndrome,Neurological,MoebiusSyndrome,Tweets_MoebiusSyndrome.csv
+#MoebiusSyndrome,Rare Diseases,MoebiusSyndrome,Tweets_MoebiusSyndrome.csv
+#MPSII,Metabolic,MPSII,Tweets_MPSII.csv
+#MPSII,Rare Diseases,MPSII,Tweets_MPSII.csv
+#MRSA,Multiple,MRSA,Tweets_MRSA.csv
+#MRSA,Infectious Disease,MRSA,Tweets_MRSA.csv
+#MultipleEndocrineNeoplasia,Endocrine,MultipleEndocrineNeoplasia,Tweets_MultipleEndocrineNeoplasia.csv
+#MultipleEndocrineNeoplasia,Rare Diseases,MultipleEndocrineNeoplasia,Tweets_MultipleEndocrineNeoplasia.csv
+#MultipleSclerosis,Neurological,MultipleSclerosis,Tweets_MultipleSclerosis.csv
+#MultScler,Neurological,MultScler,Tweets_MultScler.csv
+#Myeloma,Blood,Myeloma,Tweets_Myeloma.csv
+#Myeloma,Immune,Myeloma,Tweets_Myeloma.csv
+#Myeloma,Cancer,Myeloma,Tweets_Myeloma.csv
+#Myositis,Musculoskeletal,Myositis,Tweets_Myositis.csv
+#Myositis,Rare Diseases,Myositis,Tweets_Myositis.csv
+#Narcolepsy,Neurological,Narcolepsy,Tweets_Narcolepsy.csv
+#NCDs,Multiple,NCDs,Tweets_NCDs.csv
+#Neuropathy,Neurological,Neuropathy,Tweets_Neuropathy.csv
+#Nocturia,Ill Defined,Nocturia,Tweets_Nocturia.csv
+#NotJustOneDisease,Cancer,NotJustOneDisease,Tweets_NotJustOneDisease.csv
+#Obesity,Endocrine,Obesity,Tweets_Obesity.csv
+#OCD,Psych,OCD,Tweets_OCD.csv
+#OralCancer,Cancer,OralCancer,Tweets_OralCancer.csv
+#Osteoarthritis,Musculoskeletal,Osteoarthritis,Tweets_Osteoarthritis.csv
+#Osteoporosis,Musculoskeletal,Osteoporosis,Tweets_Osteoporosis.csv
+#OvarianCancer,Reproductive,OvarianCancer,Tweets_OvarianCancer.csv
+#OvarianCancer,Cancer,OvarianCancer,Tweets_OvarianCancer.csv
+#OVCA,Reproductive,OVCA,Tweets_OVCA.csv
+#OVCA,Cancer,OVCA,Tweets_OVCA.csv
+#Overweight,Endocrine,Overweight,Tweets_Overweight.csv
+#PainSomnia,Multiple,PainSomnia,Tweets_PainSomnia.csv
+#PanCan,Digestive,PanCan,Tweets_PanCan.csv
+#PanCan,Cancer,PanCan,Tweets_PanCan.csv
+#PancreaticCancer,Digestive,PancreaticCancer,Tweets_PancreaticCancer.csv
+#PancreaticCancer,Cancer,PancreaticCancer,Tweets_PancreaticCancer.csv
+#pancsm,Cancer,pancsm,Tweets_pancsm.csv
+#Parkinsons,Neurological,Parkinsons,Tweets_Parkinsons.csv
+#PCOS,Reproductive,PCOS,Tweets_PCOS.csv
+#PCSM,Reproductive,PCSM,Tweets_PCSM.csv
+#PCSM,Cancer,PCSM,Tweets_PCSM.csv
+#PeanutAllergy,Immune,PeanutAllergy,Tweets_PeanutAllergy.csv
+#PediatricCancer,Multiple,PediatricCancer,Tweets_PediatricCancer.csv
+#PediatricCancer,Cancer,PediatricCancer,Tweets_PediatricCancer.csv
+#Peyronies,Reproductive,Peyronies,Tweets_Peyronies.csv
+#PeyroniesDisease,Reproductive,PeyroniesDisease,Tweets_PeyroniesDisease.csv
+#Pneumonia,Respiratory,Pneumonia,Tweets_Pneumonia.csv
+#Pneumonia,Infectious Disease,Pneumonia,Tweets_Pneumonia.csv
+#Polio,Neurological,Polio,Tweets_Polio.csv
+#Polio,Infectious Disease,Polio,Tweets_Polio.csv
+#PPD,Psych,PPD,Tweets_PPD.csv
+#PPDchat,Psych,PPDchat,Tweets_PPDchat.csv
+#Preeclampsia,Cardiovascular,Preeclampsia,Tweets_Preeclampsia.csv
+#Preeclampsia,Reproductive,Preeclampsia,Tweets_Preeclampsia.csv
+#Progeria,Ill Defined,Progeria,Tweets_Progeria.csv
+#ProstateCancer,Reproductive,ProstateCancer,Tweets_ProstateCancer.csv
+#ProstateCancer,Cancer,ProstateCancer,Tweets_ProstateCancer.csv
+#Psoriasis,Skin,Psoriasis,Tweets_Psoriasis.csv
+#PsoriaticArthritis,Immune,PsoriaticArthritis,Tweets_PsoriaticArthritis.csv
+#PTSD,Psych,PTSD,Tweets_PTSD.csv
+#PulmonaryFibrosis,Respiratory,PulmonaryFibrosis,Tweets_PulmonaryFibrosis.csv
+#PulmonaryFibrosis,Rare Diseases,PulmonaryFibrosis,Tweets_PulmonaryFibrosis.csv
+#radonc,Cancer,radonc,Tweets_radonc.csv
+#RareDisease,Ill Defined,RareDisease,Tweets_RareDisease.csv
+#RareDisease,Rare Diseases,RareDisease,Tweets_RareDisease.csv
+#RareDiseaseDay,Rare Diseases,RareDiseaseDay,Tweets_RareDiseaseDay.csv
+#RectalCancer,Digestive,RectalCancer,Tweets_RectalCancer.csv
+#RectalCancer,Cancer,RectalCancer,Tweets_RectalCancer.csv
+#Renal,Excretory,Renal,Tweets_Renal.csv
+#RenalFailure,Excretory,RenalFailure,Tweets_RenalFailure.csv
+#Resfriado,Respiratory,Resfriado,Tweets_Resfriado.csv
+#Resfriado,Infectious Disease,Resfriado,Tweets_Resfriado.csv
+#Retinoblastoma,Cancer,Retinoblastoma,Tweets_Retinoblastoma.csv
+#RettSyndrome,Neurological,RettSyndrome,Tweets_RettSyndrome.csv
+#RettSyndrome,Rare Diseases,RettSyndrome,Tweets_RettSyndrome.csv
+#Rheum,Immune,Rheum,Tweets_Rheum.csv
+#RheumatoidArthritis,Immune,RheumatoidArthritis,Tweets_RheumatoidArthritis.csv
+#Rhinitis,Immune,Rhinitis,Tweets_Rhinitis.csv
+#Rhinitis,Respiratory,Rhinitis,Tweets_Rhinitis.csv
+#Sarcoidosis,Multiple,Sarcoidosis,Tweets_Sarcoidosis.csv
+#Sarcoidosis,Rare Diseases,Sarcoidosis,Tweets_Sarcoidosis.csv
+#SCADheart,Cardiovascular,SCADheart,Tweets_SCADheart.csv
+#SCADheart,Rare Diseases,SCADheart,Tweets_SCADheart.csv
+#Schizofrenie,Psych,Schizofrenie,Tweets_Schizofrenie.csv
+#Schizophrenia,Psych,Schizophrenia,Tweets_Schizophrenia.csv
+#Sciatica,Musculoskeletal,Sciatica,Tweets_Sciatica.csv
+#scmsm,Cancer,scmsm,Tweets_scmsm.csv
+#SecondaryInfertility,Reproductive,SecondaryInfertility,Tweets_SecondaryInfertility.csv
+#Seizures,Neurological,Seizures,Tweets_Seizures.csv
+#Sepsis,Blood,Sepsis,Tweets_Sepsis.csv
+#Shingles,Neurological,Shingles,Tweets_Shingles.csv
+#Shingles,Skin,Shingles,Tweets_Shingles.csv
+#SIDS,Ill Defined,SIDS,Tweets_SIDS.csv
+#SkinCancer,Skin,SkinCancer,Tweets_SkinCancer.csv
+#SkinCancer,Cancer,SkinCancer,Tweets_SkinCancer.csv
+#SLE,Immune,SLE,Tweets_SLE.csv
+#SleepApnea,Respiratory,SleepApnea,Tweets_SleepApnea.csv
+#SleepDisorder,Respiratory,SleepDisorder,Tweets_SleepDisorder.csv
+#Spondylitis,Musculoskeletal,Spondylitis,Tweets_Spondylitis.csv
+#stcsm,Cancer,stcsm,Tweets_stcsm.csv
+#STD,Multiple,STD,Tweets_STD.csv
+#STD,Infectious Disease,STD,Tweets_STD.csv
+#StockportFluFighting,Respiratory,StockportFluFighting,Tweets_StockportFluFighting.csv
+#Stroke,Neurological,Stroke,Tweets_Stroke.csv
+#Synesthesia,Neurological,Synesthesia,Tweets_Synesthesia.csv
+#T1D,Endocrine,T1D,Tweets_T1D.csv
+#TBI,Neurological,TBI,Tweets_TBI.csv
+#TBI,Injury,TBI,Tweets_TBI.csv
+#TeamSpondy,Musculoskeletal,TeamSpondy,Tweets_TeamSpondy.csv
+#TennisElbow,Musculoskeletal,TennisElbow,Tweets_TennisElbow.csv
+#TesticularCancer,Reproductive,TesticularCancer,Tweets_TesticularCancer.csv
+#TesticularCancer,Cancer,TesticularCancer,Tweets_TesticularCancer.csv
+#theARCchat,Neurological,theARCchat,Tweets_theARCchat.csv
+#thmcsm,Cancer,thmcsm,Tweets_thmcsm.csv
+#ThroatCancer,Cancer,ThroatCancer,Tweets_ThroatCancer.csv
+#Thrombosis,Cardiovascular,Thrombosis,Tweets_Thrombosis.csv
+#thycsm,Cancer,thycsm,Tweets_thycsm.csv
+#ThyroidAwareness,Endocrine,ThyroidAwareness,Tweets_ThyroidAwareness.csv
+#ThyroidCancer,Endocrine,ThyroidCancer,Tweets_ThyroidCancer.csv
+#ThyroidCancer,Cancer,ThyroidCancer,Tweets_ThyroidCancer.csv
+#Trichotillomania,Psych,Trichotillomania,Tweets_Trichotillomania.csv
+#TrigeminalNeuralgia,Neurological,TrigeminalNeuralgia,Tweets_TrigeminalNeuralgia.csv
+#TrigeminalNeuralgia,Rare Diseases,TrigeminalNeuralgia,Tweets_TrigeminalNeuralgia.csv
+#Triglycerides,Endocrine,Triglycerides,Tweets_Triglycerides.csv
+#tscsm,Cancer,tscsm,Tweets_tscsm.csv
+#Tuberculosis,Respiratory,Tuberculosis,Tweets_Tuberculosis.csv
+#Tuberculosis,Infectious Disease,Tuberculosis,Tweets_Tuberculosis.csv
+#Ulcers,Digestive,Ulcers,Tweets_Ulcers.csv
+#Urticaria,Immune,Urticaria,Tweets_Urticaria.csv
+#Urticaria,Skin,Urticaria,Tweets_Urticaria.csv
+#UTI,Excretory,UTI,Tweets_UTI.csv
+#UTI,Infectious Disease,UTI,Tweets_UTI.csv
+#Varicose,Cardiovascular,Varicose,Tweets_Varicose.csv
+#Vasculitis,Rare Diseases,Vasculitis,Tweets_Vasculitis.csv
+#XMRV,Ill Defined,XMRV,Tweets_XMRV.csv
+#XMRV,Cancer,XMRV,Tweets_XMRV.csv
+#YellowFever,Multiple,YellowFever,Tweets_YellowFever.csv
+#YellowFever,Infectious Disease,YellowFever,Tweets_YellowFever.csv
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

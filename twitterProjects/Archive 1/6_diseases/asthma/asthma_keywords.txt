@@ -1,6 +1,0 @@
-asthma
-asthmaawarenessmonth
-asthmaprobs
-cantbreathe
-inhaler
-respiratory

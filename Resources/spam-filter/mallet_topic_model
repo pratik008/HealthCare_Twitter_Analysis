@@ -1,0 +1,1 @@
+mallet train-topics --input tweet.mallet --num-topics 100 --num-iterations 1000 --optimize-interval 0 --output-doc-topics doc_topics.txt --output-topic-keys topic_keys.txt --num-threads 4
