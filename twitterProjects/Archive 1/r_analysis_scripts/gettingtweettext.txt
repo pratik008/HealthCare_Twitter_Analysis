@@ -1,0 +1,231 @@
+###############################################################################################
+######## VARIALBE SETTING
+###############################################################################################
+path = 'INPUT FOLDER PATH'
+path2 = 'OUTPUT FOLDER PATH'
+#(example) path = 'C:/Users/jlee/Documents/twitter/'
+filename1 = "YOUR FILE NAME for medical words" #Created from tweepy.py 
+filename2 = "YOUR FILE NAME for hashtags" #Created from tweepy_Hashtag1.py or tweepy_hashtag2.py
+#(example) filename = 'inputtext.csv'
+
+
+#################################################################################################
+###Extracting all english tweet text from file
+#################################################################################################
+
+library(R.oo)
+library(tau)
+library(tm)
+library(gdata)
+library(openNLP)
+
+setwd(path)
+
+gettingtext = function(mydata){
+
+	mydata <- as.matrix(mydata)
+	new <- c()
+
+	if(dim(mydata)[2]>1){
+ 		for(j in 1:dim(mydata)[1]){
+			temp <- c()
+			for(k in 1:dim(mydata)[2]){
+				temp <- paste(temp, mydata[j,k])
+			}
+			new <- rbind(new,trim(temp))
+		}
+			
+		mydata <- new
+	}
+
+
+	data <- c()
+	for(i in 1:length(mydata)){
+		if(mydata[i]=="lang en"){
+			m <- mydata[i-1]
+			while(m==""){
+				num =  num-1
+				m <- mydata[num-1]
+			}
+			n <- m
+			m.split <- unlist(strsplit(m," "))
+			num <- i-1
+			while(!(m.split[1]=="Tweet" & m.split[2]=="text:")){
+				m <- mydata[num-1]
+				while(m==""){	
+					num =  num-1
+					m <- mydata[num-1]
+				}
+				m.split <- unlist(strsplit(m," "))	
+				n <- paste(m,n)
+				num = num - 1
+			}
+			if(nchar(n)<500){
+			data <- rbind(data,n)
+			}
+		}
+	}
+	setwd(path2)
+	write.table(data, file = "outputmw.csv", row.names=F,sep="^")
+	setwd(path)
+	return(data)
+}
+
+
+gettingtext2 = function(mydata){
+
+	mydata <- as.matrix(mydata)
+	new <- c()
+
+	if(dim(mydata)[2]>1){
+ 		for(j in 1:dim(mydata)[1]){
+			temp <- c()
+			for(k in 1:dim(mydata)[2]){
+				temp <- paste(temp, mydata[j,k])
+			}
+			new <- rbind(new,trim(temp))
+		}
+			
+		mydata <- new
+	}
+
+
+	data <- c()
+	for(i in 1:length(mydata)){
+		if(mydata[i]=="lang en"){
+			m <- mydata[i-1]
+			while(m==""){
+				num =  num-1
+				m <- mydata[num-1]
+			}
+			n <- m
+			m.split <- unlist(strsplit(m," "))
+			num <- i-1
+			while(!(m.split[1]=="Tweet" & m.split[2]=="text:")){
+				m <- mydata[num-1]
+				while(m==""){	
+					num =  num-1
+					m <- mydata[num-1]
+				}
+				m.split <- unlist(strsplit(m," "))	
+				n <- paste(m,n)
+				num = num - 1
+			}
+			if(nchar(n)<500){
+			data <- rbind(data,n)
+			}
+		}
+	}
+	setwd(path2)
+	write.table(data, file = "outputmwhash.csv", row.names=F,sep="^")
+	setwd(path)
+	return(data)
+}
+
+######## medical word version
+
+relatedword = function(data){
+	removetweepy <- read.csv("removetweepy.csv",header=F)
+	removetweepy <- as.matrix(removetweepy)
+	removetweepy <- as.character(removetweepy)
+
+	medword <- read.csv("medicalwords.csv",header=F)
+	medword <- as.matrix(medword)
+	result <- c()
+	for(i in 1:length(medword)){
+		word = medword[i]
+		add <- c()
+		for(j in 1:length(data)){	
+			tweet <- as.character(data[j])
+			tweet <- tolower(gsub("[[:punct:]]"," ",tweet))
+			tw.split <- unlist(strsplit(tweet," "))
+			default = FALSE
+			for(k in 1:length(tw.split)){
+				if(tw.split[k] == word){
+					default = TRUE
+				}
+			}
+			if(default){
+				add <- c(add,tweet)
+			}
+		}
+		if(is.null(add)){
+		}else{	
+		add <- Corpus(VectorSource(add))
+		add <- tm_map(add,removeWords,stopwords("english"))
+		add <- tm_map(add,removeWords,removetweepy)
+		a <- sort(textcnt(add,method="string",n=1),decreasing=T)
+		b <- names(a[1:30])
+		c <- c(word,b)
+		d <- c("",a[1:30])
+		result <- rbind(result,c)
+		result <- rbind(result,d)
+		}
+		print(i)
+	}
+	setwd(path2)
+	write.table(result, file = "resultword.csv", row.names=F, col.names=F, sep="^")
+	setwd(path)
+}		
+
+################  hashtag version
+
+relatedwordhash = function(data){
+	removetweepy <- read.csv("removetweepy.csv",header=F)
+	removetweepy <- as.matrix(removetweepy)
+	removetweepy <- as.character(removetweepy)
+
+	medword <- read.csv("hashtags.csv",header=F)
+	medword <- as.matrix(medword)
+	result <- c()
+	for(i in 1:length(medword)){
+		word = medword[i]
+		add <- c()
+		for(j in 1:length(data)){	
+			tweet <- as.character(data[j])
+			tweet <- tolower(gsub("[[:punct:]]"," ",tweet))
+			tw.split <- unlist(strsplit(tweet," "))
+			default = FALSE
+			for(k in 1:length(tw.split)){
+				if(tw.split[k] == word){
+					default = TRUE
+				}
+			}
+			if(default){
+				add <- c(add,tweet)
+			}
+		}
+		if(is.null(add)){
+		}else{	
+		add <- Corpus(VectorSource(add))
+		add <- tm_map(add,removeWords,stopwords("english"))
+		add <- tm_map(add,removeWords,removetweepy)
+		a <- sort(textcnt(add,method="string",n=1),decreasing=T)
+		b <- names(a[1:30])
+		c <- c(word,b)
+		d <- c("",a[1:30])
+		result <- rbind(result,c)
+		result <- rbind(result,d)
+		}
+		print(i)
+	}
+	setwd(path2)
+	write.table(result, file = "resultwordhash.csv", row.names=F, col.names=F, sep="^")
+	setwd(path)
+}		
+
+
+
+###############################################################################################
+###### running functions
+###############################################################################################
+
+setwd(path)
+mydata <- read.csv(filename1, header=F)
+data <- gettingtext(mydata)
+relatedword(data)
+
+setwd(path)
+mydata <- read.csv(filename2, header=F)
+data <- gettingtext2(mydata)
+relatedwordhash(data)
