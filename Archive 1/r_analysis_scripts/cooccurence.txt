@@ -1,0 +1,401 @@
+###############################################################################################
+######## VARIALBE SETTING
+###############################################################################################
+path = 'INPUT FOLDER PATH'
+path2 = 'OUTPUT FOLDER PATH'
+#(example) path = 'C:/Users/jlee/Documents/twitter/'
+filename1 = "YOUR FILE NAME for medical words" #Created from tweepy.py 
+filename2 = "YOUR FILE NAME for hashtags" #Created from tweepy_Hashtag1.py or tweepy_hashtag2.py
+#(example) filename = 'inputtext.csv'
+num = 'number of words for co-occurrence'
+#(example) num = 100
+
+
+#################################################################################################
+###code
+#################################################################################################
+
+library(R.oo)
+library(tau)
+library(tm)
+library(gdata)
+library(openNLP)
+
+setwd(path)
+
+gettingtext = function(mydata){
+
+	mydata <- as.matrix(mydata)
+	new <- c()
+
+	if(dim(mydata)[2]>1){
+ 		for(j in 1:dim(mydata)[1]){
+			temp <- c()
+			for(k in 1:dim(mydata)[2]){
+				temp <- paste(temp, mydata[j,k])
+			}
+			new <- rbind(new,trim(temp))
+		}
+			
+		mydata <- new
+	}
+
+
+	data <- c()
+	for(i in 1:length(mydata)){
+		if(mydata[i]=="lang en"){
+			m <- mydata[i-1]
+			while(m==""){
+				num =  num-1
+				m <- mydata[num-1]
+			}
+			n <- m
+			m.split <- unlist(strsplit(m," "))
+			num <- i-1
+			while(!(m.split[1]=="Tweet" & m.split[2]=="text:")){
+				m <- mydata[num-1]
+				while(m==""){	
+					num =  num-1
+					m <- mydata[num-1]
+				}
+				m.split <- unlist(strsplit(m," "))	
+				n <- paste(m,n)
+				num = num - 1
+			}
+			if(nchar(n)<500){
+			data <- rbind(data,n)
+			}
+		}
+	}
+	setwd(path2)
+	write.table(data, file = "outputmw.csv", row.names=F,sep="^")
+	setwd(path)
+	return(data)
+}
+
+
+gettingtext2 = function(mydata){
+
+	mydata <- as.matrix(mydata)
+	new <- c()
+
+	if(dim(mydata)[2]>1){
+ 		for(j in 1:dim(mydata)[1]){
+			temp <- c()
+			for(k in 1:dim(mydata)[2]){
+				temp <- paste(temp, mydata[j,k])
+			}
+			new <- rbind(new,trim(temp))
+		}
+			
+		mydata <- new
+	}
+
+
+	data <- c()
+	for(i in 1:length(mydata)){
+		if(mydata[i]=="lang en"){
+			m <- mydata[i-1]
+			while(m==""){
+				num =  num-1
+				m <- mydata[num-1]
+			}
+			n <- m
+			m.split <- unlist(strsplit(m," "))
+			num <- i-1
+			while(!(m.split[1]=="Tweet" & m.split[2]=="text:")){
+				m <- mydata[num-1]
+				while(m==""){	
+					num =  num-1
+					m <- mydata[num-1]
+				}
+				m.split <- unlist(strsplit(m," "))	
+				n <- paste(m,n)
+				num = num - 1
+			}
+			if(nchar(n)<500){
+			data <- rbind(data,n)
+			}
+		}
+	}
+	setwd(path2)
+	write.table(data, file = "outputmwhash.csv", row.names=F,sep="^")
+	setwd(path)
+	return(data)
+}
+
+######## medical word version
+
+relatedword = function(data){
+	removetweepy <- read.csv("removetweepy.csv",header=F)
+	removetweepy <- as.matrix(removetweepy)
+	removetweepy <- as.character(removetweepy)
+
+	medword <- read.csv("medicalwords.csv",header=F)
+	medword <- as.matrix(medword)
+	result <- c()
+	for(i in 1:length(medword)){
+		word = medword[i]
+		add <- c()
+		for(j in 1:length(data)){	
+			tweet <- as.character(data[j])
+			tweet <- tolower(gsub("[[:punct:]]"," ",tweet))
+			tw.split <- unlist(strsplit(tweet," "))
+			default = FALSE
+			for(k in 1:length(tw.split)){
+				if(tw.split[k] == word){
+					default = TRUE
+				}
+			}
+			if(default){
+				add <- c(add,tweet)
+			}
+		}
+		if(is.null(add)){
+		}else{	
+		add <- Corpus(VectorSource(add))
+		add <- tm_map(add,removeWords,stopwords("english"))
+		add <- tm_map(add,removeWords,removetweepy)
+		a <- sort(textcnt(add,method="string",n=1),decreasing=T)
+		b <- names(a[1:30])
+		c <- c(word,b)
+		d <- c("",a[1:30])
+		result <- rbind(result,c)
+		result <- rbind(result,d)
+		}
+		print(i)
+	}
+	setwd(path2)
+	write.table(result, file = "resultword.csv", row.names=F, col.names=F, sep="^")
+	setwd(path)
+}		
+
+################  hashtag version
+
+relatedwordhash = function(data){
+	removetweepy <- read.csv("removetweepy.csv",header=F)
+	removetweepy <- as.matrix(removetweepy)
+	removetweepy <- as.character(removetweepy)
+
+	medword <- read.csv("hashtags.csv",header=F)
+	medword <- as.matrix(medword)
+	result <- c()
+	for(i in 1:length(medword)){
+		word = medword[i]
+		add <- c()
+		for(j in 1:length(data)){	
+			tweet <- as.character(data[j])
+			tweet <- tolower(gsub("[[:punct:]]"," ",tweet))
+			tw.split <- unlist(strsplit(tweet," "))
+			default = FALSE
+			for(k in 1:length(tw.split)){
+				if(tw.split[k] == word){
+					default = TRUE
+				}
+			}
+			if(default){
+				add <- c(add,tweet)
+			}
+		}
+		if(is.null(add)){
+		}else{	
+		add <- Corpus(VectorSource(add))
+		add <- tm_map(add,removeWords,stopwords("english"))
+		add <- tm_map(add,removeWords,removetweepy)
+		a <- sort(textcnt(add,method="string",n=1),decreasing=T)
+		b <- names(a[1:30])
+		c <- c(word,b)
+		d <- c("",a[1:30])
+		result <- rbind(result,c)
+		result <- rbind(result,d)
+		}
+		print(i)
+	}
+	setwd(path2)
+	write.table(result, file = "resultwordhash.csv", row.names=F, col.names=F, sep="^")
+	setwd(path)
+}		
+
+cleandata = function(data){
+	setwd(path)
+	removetweepy <- read.csv("removetweepy.csv",header=F)
+	removetweepy <- as.matrix(removetweepy)
+	removetweepy <- as.character(removetweepy)
+	
+	dat <- tolower(data)
+	datata <- c()
+	for(i in 1:length(dat)){
+		dat.split <- unlist(strsplit(dat[i]," "))
+		tweet <- c()
+		for(j in 1:length(dat.split)){
+			if(nchar(dat.split[j])>7){
+				if(!(substring(dat.split[j],1,7)=="http://")){
+					tweet <- paste(tweet," ",dat.split[j])
+				}		
+			} else {
+				tweet <- paste(tweet," ",dat.split[j])
+			}
+		}
+		datata <- rbind(datata,trim(tweet))				  
+	}
+	dat <- datata	
+	dat <- gsub("â€™","'",dat)
+	dat <- gsub('â€œ','"',dat)
+	dat <- gsub("â€","-",dat)
+	dat <- gsub('â€','"',dat)
+	dat <- gsub("n't"," not",dat)
+	dat <- gsub("'re"," are",dat)
+	dat <- gsub("'m"," am",dat)
+	dat <- gsub("'ve"," have",dat)
+	dat <- gsub('“',"",dat)
+	dat <- gsub('”',"",dat)
+	dat <- gsub("@","iiidddiiiddd",dat)
+	dat <- gsub("#","hashtag",dat)	
+	dat <- gsub("˜","",dat)
+	dat <- gsub("[[:punct:]]","",dat)
+	dat <- gsub("hashtag","#",dat)
+	dat <- Corpus(VectorSource(dat))
+	dat <- tm_map(dat,removeWords,stopwords("english"))
+	dat <- tm_map(dat,removeWords,removetweepy)
+	text <- c()
+	for(i in 1:length(dat)){
+		dat.split <- unlist(strsplit(dat[[i]]," "))
+		least <- c()
+		for(j in 1:length(dat.split)){
+			nu <- "dk"
+			num <- "dd"
+			if(!(dat.split[j]=="")){
+				if(nchar(dat.split[j])>11){
+					nu <- substring(dat.split[j],1,12)
+				}
+			}
+			if(!(dat.split[j]=="")){
+				f <- substring(dat.split[j],1,1)
+				if(f=='0'|f=='1'|f=='2'|f=='3'|f=='4'|f=='5'|f=='6'|f=='7'|f=='8'|f=='9'){
+					num = "numnumnumnum"
+				}
+			}
+			if(!((dat.split[j] == "")|(nu=="iiidddiiiddd")|(num=="numnumnumnum" ))){		
+				least <- paste(least,dat.split[j],sep=",")
+			}
+		}
+		least <- substring(least,2)
+		text <- rbind(text,least)
+	}				
+	return(text)
+	setwd(path2)
+	write.table(text, file = "cleandata.csv", row.names=F)
+	setwd(path)
+}
+
+cooccur_sent = function(text,num) {
+	freq.list <- sort(textcnt(text,method="string",n=1),decreasing=T)
+	freq.name <-names(freq.list)
+	freq.name.top <- freq.name[1:num]
+	c <- c()
+	for(i in 1:num){
+		word <- freq.name.top[i]
+		for(j in 1:num){
+			if(i > j){
+				twtx<- tweetword(freq.name.top[j],tweetword(word,text)) 
+				n <- length(twtx)
+				if(n==0){
+					name <- c(NA,NA,NA,NA,NA,NA,NA,NA,NA,NA)
+				} else {
+					senti <- freqcheck2(freq.name.top[j],word,twtx)
+					if(is.null(senti)){
+						name <- c(NA,NA,NA,NA,NA,NA,NA,NA,NA,NA)
+					}else{
+						senti10 <- senti[1:10]
+						name <- names(senti10)
+					}
+				}
+				c <- rbind(c,c(word,freq.name.top[j],n,name))
+			}	
+		}
+	}	
+		
+	setwd(path2)
+	write.table(c,file="cooccurrence.csv",row.names = F)
+	setwd(path)
+}
+
+tweetword = function(word,text){
+	n = length(text)
+	add <- c()
+	for(i in 1:n){
+		tw.split <- unlist(strsplit(text[i],","))
+		default = TRUE
+		for(j in 1:length(tw.split)){
+			if((tw.split[j]==word | tw.split[j]==paste(word,'s',sep=""))& default){
+				add <- c(add,text[i])
+				default = FALSE
+			}
+		}
+	}
+	return(add)
+}	
+
+freqcheck2 = function(word,word2,text){
+	mo <- tweetword(word2,text)
+	m <- tweetword(word,mo)
+	a <- sort(textcnt(m,method="string",n=1),decreasing=T)			
+	b <- names(a)
+	b.tag <- tagPOS(b)
+	b.tag.split <- strsplit(b.tag,"/")	
+	num <- length(b.tag.split)
+	list <- c()
+	freq <- c()
+	for(i in 1:num){
+		if(b.tag.split[[i]][2]=="JJ"| b.tag.split[[i]][2]=="RB"|b.tag.split[[i]][2]=="JJR"|b.tag.split[[i]][2]=="RBR"|b.tag.split[[i]][2]=="JJS"|b.tag.split[[i]][2]=="RBS"){
+			freq <- c(freq,	a[i])
+		}
+	}
+	return(freq)
+}
+
+####################################################################################################
+#### Running
+
+
+#medical words version
+setwd(path)
+mydata <- read.csv(filename1,header=F)
+data <- gettingtext(mydata)
+text <- cleandata(data)
+relatedword(data)
+cooccur_sent(text,num)
+
+### hashtags version
+#setwd(path)
+#mydata <- read.csv(filename1,header=F)
+#data <- gettingtext2(mydata)
+#text <- cleandata(data)
+#relatedwordhash(data)
+#cooccur_sent(text,num)
+
+
+#####################################################
+#### Explanation 
+# 
+# num    - only consider top "num" words  
+#
+#
+# input - text: cleaned data (one tweet per one line, list of words with comma separated)
+#         num: number of highly frequent words 
+# output - 
+#	1. cooccurrence.csv file
+#		 (using excel, importing data with space delimited) 
+#		 find all co-occurrence among these words and find top 10 adjective or adverb words in tweets containing two top words
+#		"word1" "word2" "number" "adj1" "adj2" "adj3" "adj4" "adj5" "adj6" "adj7" "adj8" "adj9" "adj10"
+#
+#		number = number of tweets containing word1 and word2
+#		adj1,2,...10 = top 10 adjective or adverb words in tweets containing word1 and word2
+#
+#	2. relatedword.csv file
+#		(using excel, importing data with "^" delimited) 
+#		meaningful words with comma separation (one tweet per line)
+#
+#       3. outputmw.csv file
+#		all English tweets only text
+
