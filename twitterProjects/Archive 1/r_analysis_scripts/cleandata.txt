@@ -1,0 +1,97 @@
+###############################################################################################
+######## VARIALBE SETTING
+###############################################################################################
+path = 'INPUT FOLDER PATH'
+path2 = 'OUTPUT FOLDER PATH'
+#(example) path = 'C:/Users/jlee/Documents/twitter/'
+
+#################################################################################################
+#####Cleaning the data
+##   1. Removing all stopwords 
+##   2. Removing all meaningless common words (example: tweet, text, rt, unicode etc)
+##   3. Changing every character to lowercase
+##   4. Removing all punctuation except @ and # (for detecting hashtags and IDs)
+##   5. Removing all ID
+##   6.	Removing all links
+##   7. Removing all meaningless numbers
+##   Only keeping meaningful words and hashtags 
+#################################################################################################
+
+cleandata = function(data){
+	setwd(path)
+	removetweepy <- read.csv("removetweepy.csv",header=F)
+	removetweepy <- as.matrix(removetweepy)
+	removetweepy <- as.character(removetweepy)
+	
+	dat <- tolower(data)
+	datata <- c()
+	for(i in 1:length(dat)){
+		dat.split <- unlist(strsplit(dat[i]," "))
+		tweet <- c()
+		for(j in 1:length(dat.split)){
+			if(nchar(dat.split[j])>7){
+				if(!(substring(dat.split[j],1,7)=="http://")){
+					tweet <- paste(tweet," ",dat.split[j])
+				}		
+			} else {
+				tweet <- paste(tweet," ",dat.split[j])
+			}
+		}
+		datata <- rbind(datata,trim(tweet))				  
+	}
+	dat <- datata	
+	dat <- gsub("â€™","'",dat)
+	dat <- gsub('â€œ','"',dat)
+	dat <- gsub("â€","-",dat)
+	dat <- gsub('â€','"',dat)
+	dat <- gsub("n't"," not",dat)
+	dat <- gsub("'re"," are",dat)
+	dat <- gsub("'m"," am",dat)
+	dat <- gsub("'ve"," have",dat)
+	dat <- gsub('“',"",dat)
+	dat <- gsub('”',"",dat)
+	dat <- gsub("@","iiidddiiiddd",dat)
+	dat <- gsub("#","hashtag",dat)	
+	dat <- gsub("˜","",dat)
+	dat <- gsub("[[:punct:]]","",dat)
+	dat <- gsub("hashtag","#",dat)
+	dat <- Corpus(VectorSource(dat))
+	dat <- tm_map(dat,removeWords,stopwords("english"))
+	dat <- tm_map(dat,removeWords,removetweepy)
+	text <- c()
+	for(i in 1:length(dat)){
+		dat.split <- unlist(strsplit(dat[[i]]," "))
+		least <- c()
+		for(j in 1:length(dat.split)){
+			nu <- "dk"
+			num <- "dd"
+			if(!(dat.split[j]=="")){
+				if(nchar(dat.split[j])>11){
+					nu <- substring(dat.split[j],1,12)
+				}
+			}
+			if(!(dat.split[j]=="")){
+				f <- substring(dat.split[j],1,1)
+				if(f=='0'|f=='1'|f=='2'|f=='3'|f=='4'|f=='5'|f=='6'|f=='7'|f=='8'|f=='9'){
+					num = "numnumnumnum"
+				}
+			}
+			if(!((dat.split[j] == "")|(nu=="iiidddiiiddd")|(num=="numnumnumnum" ))){		
+				least <- paste(least,dat.split[j],sep=",")
+			}
+		}
+		least <- substring(least,2)
+		text <- rbind(text,least)
+	}				
+	return(text)
+	setwd(path2)
+	write.table(text, file = "cleandata.csv", row.names=F)
+	setwd(path)
+}
+
+###################################################################################################
+##### Running the function
+###################################################################################################
+text <- cleandata(data)
+#### input(data): tweet text data (one tweet per line)
+#### output(text): meaningful words with comma separation (one tweet per line)
