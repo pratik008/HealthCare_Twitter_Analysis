@@ -16,7 +16,7 @@ def main():
 			quit()
 		elif input == 'y': break
 	print 'Using coordinates to find cities...'
-	tweetsWithCoordinates = extractCitiesWithCoordinates(sys.argv[1],sys.argv[2])
+	tweetsWithCoordinates = extractCitiesWithCoordinates(sys.argv[1],sys.argv[2],sys.argv[3])
 	print 'Extracting relevant data using city names...'
 	
 

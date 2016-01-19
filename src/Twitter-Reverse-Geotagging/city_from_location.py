@@ -6,6 +6,7 @@ import json
 import os
 
 def main():
+	print('huh?')
 	if len(sys.argv) != 4:
 		print("$ city_from_location [tweetsJsonFile] [citiesFile] [destDir]")
 		quit()
