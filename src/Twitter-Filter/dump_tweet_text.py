@@ -17,17 +17,17 @@ def extract_tweets(file_name):
         os.makedirs(output_dir)
     output_big_file = 'all_tweets.txt'
     bigflattext = open(os.path.join(output_dir,output_big_file),'w')
-    count = 1
+    count = 0
     with codecs.open(file_name,encoding="utf-8") as f1:
         for line in f1:
             try:
+                count = count + 1
                 print 'Processing tweet ',count
                 data = json.loads(line)
                 result = output_dir + '/tweet_' + str(data['id']) + '.txt'
                 out = shortword.sub('', data['text'].encode('ascii','ignore').translate(None,'\n'))
                 json.dump(out, open(result, 'w'))
                 bigflattext.write(str(data['id']) + ' '*5 + out + '\n' )
-                count = count + 1
             except ValueError:
                 print 'Bad JSON record, skipping...', count
             continue
