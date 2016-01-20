@@ -17,6 +17,7 @@ def extract_tweets(file_name):
         os.makedirs(output_dir)
     output_big_file = 'all_tweets.txt'
     bigflattext = open(os.path.join(output_dir,output_big_file),'w')
+<<<<<<< HEAD
     count = 1
     with codecs.open(file_name,encoding="utf-8") as f1:
         for line in f1:
@@ -31,6 +32,26 @@ def extract_tweets(file_name):
             except ValueError:
                 print 'Bad JSON record, skipping...', count
             continue
+=======
+    count = 0
+    with codecs.open(file_name,encoding="utf-8") as f1:
+        for line in f1:            
+            if float(count)/10000. == count/10000:
+				print count
+            try: 
+                data = byteify(json.loads(line))
+	    except ValueError:
+                print 'Bad JSON record, skipping...', count
+		continue
+
+	    result = output_dir + '/tweet_' + str(data['id']) + '.txt'
+	    out = shortword.sub('', data['text'].encode('ascii','ignore').translate(None,'\n'))
+	    json.dump(out, open(result, 'w'))
+            bigflattext.write(str(data['id']) + ' '*5 + out + '\n' )
+	    count = count + 1
+
+
+>>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
     bigflattext.close()
     return count
 
@@ -38,7 +59,11 @@ def extract_tweets(file_name):
 if __name__ == '__main__':
     t0 = time.time()
     if len(sys.argv) < 2:
+<<<<<<< HEAD
         print "dump_tweet_text [jsonTweetsFile]"
+=======
+        print "usage: dump_tweet_text [jsonTweetsFile]"
+>>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
         quit()
     count = extract_tweets(sys.argv[1])
     print 'Finished. Took {0:4.1f} minutes.'.format((time.time()-t0)/60.)

@@ -5,6 +5,7 @@ from tweets_downloader import TweetsDownloader
 import os
 import sys
 
+<<<<<<< HEAD
 if __name__ == '__main__':
     if len(sys.argv) != 3:
         print "$ search_tweets_main [destinationFolder] [credentialFolder]"
@@ -13,6 +14,17 @@ if __name__ == '__main__':
     LOG_FILE_DIRECTORY = os.path.join(sys.argv[1],'log')
     CREDENTIALS_FILE_PATH = os.path.join(sys.argv[2],'credentials.json')
     TAG_FILE_PATH = os.path.join(sys.argv[2],'tagsList.txt')
+=======
+CREDENTIALS_FILE_PATH = 'resources/credentials.json'
+TAG_FILE_PATH = 'resources/tagsList.txt'
+
+if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        print "$ search_tweets_main [downloadFolder]"
+        quit()
+    DATA_DIRECTORY = os.path.join(sys.argv[1])
+    LOG_FILE_DIRECTORY = os.path.join(sys.argv[1],'log')
+>>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
     if not os.path.exists(DATA_DIRECTORY):
         os.makedirs(DATA_DIRECTORY)
     if not os.path.exists(LOG_FILE_DIRECTORY):

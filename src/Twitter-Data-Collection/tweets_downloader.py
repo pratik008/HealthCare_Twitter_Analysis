@@ -14,7 +14,11 @@ class TweetsDownloader:
         self.dir = os.path.join(data_dir,tag,datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
         if not os.path.exists(self.dir):
             os.makedirs(self.dir)
+<<<<<<< HEAD
         self.fName = '{0}/{1}.json'.format(self.dir,os.path.basename(self.dir))
+=======
+        self.fName = '{0}/{0}.json'.format(self.dir)
+>>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
         self.sinceId = None
         self.max_id = -1L
         self.tweetCount = 0
@@ -43,7 +47,12 @@ class TweetsDownloader:
                         print("No more tweets found")
                         break
                     for tweet in new_tweets:
+<<<<<<< HEAD
                         f.write(jsonpickle.encode(tweet._json, unpicklable=False))
+=======
+                        f.write(jsonpickle.encode(tweet._json, unpicklable=False) +
+                                '\n')
+>>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
                     self.tweetCount += len(new_tweets)
                     print("Downloaded {0} tweets".format(self.tweetCount))
                     self.max_id = new_tweets[-1].id

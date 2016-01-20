@@ -2,6 +2,7 @@
 import numpy as np
 import json
 import pickle 
+<<<<<<< HEAD
 import os
 import sys
 
@@ -9,6 +10,11 @@ dir = sys.argv[1]
 if not os.path.exists(dir+'topic_keys_labeled.txt'):
     print 'Cannot find '+dir+'topic_keys_labeled.txt'
     quit()
+=======
+import sys
+
+dir = sys.argv[1]
+>>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
 labels = np.loadtxt(dir+'topic_keys_labeled.txt', usecols=[0,1], dtype='int')
 labels = dict((labels[i,1], labels[i,0]) for  i in range(labels.shape[0]))
 

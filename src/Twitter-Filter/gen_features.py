@@ -5,7 +5,10 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import TruncatedSVD
 from sklearn.random_projection import sparse_random_matrix
 import os
+<<<<<<< HEAD
 import sys
+=======
+>>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
 
 def calc_features(tweet_file, components_num):
 	corpus=[]
@@ -42,7 +45,11 @@ def calc_features(tweet_file, components_num):
 	print X
 
 	print "Dimensionality reduction step..."
+<<<<<<< HEAD
 	svd = TruncatedSVD(n_components=components_num)
+=======
+	svd = TruncatedSVD(n_components = components_num)
+>>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
 	try:
 		X = svd.fit_transform(X)
 	except MemoryError:
@@ -59,13 +66,23 @@ def calc_features(tweet_file, components_num):
 
 
 def main():
+<<<<<<< HEAD
     if len(sys.argv) < 2:
         print "$ gen_features [tweetsFile] (components_number)"
         quit()
+=======
+>>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
     tweet_file = sys.argv[1]
     if len(sys.argv) == 3: components_num = int(sys.argv[2])
     else: components_num = 300
     calc_features(tweet_file, components_num)  
+<<<<<<< HEAD
        
 if __name__ == "__main__":
+=======
+
+       
+if __name__ == "__main__":
+    import sys
+>>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
     main()
