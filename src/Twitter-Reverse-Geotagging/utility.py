@@ -12,11 +12,8 @@ def byteify(input):
         return input
 
 def openWithHeaders(destDir, name, headers=''):
-<<<<<<< HEAD
 	if not os.path.exists(destDir):
 		os.makedirs(destDir)
-=======
->>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
 	file = open(os.path.join(destDir,name),'w+')
 	file.write(headers+'\n')
 	return file

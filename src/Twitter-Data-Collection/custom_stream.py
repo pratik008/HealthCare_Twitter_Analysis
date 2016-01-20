@@ -14,9 +14,3 @@ class CustomStream(Stream):
 
     def stream(self, async):
         self.filter(track=self.filter_track, async=async)
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> e1f1750c014f9de2e78fe17fa9314602ce6d05f0
