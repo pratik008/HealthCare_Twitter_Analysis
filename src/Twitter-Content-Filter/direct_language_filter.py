@@ -18,7 +18,7 @@ def main():
 def filterLanguages(fpath,lang='en'):
     fname = os.path.basename(fpath)
     lf = open(os.path.join(os.path.dirname(fpath),'{0}_{1}.json'.format(os.path.splitext(fname)[0],lang)),'w+')
-    count = 0
+    count = 1
     langCount = 0
     with codecs.open(fpath,encoding="utf-8") as f:
         for line in f:
