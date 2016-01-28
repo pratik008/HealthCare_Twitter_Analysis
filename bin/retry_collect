@@ -1,0 +1,12 @@
+#!/bin/bash
+
+TODAY=$(date +'%Y-%m-%d')
+cd ~/data/raw/log
+echo "INFO: Checking internet connection... <$(date)>" >> $TODAY.log
+if ! [ "$(ping -c 1 google.com)" ]; then
+    echo "Reconnecting to the internet... <$(date)>" >> $TODAY.log
+    nmcli nm wifi off
+    nmcli nm wifi on
+    echo "Running data collection script... <$(date)>" >> $TODAY.log
+    bash ~/software/bin/gather_tweets
+fi

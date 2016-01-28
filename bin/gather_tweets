@@ -1,0 +1,6 @@
+#!/bin/bash
+
+tmux attach -t data_collection 2>/dev/null
+tmux new-session -s data_collection 2>/dev/null
+tmux send-keys 'bash' Enter
+tmux send-keys 'python ~/software/src/Twitter-Data-Collection/stream_tweets_main.py ~/data/raw resource/credentials/credentials.json ~/software/resource/credentials/allTags.txt &' Enter

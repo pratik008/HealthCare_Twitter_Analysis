@@ -6,13 +6,13 @@ import os
 import sys
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3:
-        print "$ search_tweets_main [destinationFolder] [credentialFolder]"
+    if len(sys.argv) != 4:
+        print "$ search_tweets_main [destinationFolder] [credentials] [tagList]"
         quit()
     DATA_DIRECTORY = os.path.join(sys.argv[1])
     LOG_FILE_DIRECTORY = os.path.join(sys.argv[1],'log')
-    CREDENTIALS_FILE_PATH = os.path.join(sys.argv[2],'credentials.json')
-    TAG_FILE_PATH = os.path.join(sys.argv[2],'tagsList.txt')
+    CREDENTIALS_FILE_PATH = os.path.join(sys.argv[2])
+    TAG_FILE_PATH = os.path.join(sys.argv[3])
     if not os.path.exists(DATA_DIRECTORY):
         os.makedirs(DATA_DIRECTORY)
     if not os.path.exists(LOG_FILE_DIRECTORY):
